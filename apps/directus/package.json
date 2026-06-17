@@ -1,0 +1,17 @@
+{
+  "name": "directus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "directus start",
+    "snapshot": "directus schema snapshot ./snapshot/schema.yaml",
+    "apply": "directus schema apply ./snapshot/schema.yaml --yes"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "directus": "^12.0.2"
+  }
+}
