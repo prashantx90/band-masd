@@ -1,0 +1,17 @@
+# Engineering Memory System (AI Development Journal)
+
+This project implements an Engineering Memory System. Every time you (the AI assistant) work on a task, you must help maintain the task logs under `docs/tasks/`.
+
+## Rules for AI Developer
+1. **Locate/Create Task Log**: Check `docs/tasks/` to identify the latest task (e.g., `TASK-001.md`, `TASK-002.md`).
+2. **Sequential Naming**: If starting a new task, copy the template `docs/tasks/tasks-template.md` to `docs/tasks/TASK-XXX.md`, where `XXX` is the next sequential number (e.g. `TASK-002.md` if `TASK-001.md` exists).
+3. **Capture Context**: Populate the new task file with:
+   - **Problem Statement**: What problem is being solved.
+   - **Objective**: The goal of this task.
+   - **AI Session Summary**: Highlight the tools used, the main prompts, and recommendations.
+   - **Decisions Made**: Key choices made during implementation.
+   - **Open Questions**: Anything left unanswered or potential risks.
+   - **Next Steps**: What needs to happen next.
+4. **Git Integration**: A Git pre-commit hook runs `scripts/manage_tasks.py` on commit:
+   - If a task file is staged, it updates the `Last Updated` metadata field and lists the staged files under the `Files Changed` section.
+   - If NO task file is staged, it automatically creates the next task file (e.g., `TASK-XXX.md`), populates the `Files Changed` section with the current staged changes, and stages it.

@@ -1,0 +1,23 @@
+---
+description: Rules for maintaining the Engineering Memory System (AI Development Journal)
+alwaysApply: true
+---
+
+# Engineering Memory System (AI Development Journal)
+
+This project uses a lightweight Engineering Memory System to track problems, goals, AI interactions, and decisions.
+
+## Rules for AI Assistant
+1. **Always Check/Create Tasks**: When starting or working on a task, inspect `docs/tasks/` to find the latest task file (e.g., `TASK-001.md`, `TASK-002.md`).
+2. **Create New Task**: If this is a new task, create a new task file `docs/tasks/TASK-XXX.md` where `XXX` is the next sequential number.
+3. **Use Template**: Base the task file on `docs/tasks/tasks-template.md`.
+4. **Populate Content**: Ensure you fill out:
+   - **Problem Statement**
+   - **Objective** (Goal)
+   - **AI Session Summary** (tools used, prompts, recommendations)
+   - **Decisions Made**
+   - **Open Questions**
+   - **Next Steps**
+5. **Git Pre-commit Hook**: A pre-commit hook (`scripts/manage_tasks.py`) is active. When committing changes:
+   - If a task file is staged, the hook automatically updates the `Last Updated` date and lists all staged files under `Files Changed`.
+   - If NO task file is staged, the hook automatically generates the next sequential `TASK-XXX.md` file, pre-populates the staged files list under `Files Changed`, and stages it for you.

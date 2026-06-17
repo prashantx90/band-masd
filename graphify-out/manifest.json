@@ -1,0 +1,102 @@
+{
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\.codex\\hooks.json": {
+    "mtime": 1781705033.5329492,
+    "ast_hash": "137368df43718b73e622c7834bac533b",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\scripts\\generate-directory-structure.ps1": {
+    "mtime": 1781626779.9151857,
+    "ast_hash": "587d1e4d8bb3679d19dea8d06ec839e3",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\scripts\\manage_tasks.py": {
+    "mtime": 1781705483.2099204,
+    "ast_hash": "9293aefeacd1b1586e148c8238741182",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\AGENTS.md": {
+    "mtime": 1781706465.0351317,
+    "ast_hash": "6bec65b4d6a5ce072638620426d8d065",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\README.md": {
+    "mtime": 1781626871.3086653,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\.agents\\rules\\graphify.md": {
+    "mtime": 1781705021.3474658,
+    "ast_hash": "56d322bc02e948acf8a5abc7fd5d20ff",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\.agents\\rules\\tasks.md": {
+    "mtime": 1781706469.5568976,
+    "ast_hash": "770d8c2a35612f24b68c0fe21c68bd0f",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\.agents\\workflows\\graphify.md": {
+    "mtime": 1781705021.348472,
+    "ast_hash": "84de69efd46ab0b8430393bd4188f8f2",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\agents\\architect-agent\\README.md": {
+    "mtime": 1781626871.3112385,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\agents\\engineer-agent\\README.md": {
+    "mtime": 1781626871.3122602,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\agents\\pm-agent\\README.md": {
+    "mtime": 1781626871.310722,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\agents\\qa-agent\\README.md": {
+    "mtime": 1781626871.3132927,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\agents\\reviewer-agent\\README.md": {
+    "mtime": 1781626871.3132927,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\architecture.md": {
+    "mtime": 1781626871.3091717,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\demo-script.md": {
+    "mtime": 1781626871.310212,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\implementation-plan.md": {
+    "mtime": 1781627066.8323114,
+    "ast_hash": "fd7c6ea264b11f508d784c2899dd1359",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\product-guide.md": {
+    "mtime": 1781625453.9909794,
+    "ast_hash": "33754b61a36399d5fd363f828a616063",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\TASK-001.md": {
+    "mtime": 1781706552.7913456,
+    "ast_hash": "7b018b2217ebe8440a9b9c85653091bd",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\tasks-template.md": {
+    "mtime": 1781705472.492469,
+    "ast_hash": "81346257e669ac69428a9a2e91335a1d",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\overview.png": {
+    "mtime": 1781626026.610341,
+    "ast_hash": "d634234127b566190969ab61f0cb5b36",
+    "semantic_hash": ""
+  }
+}
