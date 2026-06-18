@@ -2700,7 +2700,7 @@
       "source_file": "apps/web/src/app/components/ui/breadcrumb.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_breadcrumb_tsx",
-      "community": 4,
+      "community": 160,
       "norm_label": "breadcrumb.tsx"
     },
     {
@@ -2709,7 +2709,7 @@
       "source_file": "apps/web/src/app/components/ui/breadcrumb.tsx",
       "source_location": "L7",
       "id": "ui_breadcrumb_breadcrumb",
-      "community": 4,
+      "community": 160,
       "norm_label": "breadcrumb()"
     },
     {
@@ -2718,7 +2718,7 @@
       "source_file": "apps/web/src/app/components/ui/breadcrumb.tsx",
       "source_location": "L11",
       "id": "ui_breadcrumb_breadcrumblist",
-      "community": 4,
+      "community": 160,
       "norm_label": "breadcrumblist()"
     },
     {
@@ -2727,7 +2727,7 @@
       "source_file": "apps/web/src/app/components/ui/breadcrumb.tsx",
       "source_location": "L24",
       "id": "ui_breadcrumb_breadcrumbitem",
-      "community": 4,
+      "community": 160,
       "norm_label": "breadcrumbitem()"
     },
     {
@@ -2736,7 +2736,7 @@
       "source_file": "apps/web/src/app/components/ui/breadcrumb.tsx",
       "source_location": "L34",
       "id": "ui_breadcrumb_breadcrumblink",
-      "community": 4,
+      "community": 160,
       "norm_label": "breadcrumblink()"
     },
     {
@@ -2745,7 +2745,7 @@
       "source_file": "apps/web/src/app/components/ui/breadcrumb.tsx",
       "source_location": "L52",
       "id": "ui_breadcrumb_breadcrumbpage",
-      "community": 4,
+      "community": 160,
       "norm_label": "breadcrumbpage()"
     },
     {
@@ -2754,7 +2754,7 @@
       "source_file": "apps/web/src/app/components/ui/breadcrumb.tsx",
       "source_location": "L65",
       "id": "ui_breadcrumb_breadcrumbseparator",
-      "community": 4,
+      "community": 160,
       "norm_label": "breadcrumbseparator()"
     },
     {
@@ -2763,7 +2763,7 @@
       "source_file": "apps/web/src/app/components/ui/breadcrumb.tsx",
       "source_location": "L83",
       "id": "ui_breadcrumb_breadcrumbellipsis",
-      "community": 4,
+      "community": 160,
       "norm_label": "breadcrumbellipsis()"
     },
     {
@@ -3951,7 +3951,7 @@
       "source_file": "apps/web/src/app/components/ui/label.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_label_tsx",
-      "community": 41,
+      "community": 80,
       "norm_label": "label.tsx"
     },
     {
@@ -3960,7 +3960,7 @@
       "source_file": "apps/web/src/app/components/ui/label.tsx",
       "source_location": "L8",
       "id": "ui_label_label",
-      "community": 41,
+      "community": 80,
       "norm_label": "label()"
     },
     {
@@ -3969,7 +3969,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_menubar_tsx",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubar.tsx"
     },
     {
@@ -3978,7 +3978,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L9",
       "id": "ui_menubar_menubar",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubar()"
     },
     {
@@ -3987,7 +3987,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L25",
       "id": "ui_menubar_menubarmenu",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubarmenu()"
     },
     {
@@ -3996,7 +3996,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L31",
       "id": "ui_menubar_menubargroup",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubargroup()"
     },
     {
@@ -4005,7 +4005,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L37",
       "id": "ui_menubar_menubarportal",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubarportal()"
     },
     {
@@ -4014,7 +4014,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L43",
       "id": "ui_menubar_menubarradiogroup",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubarradiogroup()"
     },
     {
@@ -4023,7 +4023,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L51",
       "id": "ui_menubar_menubartrigger",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubartrigger()"
     },
     {
@@ -4032,7 +4032,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L67",
       "id": "ui_menubar_menubarcontent",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubarcontent()"
     },
     {
@@ -4041,7 +4041,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L91",
       "id": "ui_menubar_menubaritem",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubaritem()"
     },
     {
@@ -4050,7 +4050,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L114",
       "id": "ui_menubar_menubarcheckboxitem",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubarcheckboxitem()"
     },
     {
@@ -4059,7 +4059,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L140",
       "id": "ui_menubar_menubarradioitem",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubarradioitem()"
     },
     {
@@ -4068,7 +4068,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L164",
       "id": "ui_menubar_menubarlabel",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubarlabel()"
     },
     {
@@ -4077,7 +4077,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L184",
       "id": "ui_menubar_menubarseparator",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubarseparator()"
     },
     {
@@ -4086,7 +4086,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L197",
       "id": "ui_menubar_menubarshortcut",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubarshortcut()"
     },
     {
@@ -4095,7 +4095,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L213",
       "id": "ui_menubar_menubarsub",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubarsub()"
     },
     {
@@ -4104,7 +4104,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L219",
       "id": "ui_menubar_menubarsubtrigger",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubarsubtrigger()"
     },
     {
@@ -4113,7 +4113,7 @@
       "source_file": "apps/web/src/app/components/ui/menubar.tsx",
       "source_location": "L243",
       "id": "ui_menubar_menubarsubcontent",
-      "community": 74,
+      "community": 4,
       "norm_label": "menubarsubcontent()"
     },
     {
@@ -4293,7 +4293,7 @@
       "source_file": "apps/web/src/app/components/ui/popover.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_popover_tsx",
-      "community": 41,
+      "community": 161,
       "norm_label": "popover.tsx"
     },
     {
@@ -4302,7 +4302,7 @@
       "source_file": "apps/web/src/app/components/ui/popover.tsx",
       "source_location": "L8",
       "id": "ui_popover_popover",
-      "community": 41,
+      "community": 161,
       "norm_label": "popover()"
     },
     {
@@ -4311,7 +4311,7 @@
       "source_file": "apps/web/src/app/components/ui/popover.tsx",
       "source_location": "L14",
       "id": "ui_popover_popovertrigger",
-      "community": 41,
+      "community": 161,
       "norm_label": "popovertrigger()"
     },
     {
@@ -4320,7 +4320,7 @@
       "source_file": "apps/web/src/app/components/ui/popover.tsx",
       "source_location": "L20",
       "id": "ui_popover_popovercontent",
-      "community": 41,
+      "community": 161,
       "norm_label": "popovercontent()"
     },
     {
@@ -4329,7 +4329,7 @@
       "source_file": "apps/web/src/app/components/ui/popover.tsx",
       "source_location": "L42",
       "id": "ui_popover_popoveranchor",
-      "community": 41,
+      "community": 161,
       "norm_label": "popoveranchor()"
     },
     {
@@ -5130,7 +5130,7 @@
       "source_file": "apps/web/src/app/components/ui/toggle-group.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_toggle_group_tsx",
-      "community": 155,
+      "community": 41,
       "norm_label": "toggle-group.tsx"
     },
     {
@@ -5139,7 +5139,7 @@
       "source_file": "apps/web/src/app/components/ui/toggle-group.tsx",
       "source_location": "L10",
       "id": "ui_toggle_group_togglegroupcontext",
-      "community": 155,
+      "community": 41,
       "norm_label": "togglegroupcontext"
     },
     {
@@ -5148,7 +5148,7 @@
       "source_file": "apps/web/src/app/components/ui/toggle-group.tsx",
       "source_location": "L17",
       "id": "ui_toggle_group_togglegroup",
-      "community": 155,
+      "community": 41,
       "norm_label": "togglegroup()"
     },
     {
@@ -5157,7 +5157,7 @@
       "source_file": "apps/web/src/app/components/ui/toggle-group.tsx",
       "source_location": "L43",
       "id": "ui_toggle_group_togglegroupitem",
-      "community": 155,
+      "community": 41,
       "norm_label": "togglegroupitem()"
     },
     {
@@ -5166,7 +5166,7 @@
       "source_file": "apps/web/src/app/components/ui/toggle.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_toggle_tsx",
-      "community": 155,
+      "community": 41,
       "norm_label": "toggle.tsx"
     },
     {
@@ -5175,7 +5175,7 @@
       "source_file": "apps/web/src/app/components/ui/toggle.tsx",
       "source_location": "L9",
       "id": "ui_toggle_togglevariants",
-      "community": 155,
+      "community": 41,
       "norm_label": "togglevariants"
     },
     {
@@ -5184,7 +5184,7 @@
       "source_file": "apps/web/src/app/components/ui/toggle.tsx",
       "source_location": "L31",
       "id": "ui_toggle_toggle",
-      "community": 155,
+      "community": 41,
       "norm_label": "toggle()"
     },
     {
@@ -5346,7 +5346,7 @@
       "source_file": "apps/web/src/hooks/useMessages.ts",
       "source_location": "L1",
       "id": "apps_web_src_hooks_usemessages_ts",
-      "community": 31,
+      "community": 32,
       "norm_label": "usemessages.ts"
     },
     {
@@ -5625,7 +5625,7 @@
       "source_file": "apps/web/src/services/message.service.ts",
       "source_location": "L1",
       "id": "apps_web_src_services_message_service_ts",
-      "community": 31,
+      "community": 32,
       "norm_label": "message.service.ts"
     },
     {
@@ -5634,7 +5634,7 @@
       "source_file": "apps/web/src/services/message.service.ts",
       "source_location": "L5",
       "id": "services_message_service_getmessages",
-      "community": 31,
+      "community": 32,
       "norm_label": "getmessages()"
     },
     {
@@ -5643,7 +5643,7 @@
       "source_file": "apps/web/src/services/message.service.ts",
       "source_location": "L20",
       "id": "services_message_service_createmessage",
-      "community": 31,
+      "community": 32,
       "norm_label": "createmessage()"
     },
     {
@@ -5832,7 +5832,7 @@
       "source_file": "apps/web/src/types/index.ts",
       "source_location": "L52",
       "id": "types_index_message",
-      "community": 31,
+      "community": 32,
       "norm_label": "message"
     },
     {
@@ -11259,7 +11259,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L980",
       "id": "requirements_intelligence_implementation_v2_pydanticai_integration_pattern",
-      "community": 160,
+      "community": 52,
       "norm_label": "pydanticai integration pattern"
     },
     {
@@ -11268,7 +11268,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L984",
       "id": "requirements_intelligence_implementation_v2_codeblock_68",
-      "community": 160,
+      "community": 52,
       "norm_label": "code:python (agent)"
     },
     {
@@ -11277,7 +11277,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1000",
       "id": "requirements_intelligence_implementation_v2_codeblock_69",
-      "community": 160,
+      "community": 52,
       "norm_label": "code:python (result = architect_agent.run_sync()"
     },
     {
@@ -11403,7 +11403,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1097",
       "id": "requirements_intelligence_implementation_v2_demo_scenario",
-      "community": 52,
+      "community": 163,
       "norm_label": "demo scenario"
     },
     {
@@ -11412,7 +11412,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1101",
       "id": "requirements_intelligence_implementation_v2_codeblock_76",
-      "community": 52,
+      "community": 163,
       "norm_label": "code:text (build a saas expense tracker)"
     },
     {
@@ -11421,7 +11421,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1107",
       "id": "requirements_intelligence_implementation_v2_codeblock_77",
-      "community": 52,
+      "community": 163,
       "norm_label": "code:text (project created)"
     },
     {
@@ -12672,7 +12672,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L179",
       "id": "requirements_ui_backend_integration_recent_projects_table",
-      "community": 36,
+      "community": 162,
       "norm_label": "recent projects table"
     },
     {
@@ -12681,7 +12681,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L183",
       "id": "requirements_ui_backend_integration_codeblock_13",
-      "community": 36,
+      "community": 162,
       "norm_label": "code:text (projects)"
     },
     {
@@ -12690,7 +12690,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L189",
       "id": "requirements_ui_backend_integration_codeblock_14",
-      "community": 36,
+      "community": 162,
       "norm_label": "code:ts (getprojects();)"
     },
     {
@@ -12699,7 +12699,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L195",
       "id": "requirements_ui_backend_integration_codeblock_15",
-      "community": 36,
+      "community": 162,
       "norm_label": "code:ts (readitems(\"projects\");)"
     },
     {
@@ -12708,7 +12708,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L201",
       "id": "requirements_ui_backend_integration_codeblock_16",
-      "community": 36,
+      "community": 162,
       "norm_label": "code:text (name)"
     },
     {
@@ -14554,6 +14554,330 @@
       "source_location": "L134",
       "id": "tasks_task_007_next_steps",
       "community": 150,
+      "norm_label": "next steps"
+    },
+    {
+      "label": "TASK-008.md",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L1",
+      "id": "docs_tasks_task_008_md",
+      "community": 74,
+      "norm_label": "task-008.md"
+    },
+    {
+      "label": "TASK-008: <Task Title>",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L1",
+      "id": "tasks_task_008_task_008_task_title",
+      "community": 74,
+      "norm_label": "task-008: <task title>"
+    },
+    {
+      "label": "Metadata",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L3",
+      "id": "tasks_task_008_metadata",
+      "community": 74,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "Problem Statement",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L17",
+      "id": "tasks_task_008_problem_statement",
+      "community": 74,
+      "norm_label": "problem statement"
+    },
+    {
+      "label": "Objective",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L27",
+      "id": "tasks_task_008_objective",
+      "community": 74,
+      "norm_label": "objective"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L37",
+      "id": "tasks_task_008_context",
+      "community": 74,
+      "norm_label": "context"
+    },
+    {
+      "label": "AI Session Summary",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L45",
+      "id": "tasks_task_008_ai_session_summary",
+      "community": 74,
+      "norm_label": "ai session summary"
+    },
+    {
+      "label": "Tools Used",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L47",
+      "id": "tasks_task_008_tools_used",
+      "community": 74,
+      "norm_label": "tools used"
+    },
+    {
+      "label": "Prompts Summary",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L56",
+      "id": "tasks_task_008_prompts_summary",
+      "community": 74,
+      "norm_label": "prompts summary"
+    },
+    {
+      "label": "AI Recommendations",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L68",
+      "id": "tasks_task_008_ai_recommendations",
+      "community": 74,
+      "norm_label": "ai recommendations"
+    },
+    {
+      "label": "Recommendation 1",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L70",
+      "id": "tasks_task_008_recommendation_1",
+      "community": 74,
+      "norm_label": "recommendation 1"
+    },
+    {
+      "label": "Recommendation 2",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L74",
+      "id": "tasks_task_008_recommendation_2",
+      "community": 74,
+      "norm_label": "recommendation 2"
+    },
+    {
+      "label": "Decisions Made",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L80",
+      "id": "tasks_task_008_decisions_made",
+      "community": 74,
+      "norm_label": "decisions made"
+    },
+    {
+      "label": "Technical Design",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L94",
+      "id": "tasks_task_008_technical_design",
+      "community": 74,
+      "norm_label": "technical design"
+    },
+    {
+      "label": "code:mermaid (flowchart LR)",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L98",
+      "id": "tasks_task_008_codeblock_1",
+      "community": 74,
+      "norm_label": "code:mermaid (flowchart lr)"
+    },
+    {
+      "label": "Files Changed",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L108",
+      "id": "tasks_task_008_files_changed",
+      "community": 74,
+      "norm_label": "files changed"
+    },
+    {
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L123",
+      "id": "tasks_task_008_open_questions",
+      "community": 74,
+      "norm_label": "open questions"
+    },
+    {
+      "label": "Next Steps",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L129",
+      "id": "tasks_task_008_next_steps",
+      "community": 74,
+      "norm_label": "next steps"
+    },
+    {
+      "label": "TASK-009.md",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L1",
+      "id": "docs_tasks_task_009_md",
+      "community": 155,
+      "norm_label": "task-009.md"
+    },
+    {
+      "label": "TASK-009: <Task Title>",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L1",
+      "id": "tasks_task_009_task_009_task_title",
+      "community": 155,
+      "norm_label": "task-009: <task title>"
+    },
+    {
+      "label": "Metadata",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L3",
+      "id": "tasks_task_009_metadata",
+      "community": 155,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "Problem Statement",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L17",
+      "id": "tasks_task_009_problem_statement",
+      "community": 155,
+      "norm_label": "problem statement"
+    },
+    {
+      "label": "Objective",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L27",
+      "id": "tasks_task_009_objective",
+      "community": 155,
+      "norm_label": "objective"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L37",
+      "id": "tasks_task_009_context",
+      "community": 155,
+      "norm_label": "context"
+    },
+    {
+      "label": "AI Session Summary",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L45",
+      "id": "tasks_task_009_ai_session_summary",
+      "community": 155,
+      "norm_label": "ai session summary"
+    },
+    {
+      "label": "Tools Used",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L47",
+      "id": "tasks_task_009_tools_used",
+      "community": 155,
+      "norm_label": "tools used"
+    },
+    {
+      "label": "Prompts Summary",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L56",
+      "id": "tasks_task_009_prompts_summary",
+      "community": 155,
+      "norm_label": "prompts summary"
+    },
+    {
+      "label": "AI Recommendations",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L68",
+      "id": "tasks_task_009_ai_recommendations",
+      "community": 155,
+      "norm_label": "ai recommendations"
+    },
+    {
+      "label": "Recommendation 1",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L70",
+      "id": "tasks_task_009_recommendation_1",
+      "community": 155,
+      "norm_label": "recommendation 1"
+    },
+    {
+      "label": "Recommendation 2",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L74",
+      "id": "tasks_task_009_recommendation_2",
+      "community": 155,
+      "norm_label": "recommendation 2"
+    },
+    {
+      "label": "Decisions Made",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L80",
+      "id": "tasks_task_009_decisions_made",
+      "community": 155,
+      "norm_label": "decisions made"
+    },
+    {
+      "label": "Technical Design",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L94",
+      "id": "tasks_task_009_technical_design",
+      "community": 155,
+      "norm_label": "technical design"
+    },
+    {
+      "label": "code:mermaid (flowchart LR)",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L98",
+      "id": "tasks_task_009_codeblock_1",
+      "community": 155,
+      "norm_label": "code:mermaid (flowchart lr)"
+    },
+    {
+      "label": "Files Changed",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L108",
+      "id": "tasks_task_009_files_changed",
+      "community": 155,
+      "norm_label": "files changed"
+    },
+    {
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L116",
+      "id": "tasks_task_009_open_questions",
+      "community": 155,
+      "norm_label": "open questions"
+    },
+    {
+      "label": "Next Steps",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L122",
+      "id": "tasks_task_009_next_steps",
+      "community": 155,
       "norm_label": "next steps"
     },
     {
@@ -27409,9 +27733,9 @@
       "source_file": "scripts/debug_directus.py",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_debug_directus_py",
-      "target": "scripts_debug_directus_main",
-      "confidence_score": 1.0
+      "target": "scripts_debug_directus_main"
     },
     {
       "relation": "contains",
@@ -28681,9 +29005,9 @@
       "source_file": "docs/startup_troubleshooting.md",
       "source_location": "L141",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_startup_troubleshooting_common_bootstrap_issues_solutions",
-      "target": "docs_startup_troubleshooting_7_local_directus_api_token",
-      "confidence_score": 1.0
+      "target": "docs_startup_troubleshooting_7_local_directus_api_token"
     },
     {
       "relation": "contains",
@@ -35881,9 +36205,9 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_007_md",
-      "target": "tasks_task_007_task_007_task_title",
-      "confidence_score": 1.0
+      "target": "tasks_task_007_task_007_task_title"
     },
     {
       "relation": "contains",
@@ -35891,9 +36215,9 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_007_md",
-      "target": "tasks_task_007_problem_statement",
-      "confidence_score": 1.0
+      "target": "tasks_task_007_problem_statement"
     },
     {
       "relation": "contains",
@@ -35901,9 +36225,9 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_007_md",
-      "target": "tasks_task_007_objective",
-      "confidence_score": 1.0
+      "target": "tasks_task_007_objective"
     },
     {
       "relation": "contains",
@@ -35911,9 +36235,9 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_007_md",
-      "target": "tasks_task_007_context",
-      "confidence_score": 1.0
+      "target": "tasks_task_007_context"
     },
     {
       "relation": "contains",
@@ -35921,9 +36245,9 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_007_md",
-      "target": "tasks_task_007_ai_session_summary",
-      "confidence_score": 1.0
+      "target": "tasks_task_007_ai_session_summary"
     },
     {
       "relation": "contains",
@@ -35931,9 +36255,9 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_007_md",
-      "target": "tasks_task_007_decisions_made",
-      "confidence_score": 1.0
+      "target": "tasks_task_007_decisions_made"
     },
     {
       "relation": "contains",
@@ -35941,9 +36265,9 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_007_md",
-      "target": "tasks_task_007_technical_design",
-      "confidence_score": 1.0
+      "target": "tasks_task_007_technical_design"
     },
     {
       "relation": "contains",
@@ -35951,9 +36275,9 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_007_md",
-      "target": "tasks_task_007_files_changed",
-      "confidence_score": 1.0
+      "target": "tasks_task_007_files_changed"
     },
     {
       "relation": "contains",
@@ -35961,9 +36285,9 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L128",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_007_md",
-      "target": "tasks_task_007_open_questions",
-      "confidence_score": 1.0
+      "target": "tasks_task_007_open_questions"
     },
     {
       "relation": "contains",
@@ -35971,9 +36295,9 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L134",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_007_md",
-      "target": "tasks_task_007_next_steps",
-      "confidence_score": 1.0
+      "target": "tasks_task_007_next_steps"
     },
     {
       "relation": "contains",
@@ -35981,9 +36305,9 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_007_task_007_task_title",
-      "target": "tasks_task_007_metadata",
-      "confidence_score": 1.0
+      "target": "tasks_task_007_metadata"
     },
     {
       "relation": "contains",
@@ -35991,9 +36315,9 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_007_ai_session_summary",
-      "target": "tasks_task_007_tools_used",
-      "confidence_score": 1.0
+      "target": "tasks_task_007_tools_used"
     },
     {
       "relation": "contains",
@@ -36001,9 +36325,9 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_007_ai_session_summary",
-      "target": "tasks_task_007_prompts_summary",
-      "confidence_score": 1.0
+      "target": "tasks_task_007_prompts_summary"
     },
     {
       "relation": "contains",
@@ -36011,9 +36335,9 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_007_ai_session_summary",
-      "target": "tasks_task_007_ai_recommendations",
-      "confidence_score": 1.0
+      "target": "tasks_task_007_ai_recommendations"
     },
     {
       "relation": "contains",
@@ -36021,9 +36345,9 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L70",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_007_ai_recommendations",
-      "target": "tasks_task_007_recommendation_1",
-      "confidence_score": 1.0
+      "target": "tasks_task_007_recommendation_1"
     },
     {
       "relation": "contains",
@@ -36031,9 +36355,9 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_007_ai_recommendations",
-      "target": "tasks_task_007_recommendation_2",
-      "confidence_score": 1.0
+      "target": "tasks_task_007_recommendation_2"
     },
     {
       "relation": "contains",
@@ -36041,8 +36365,348 @@
       "source_file": "docs/tasks/TASK-007.md",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_007_technical_design",
-      "target": "tasks_task_007_codeblock_1",
+      "target": "tasks_task_007_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_tasks_task_008_md",
+      "target": "tasks_task_008_task_008_task_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_tasks_task_008_md",
+      "target": "tasks_task_008_problem_statement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "docs_tasks_task_008_md",
+      "target": "tasks_task_008_objective",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "docs_tasks_task_008_md",
+      "target": "tasks_task_008_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "docs_tasks_task_008_md",
+      "target": "tasks_task_008_ai_session_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "docs_tasks_task_008_md",
+      "target": "tasks_task_008_decisions_made",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "docs_tasks_task_008_md",
+      "target": "tasks_task_008_technical_design",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "docs_tasks_task_008_md",
+      "target": "tasks_task_008_files_changed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "docs_tasks_task_008_md",
+      "target": "tasks_task_008_open_questions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "docs_tasks_task_008_md",
+      "target": "tasks_task_008_next_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "tasks_task_008_task_008_task_title",
+      "target": "tasks_task_008_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "tasks_task_008_ai_session_summary",
+      "target": "tasks_task_008_tools_used",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "tasks_task_008_ai_session_summary",
+      "target": "tasks_task_008_prompts_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "tasks_task_008_ai_session_summary",
+      "target": "tasks_task_008_ai_recommendations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "tasks_task_008_ai_recommendations",
+      "target": "tasks_task_008_recommendation_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "tasks_task_008_ai_recommendations",
+      "target": "tasks_task_008_recommendation_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-008.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "tasks_task_008_technical_design",
+      "target": "tasks_task_008_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_tasks_task_009_md",
+      "target": "tasks_task_009_task_009_task_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_tasks_task_009_md",
+      "target": "tasks_task_009_problem_statement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "docs_tasks_task_009_md",
+      "target": "tasks_task_009_objective",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "docs_tasks_task_009_md",
+      "target": "tasks_task_009_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "docs_tasks_task_009_md",
+      "target": "tasks_task_009_ai_session_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "docs_tasks_task_009_md",
+      "target": "tasks_task_009_decisions_made",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "docs_tasks_task_009_md",
+      "target": "tasks_task_009_technical_design",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "docs_tasks_task_009_md",
+      "target": "tasks_task_009_files_changed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "docs_tasks_task_009_md",
+      "target": "tasks_task_009_open_questions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "docs_tasks_task_009_md",
+      "target": "tasks_task_009_next_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "tasks_task_009_task_009_task_title",
+      "target": "tasks_task_009_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "tasks_task_009_ai_session_summary",
+      "target": "tasks_task_009_tools_used",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "tasks_task_009_ai_session_summary",
+      "target": "tasks_task_009_prompts_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "tasks_task_009_ai_session_summary",
+      "target": "tasks_task_009_ai_recommendations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "tasks_task_009_ai_recommendations",
+      "target": "tasks_task_009_recommendation_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "tasks_task_009_ai_recommendations",
+      "target": "tasks_task_009_recommendation_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-009.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "tasks_task_009_technical_design",
+      "target": "tasks_task_009_codeblock_1",
       "confidence_score": 1.0
     },
     {
@@ -36217,5 +36881,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b16cef6a25d42dac5f756ec76110ed182dbcf1c8"
+  "built_at_commit": "a03c98ae1242031578775ad80c75196a3fa90289"
 }

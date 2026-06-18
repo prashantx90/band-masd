@@ -32,6 +32,11 @@ export default defineConfig({
   },
   envPrefix: ['VITE_', 'NEXT_PUBLIC_', 'DIRECTUS_'],
 
+  server: {
+    host: '192.168.29.50',
+    port: 5173,
+  },
+
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv'],
 })
