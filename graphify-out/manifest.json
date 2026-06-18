@@ -699,6 +699,11 @@
     "ast_hash": "b10494f4aced91c5fd709bdbbfb40c23",
     "semantic_hash": ""
   },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\scripts\\debug_directus.py": {
+    "mtime": 1781803385.3565466,
+    "ast_hash": "8415bf63c4b4fe6630200e5de0fa8567",
+    "semantic_hash": ""
+  },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\scripts\\generate-directory-structure.ps1": {
     "mtime": 1781626779.9151857,
     "ast_hash": "587d1e4d8bb3679d19dea8d06ec839e3",
@@ -900,8 +905,8 @@
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\startup_troubleshooting.md": {
-    "mtime": 1781802732.629185,
-    "ast_hash": "00ebc2091f7d40c20745739250aee589",
+    "mtime": 1781803175.0533814,
+    "ast_hash": "8d9292a1cc9349f013c0790a9b1bafc4",
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\requirements\\bootstrap.md": {
@@ -962,6 +967,11 @@
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\TASK-006.md": {
     "mtime": 1781802464.7515366,
     "ast_hash": "5413c6df8776f6096854672dd204b80b",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\TASK-007.md": {
+    "mtime": 1781803225.5049696,
+    "ast_hash": "3ee4ff9015efc9f7124c2d392355f5b9",
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\tasks-template.md": {

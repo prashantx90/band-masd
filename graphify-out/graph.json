@@ -5346,7 +5346,7 @@
       "source_file": "apps/web/src/hooks/useMessages.ts",
       "source_location": "L1",
       "id": "apps_web_src_hooks_usemessages_ts",
-      "community": 32,
+      "community": 31,
       "norm_label": "usemessages.ts"
     },
     {
@@ -5625,7 +5625,7 @@
       "source_file": "apps/web/src/services/message.service.ts",
       "source_location": "L1",
       "id": "apps_web_src_services_message_service_ts",
-      "community": 32,
+      "community": 31,
       "norm_label": "message.service.ts"
     },
     {
@@ -5634,7 +5634,7 @@
       "source_file": "apps/web/src/services/message.service.ts",
       "source_location": "L5",
       "id": "services_message_service_getmessages",
-      "community": 32,
+      "community": 31,
       "norm_label": "getmessages()"
     },
     {
@@ -5643,7 +5643,7 @@
       "source_file": "apps/web/src/services/message.service.ts",
       "source_location": "L20",
       "id": "services_message_service_createmessage",
-      "community": 32,
+      "community": 31,
       "norm_label": "createmessage()"
     },
     {
@@ -5832,7 +5832,7 @@
       "source_file": "apps/web/src/types/index.ts",
       "source_location": "L52",
       "id": "types_index_message",
-      "community": 32,
+      "community": 31,
       "norm_label": "message"
     },
     {
@@ -6446,6 +6446,24 @@
       "id": "packages_workflow_sdk_init_py",
       "community": 116,
       "norm_label": "__init__.py"
+    },
+    {
+      "label": "debug_directus.py",
+      "file_type": "code",
+      "source_file": "scripts/debug_directus.py",
+      "source_location": "L1",
+      "id": "scripts_debug_directus_py",
+      "community": 158,
+      "norm_label": "debug_directus.py"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/debug_directus.py",
+      "source_location": "L12",
+      "id": "scripts_debug_directus_main",
+      "community": 158,
+      "norm_label": "main()"
     },
     {
       "label": "generate-directory-structure.ps1",
@@ -7639,7 +7657,7 @@
       "label": "code:powershell (# Activate Virtual Environment (Windows))",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L13",
+      "source_location": "L15",
       "id": "docs_startup_troubleshooting_codeblock_1",
       "community": 46,
       "norm_label": "code:powershell (# activate virtual environment (windows))"
@@ -7648,7 +7666,7 @@
       "label": "2. Configure Environment Variables",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L21",
+      "source_location": "L23",
       "id": "docs_startup_troubleshooting_2_configure_environment_variables",
       "community": 46,
       "norm_label": "2. configure environment variables"
@@ -7657,7 +7675,7 @@
       "label": "code:env (# Directus Database Settings)",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L23",
+      "source_location": "L27",
       "id": "docs_startup_troubleshooting_codeblock_2",
       "community": 46,
       "norm_label": "code:env (# directus database settings)"
@@ -7666,7 +7684,7 @@
       "label": "3. Start the Local Prefect Server (with SQLite in-memory setting)",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L36",
+      "source_location": "L40",
       "id": "docs_startup_troubleshooting_3_start_the_local_prefect_server_with_sqlite_in_memory_setting",
       "community": 46,
       "norm_label": "3. start the local prefect server (with sqlite in-memory setting)"
@@ -7675,7 +7693,7 @@
       "label": "code:powershell (# Set in-memory database and start server)",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L38",
+      "source_location": "L44",
       "id": "docs_startup_troubleshooting_codeblock_3",
       "community": 46,
       "norm_label": "code:powershell (# set in-memory database and start server)"
@@ -7684,7 +7702,7 @@
       "label": "4. Run the Platform Bootstrapper",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L44",
+      "source_location": "L50",
       "id": "docs_startup_troubleshooting_4_run_the_platform_bootstrapper",
       "community": 46,
       "norm_label": "4. run the platform bootstrapper"
@@ -7693,7 +7711,7 @@
       "label": "code:powershell (# Enable mock mode if Directus or Ollama is offline)",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L46",
+      "source_location": "L54",
       "id": "docs_startup_troubleshooting_codeblock_4",
       "community": 46,
       "norm_label": "code:powershell (# enable mock mode if directus or ollama is offline)"
@@ -7702,7 +7720,7 @@
       "label": "5. Launch the REST API Service",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L54",
+      "source_location": "L62",
       "id": "docs_startup_troubleshooting_5_launch_the_rest_api_service",
       "community": 46,
       "norm_label": "5. launch the rest api service"
@@ -7711,7 +7729,7 @@
       "label": "code:powershell (.venv\\Scripts\\uvicorn apps.api.src.main:app --reload --port )",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L56",
+      "source_location": "L66",
       "id": "docs_startup_troubleshooting_codeblock_5",
       "community": 46,
       "norm_label": "code:powershell (.venv\\scripts\\uvicorn apps.api.src.main:app --reload --port )"
@@ -7720,7 +7738,7 @@
       "label": "Environment Variable Reference",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L62",
+      "source_location": "L72",
       "id": "docs_startup_troubleshooting_environment_variable_reference",
       "community": 46,
       "norm_label": "environment variable reference"
@@ -7729,7 +7747,7 @@
       "label": "Common Bootstrap Issues & Solutions",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L75",
+      "source_location": "L85",
       "id": "docs_startup_troubleshooting_common_bootstrap_issues_solutions",
       "community": 46,
       "norm_label": "common bootstrap issues & solutions"
@@ -7738,7 +7756,7 @@
       "label": "1. Prefect Router AttributeError (`AttributeError: 'PrefectRouter' object has no attribute 'routes'`)",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L77",
+      "source_location": "L87",
       "id": "docs_startup_troubleshooting_1_prefect_router_attributeerror_attributeerror_prefectrouter_object_has_no_attribute_routes",
       "community": 46,
       "norm_label": "1. prefect router attributeerror (`attributeerror: 'prefectrouter' object has no attribute 'routes'`)"
@@ -7747,7 +7765,7 @@
       "label": "code:powershell (.venv\\Scripts\\pip install fastapi==0.111.0)",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L80",
+      "source_location": "L91",
       "id": "docs_startup_troubleshooting_codeblock_6",
       "community": 46,
       "norm_label": "code:powershell (.venv\\scripts\\pip install fastapi==0.111.0)"
@@ -7756,7 +7774,7 @@
       "label": "2. Prefect Database Concurrency Locks (`database is locked`)",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L84",
+      "source_location": "L95",
       "id": "docs_startup_troubleshooting_2_prefect_database_concurrency_locks_database_is_locked",
       "community": 46,
       "norm_label": "2. prefect database concurrency locks (`database is locked`)"
@@ -7765,7 +7783,7 @@
       "label": "code:powershell ($env:PREFECT_API_DATABASE_CONNECTION_URL=\"sqlite+aiosqlite:/)",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L87",
+      "source_location": "L99",
       "id": "docs_startup_troubleshooting_codeblock_7",
       "community": 46,
       "norm_label": "code:powershell ($env:prefect_api_database_connection_url=\"sqlite+aiosqlite:/)"
@@ -7774,7 +7792,7 @@
       "label": "3. Directus / Database Connection Failures",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L92",
+      "source_location": "L104",
       "id": "docs_startup_troubleshooting_3_directus_database_connection_failures",
       "community": 46,
       "norm_label": "3. directus / database connection failures"
@@ -7783,7 +7801,7 @@
       "label": "code:powershell ($env:DIRECTUS_MOCK_MODE=\"true\")",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L95",
+      "source_location": "L108",
       "id": "docs_startup_troubleshooting_codeblock_8",
       "community": 46,
       "norm_label": "code:powershell ($env:directus_mock_mode=\"true\")"
@@ -7792,7 +7810,7 @@
       "label": "4. PydanticAI Agent Model Init / Keyword Arguments Failures",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L100",
+      "source_location": "L113",
       "id": "docs_startup_troubleshooting_4_pydanticai_agent_model_init_keyword_arguments_failures",
       "community": 46,
       "norm_label": "4. pydanticai agent model init / keyword arguments failures"
@@ -7801,7 +7819,7 @@
       "label": "code:python (from pydantic_ai.providers.openai import OpenAIProvider)",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L103",
+      "source_location": "L118",
       "id": "docs_startup_troubleshooting_codeblock_9",
       "community": 46,
       "norm_label": "code:python (from pydantic_ai.providers.openai import openaiprovider)"
@@ -7810,7 +7828,7 @@
       "label": "5. PydanticAI Constructor `result_type` Error",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L110",
+      "source_location": "L125",
       "id": "docs_startup_troubleshooting_5_pydanticai_constructor_result_type_error",
       "community": 46,
       "norm_label": "5. pydanticai constructor `result_type` error"
@@ -7819,7 +7837,7 @@
       "label": "code:python (agent = Agent(model, output_type=ExpectedSchemaClass))",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L113",
+      "source_location": "L129",
       "id": "docs_startup_troubleshooting_codeblock_10",
       "community": 46,
       "norm_label": "code:python (agent = agent(model, output_type=expectedschemaclass))"
@@ -7828,10 +7846,19 @@
       "label": "6. Directus 401 Unauthorized (`Client error '401 Unauthorized'`)",
       "file_type": "document",
       "source_file": "docs/startup_troubleshooting.md",
-      "source_location": "L117",
+      "source_location": "L133",
       "id": "docs_startup_troubleshooting_6_directus_401_unauthorized_client_error_401_unauthorized",
       "community": 46,
       "norm_label": "6. directus 401 unauthorized (`client error '401 unauthorized'`)"
+    },
+    {
+      "label": "7. Local Directus api token",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L141",
+      "id": "docs_startup_troubleshooting_7_local_directus_api_token",
+      "community": 46,
+      "norm_label": "7. local directus api token"
     },
     {
       "label": "bootstrap.md",
@@ -11376,7 +11403,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1097",
       "id": "requirements_intelligence_implementation_v2_demo_scenario",
-      "community": 150,
+      "community": 52,
       "norm_label": "demo scenario"
     },
     {
@@ -11385,7 +11412,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1101",
       "id": "requirements_intelligence_implementation_v2_codeblock_76",
-      "community": 150,
+      "community": 52,
       "norm_label": "code:text (build a saas expense tracker)"
     },
     {
@@ -11394,7 +11421,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1107",
       "id": "requirements_intelligence_implementation_v2_codeblock_77",
-      "community": 150,
+      "community": 52,
       "norm_label": "code:text (project created)"
     },
     {
@@ -12645,7 +12672,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L179",
       "id": "requirements_ui_backend_integration_recent_projects_table",
-      "community": 158,
+      "community": 36,
       "norm_label": "recent projects table"
     },
     {
@@ -12654,7 +12681,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L183",
       "id": "requirements_ui_backend_integration_codeblock_13",
-      "community": 158,
+      "community": 36,
       "norm_label": "code:text (projects)"
     },
     {
@@ -12663,7 +12690,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L189",
       "id": "requirements_ui_backend_integration_codeblock_14",
-      "community": 158,
+      "community": 36,
       "norm_label": "code:ts (getprojects();)"
     },
     {
@@ -12672,7 +12699,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L195",
       "id": "requirements_ui_backend_integration_codeblock_15",
-      "community": 158,
+      "community": 36,
       "norm_label": "code:ts (readitems(\"projects\");)"
     },
     {
@@ -12681,7 +12708,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L201",
       "id": "requirements_ui_backend_integration_codeblock_16",
-      "community": 158,
+      "community": 36,
       "norm_label": "code:text (name)"
     },
     {
@@ -14365,6 +14392,168 @@
       "source_location": "L139",
       "id": "tasks_task_006_next_steps",
       "community": 49,
+      "norm_label": "next steps"
+    },
+    {
+      "label": "TASK-007.md",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L1",
+      "id": "docs_tasks_task_007_md",
+      "community": 150,
+      "norm_label": "task-007.md"
+    },
+    {
+      "label": "TASK-007: <Task Title>",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L1",
+      "id": "tasks_task_007_task_007_task_title",
+      "community": 150,
+      "norm_label": "task-007: <task title>"
+    },
+    {
+      "label": "Metadata",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L3",
+      "id": "tasks_task_007_metadata",
+      "community": 150,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "Problem Statement",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L17",
+      "id": "tasks_task_007_problem_statement",
+      "community": 150,
+      "norm_label": "problem statement"
+    },
+    {
+      "label": "Objective",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L27",
+      "id": "tasks_task_007_objective",
+      "community": 150,
+      "norm_label": "objective"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L37",
+      "id": "tasks_task_007_context",
+      "community": 150,
+      "norm_label": "context"
+    },
+    {
+      "label": "AI Session Summary",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L45",
+      "id": "tasks_task_007_ai_session_summary",
+      "community": 150,
+      "norm_label": "ai session summary"
+    },
+    {
+      "label": "Tools Used",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L47",
+      "id": "tasks_task_007_tools_used",
+      "community": 150,
+      "norm_label": "tools used"
+    },
+    {
+      "label": "Prompts Summary",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L56",
+      "id": "tasks_task_007_prompts_summary",
+      "community": 150,
+      "norm_label": "prompts summary"
+    },
+    {
+      "label": "AI Recommendations",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L68",
+      "id": "tasks_task_007_ai_recommendations",
+      "community": 150,
+      "norm_label": "ai recommendations"
+    },
+    {
+      "label": "Recommendation 1",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L70",
+      "id": "tasks_task_007_recommendation_1",
+      "community": 150,
+      "norm_label": "recommendation 1"
+    },
+    {
+      "label": "Recommendation 2",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L74",
+      "id": "tasks_task_007_recommendation_2",
+      "community": 150,
+      "norm_label": "recommendation 2"
+    },
+    {
+      "label": "Decisions Made",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L80",
+      "id": "tasks_task_007_decisions_made",
+      "community": 150,
+      "norm_label": "decisions made"
+    },
+    {
+      "label": "Technical Design",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L94",
+      "id": "tasks_task_007_technical_design",
+      "community": 150,
+      "norm_label": "technical design"
+    },
+    {
+      "label": "code:mermaid (flowchart LR)",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L98",
+      "id": "tasks_task_007_codeblock_1",
+      "community": 150,
+      "norm_label": "code:mermaid (flowchart lr)"
+    },
+    {
+      "label": "Files Changed",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L108",
+      "id": "tasks_task_007_files_changed",
+      "community": 150,
+      "norm_label": "files changed"
+    },
+    {
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L128",
+      "id": "tasks_task_007_open_questions",
+      "community": 150,
+      "norm_label": "open questions"
+    },
+    {
+      "label": "Next Steps",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L134",
+      "id": "tasks_task_007_next_steps",
+      "community": 150,
       "norm_label": "next steps"
     },
     {
@@ -27217,6 +27406,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "scripts/debug_directus.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "scripts_debug_directus_py",
+      "target": "scripts_debug_directus_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "scripts/manage_tasks.py",
       "source_location": "L8",
       "weight": 1.0,
@@ -28472,8 +28671,18 @@
       "source_file": "docs/startup_troubleshooting.md",
       "source_location": "L117",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_startup_troubleshooting_common_bootstrap_issues_solutions",
-      "target": "docs_startup_troubleshooting_6_directus_401_unauthorized_client_error_401_unauthorized",
+      "target": "docs_startup_troubleshooting_6_directus_401_unauthorized_client_error_401_unauthorized"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "docs_startup_troubleshooting_common_bootstrap_issues_solutions",
+      "target": "docs_startup_troubleshooting_7_local_directus_api_token",
       "confidence_score": 1.0
     },
     {
@@ -35502,9 +35711,9 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_006_md",
-      "target": "tasks_task_006_task_006_task_title",
-      "confidence_score": 1.0
+      "target": "tasks_task_006_task_006_task_title"
     },
     {
       "relation": "contains",
@@ -35512,9 +35721,9 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_006_md",
-      "target": "tasks_task_006_problem_statement",
-      "confidence_score": 1.0
+      "target": "tasks_task_006_problem_statement"
     },
     {
       "relation": "contains",
@@ -35522,9 +35731,9 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_006_md",
-      "target": "tasks_task_006_objective",
-      "confidence_score": 1.0
+      "target": "tasks_task_006_objective"
     },
     {
       "relation": "contains",
@@ -35532,9 +35741,9 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_006_md",
-      "target": "tasks_task_006_context",
-      "confidence_score": 1.0
+      "target": "tasks_task_006_context"
     },
     {
       "relation": "contains",
@@ -35542,9 +35751,9 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_006_md",
-      "target": "tasks_task_006_ai_session_summary",
-      "confidence_score": 1.0
+      "target": "tasks_task_006_ai_session_summary"
     },
     {
       "relation": "contains",
@@ -35552,9 +35761,9 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_006_md",
-      "target": "tasks_task_006_decisions_made",
-      "confidence_score": 1.0
+      "target": "tasks_task_006_decisions_made"
     },
     {
       "relation": "contains",
@@ -35562,9 +35771,9 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_006_md",
-      "target": "tasks_task_006_technical_design",
-      "confidence_score": 1.0
+      "target": "tasks_task_006_technical_design"
     },
     {
       "relation": "contains",
@@ -35572,9 +35781,9 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_006_md",
-      "target": "tasks_task_006_files_changed",
-      "confidence_score": 1.0
+      "target": "tasks_task_006_files_changed"
     },
     {
       "relation": "contains",
@@ -35582,9 +35791,9 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_006_md",
-      "target": "tasks_task_006_open_questions",
-      "confidence_score": 1.0
+      "target": "tasks_task_006_open_questions"
     },
     {
       "relation": "contains",
@@ -35592,9 +35801,9 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L139",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_006_md",
-      "target": "tasks_task_006_next_steps",
-      "confidence_score": 1.0
+      "target": "tasks_task_006_next_steps"
     },
     {
       "relation": "contains",
@@ -35602,9 +35811,9 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_006_task_006_task_title",
-      "target": "tasks_task_006_metadata",
-      "confidence_score": 1.0
+      "target": "tasks_task_006_metadata"
     },
     {
       "relation": "contains",
@@ -35612,9 +35821,9 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_006_ai_session_summary",
-      "target": "tasks_task_006_tools_used",
-      "confidence_score": 1.0
+      "target": "tasks_task_006_tools_used"
     },
     {
       "relation": "contains",
@@ -35622,9 +35831,9 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_006_ai_session_summary",
-      "target": "tasks_task_006_prompts_summary",
-      "confidence_score": 1.0
+      "target": "tasks_task_006_prompts_summary"
     },
     {
       "relation": "contains",
@@ -35632,9 +35841,9 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_006_ai_session_summary",
-      "target": "tasks_task_006_ai_recommendations",
-      "confidence_score": 1.0
+      "target": "tasks_task_006_ai_recommendations"
     },
     {
       "relation": "contains",
@@ -35642,9 +35851,9 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L70",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_006_ai_recommendations",
-      "target": "tasks_task_006_recommendation_1",
-      "confidence_score": 1.0
+      "target": "tasks_task_006_recommendation_1"
     },
     {
       "relation": "contains",
@@ -35652,9 +35861,9 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_006_ai_recommendations",
-      "target": "tasks_task_006_recommendation_2",
-      "confidence_score": 1.0
+      "target": "tasks_task_006_recommendation_2"
     },
     {
       "relation": "contains",
@@ -35662,8 +35871,178 @@
       "source_file": "docs/tasks/TASK-006.md",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_006_technical_design",
-      "target": "tasks_task_006_codeblock_1",
+      "target": "tasks_task_006_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_tasks_task_007_md",
+      "target": "tasks_task_007_task_007_task_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_tasks_task_007_md",
+      "target": "tasks_task_007_problem_statement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "docs_tasks_task_007_md",
+      "target": "tasks_task_007_objective",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "docs_tasks_task_007_md",
+      "target": "tasks_task_007_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "docs_tasks_task_007_md",
+      "target": "tasks_task_007_ai_session_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "docs_tasks_task_007_md",
+      "target": "tasks_task_007_decisions_made",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "docs_tasks_task_007_md",
+      "target": "tasks_task_007_technical_design",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "docs_tasks_task_007_md",
+      "target": "tasks_task_007_files_changed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "docs_tasks_task_007_md",
+      "target": "tasks_task_007_open_questions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "docs_tasks_task_007_md",
+      "target": "tasks_task_007_next_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "tasks_task_007_task_007_task_title",
+      "target": "tasks_task_007_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "tasks_task_007_ai_session_summary",
+      "target": "tasks_task_007_tools_used",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "tasks_task_007_ai_session_summary",
+      "target": "tasks_task_007_prompts_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "tasks_task_007_ai_session_summary",
+      "target": "tasks_task_007_ai_recommendations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "tasks_task_007_ai_recommendations",
+      "target": "tasks_task_007_recommendation_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "tasks_task_007_ai_recommendations",
+      "target": "tasks_task_007_recommendation_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-007.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "tasks_task_007_technical_design",
+      "target": "tasks_task_007_codeblock_1",
       "confidence_score": 1.0
     },
     {
@@ -35838,5 +36217,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "cad9b45dbcd3ded768b8d18872b4d898c2a545ca"
+  "built_at_commit": "b16cef6a25d42dac5f756ec76110ed182dbcf1c8"
 }
