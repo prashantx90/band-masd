@@ -1,16 +1,16 @@
-# Graph Report - band-masd  (2026-06-17)
+# Graph Report - band-masd  (2026-06-18)
 
 ## Corpus Check
-- 122 files · ~110,174 words
+- 177 files · ~130,401 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 890 nodes · 1296 edges · 78 communities (70 shown, 8 thin omitted)
-- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.8)
+- 1437 nodes · 1892 edges · 129 communities (119 shown, 10 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 36 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b4ed5ded`
+- Built from commit: `a73f5115`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -70,32 +70,73 @@
 - [[_COMMUNITY_Community 75|Community 75]]
 - [[_COMMUNITY_Community 76|Community 76]]
 - [[_COMMUNITY_Community 77|Community 77]]
+- [[_COMMUNITY_Community 78|Community 78]]
+- [[_COMMUNITY_Community 79|Community 79]]
+- [[_COMMUNITY_Community 80|Community 80]]
+- [[_COMMUNITY_Community 81|Community 81]]
+- [[_COMMUNITY_Community 82|Community 82]]
+- [[_COMMUNITY_Community 83|Community 83]]
+- [[_COMMUNITY_Community 84|Community 84]]
+- [[_COMMUNITY_Community 85|Community 85]]
+- [[_COMMUNITY_Community 86|Community 86]]
+- [[_COMMUNITY_Community 87|Community 87]]
+- [[_COMMUNITY_Community 88|Community 88]]
+- [[_COMMUNITY_Community 89|Community 89]]
+- [[_COMMUNITY_Community 90|Community 90]]
+- [[_COMMUNITY_Community 91|Community 91]]
+- [[_COMMUNITY_Community 92|Community 92]]
+- [[_COMMUNITY_Community 93|Community 93]]
+- [[_COMMUNITY_Community 94|Community 94]]
+- [[_COMMUNITY_Community 95|Community 95]]
+- [[_COMMUNITY_Community 96|Community 96]]
+- [[_COMMUNITY_Community 97|Community 97]]
+- [[_COMMUNITY_Community 98|Community 98]]
+- [[_COMMUNITY_Community 99|Community 99]]
+- [[_COMMUNITY_Community 100|Community 100]]
+- [[_COMMUNITY_Community 101|Community 101]]
+- [[_COMMUNITY_Community 102|Community 102]]
+- [[_COMMUNITY_Community 103|Community 103]]
+- [[_COMMUNITY_Community 105|Community 105]]
+- [[_COMMUNITY_Community 106|Community 106]]
+- [[_COMMUNITY_Community 107|Community 107]]
+- [[_COMMUNITY_Community 108|Community 108]]
+- [[_COMMUNITY_Community 109|Community 109]]
+- [[_COMMUNITY_Community 110|Community 110]]
+- [[_COMMUNITY_Community 111|Community 111]]
+- [[_COMMUNITY_Community 112|Community 112]]
+- [[_COMMUNITY_Community 113|Community 113]]
+- [[_COMMUNITY_Community 114|Community 114]]
+- [[_COMMUNITY_Community 115|Community 115]]
+- [[_COMMUNITY_Community 116|Community 116]]
+- [[_COMMUNITY_Community 117|Community 117]]
+- [[_COMMUNITY_Community 118|Community 118]]
+- [[_COMMUNITY_Community 119|Community 119]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `cn()` - 224 edges
 2. `dependencies` - 57 edges
-3. `Form Mapping` - 13 edges
-4. `useWorkflow()` - 11 edges
-5. `Service Layer` - 11 edges
-6. `buttonVariants` - 9 edges
-7. `7. User Journey` - 9 edges
-8. `Directus Collections` - 9 edges
-9. `useProjects()` - 8 edges
-10. `Team Structure` - 8 edges
+3. `DirectusClient` - 36 edges
+4. `Form Mapping` - 13 edges
+5. `DirectusBandClient` - 12 edges
+6. `useWorkflow()` - 11 edges
+7. `Service Layer` - 11 edges
+8. `buttonVariants` - 9 edges
+9. `AgentExecutor` - 9 edges
+10. `7. User Journey` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `cn()` --calls--> `clsx`  [INFERRED]
   apps/web/src/app/components/ui/utils.ts → apps/web/package.json
-- `AccordionItem()` --calls--> `cn()`  [EXTRACTED]
-  apps/web/src/app/components/ui/accordion.tsx → apps/web/src/app/components/ui/utils.ts
-- `AccordionTrigger()` --calls--> `cn()`  [EXTRACTED]
-  apps/web/src/app/components/ui/accordion.tsx → apps/web/src/app/components/ui/utils.ts
-- `AccordionContent()` --calls--> `cn()`  [EXTRACTED]
-  apps/web/src/app/components/ui/accordion.tsx → apps/web/src/app/components/ui/utils.ts
-- `AlertDialogOverlay()` --calls--> `cn()`  [EXTRACTED]
-  apps/web/src/app/components/ui/alert-dialog.tsx → apps/web/src/app/components/ui/utils.ts
+- `software_delivery_flow()` --calls--> `DirectusBandClient`  [INFERRED]
+  workflows/flows/software_delivery_flow.py → packages/band_adapter/client.py
+- `architect_node()` --calls--> `DirectusBandClient`  [INFERRED]
+  workflows/nodes/architect_node.py → packages/band_adapter/client.py
+- `engineer_node()` --calls--> `DirectusBandClient`  [INFERRED]
+  workflows/nodes/engineer_node.py → packages/band_adapter/client.py
+- `pm_node()` --calls--> `DirectusBandClient`  [INFERRED]
+  workflows/nodes/pm_node.py → packages/band_adapter/client.py
 
-## Communities (78 total, 8 thin omitted)
+## Communities (129 total, 10 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
@@ -110,12 +151,12 @@ Cohesion: 0.04
 Nodes (57): dependencies, canvas-confetti, class-variance-authority, clsx, cmdk, date-fns, @directus/sdk, embla-carousel-react (+49 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.07
-Nodes (35): Input(), Separator(), Sidebar(), SidebarContent(), SidebarContext, SidebarContextProps, SidebarFooter(), SidebarGroup() (+27 more)
+Cohesion: 0.05
+Nodes (42): Input(), Separator(), Sheet(), SheetContent(), SheetDescription(), SheetFooter(), SheetHeader(), SheetOverlay() (+34 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.07
-Nodes (36): Avatar(), AvatarFallback(), AvatarImage(), Card(), CardAction(), CardContent(), CardDescription(), CardFooter() (+28 more)
+Cohesion: 0.06
+Nodes (41): Avatar(), AvatarFallback(), AvatarImage(), Card(), CardAction(), CardContent(), CardDescription(), CardFooter() (+33 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.05
@@ -130,24 +171,24 @@ Cohesion: 0.11
 Nodes (17): AI Recommendations, AI Session Summary, code:mermaid (flowchart LR), Context, Decisions Made, Files Changed, Metadata, Next Steps (+9 more)
 
 ### Community 22 - "Community 22"
-Cohesion: 0.07
-Nodes (31): AlertDialogAction(), AlertDialogCancel(), AlertDialogContent(), AlertDialogDescription(), AlertDialogFooter(), AlertDialogHeader(), AlertDialogOverlay(), AlertDialogTitle() (+23 more)
+Cohesion: 0.1
+Nodes (18): AlertDialogAction(), AlertDialogCancel(), AlertDialogContent(), AlertDialogDescription(), AlertDialogFooter(), AlertDialogHeader(), AlertDialogOverlay(), AlertDialogTitle() (+10 more)
 
 ### Community 23 - "Community 23"
-Cohesion: 0.17
-Nodes (13): App(), Page, PAGE_META, Header(), HeaderProps, navItems, Page, Sidebar() (+5 more)
+Cohesion: 0.12
+Nodes (20): App(), Page, PAGE_META, Header(), HeaderProps, navItems, Page, Sidebar() (+12 more)
 
 ### Community 26 - "Community 26"
-Cohesion: 0.08
-Nodes (24): devDependencies, tailwindcss, @tailwindcss/vite, vite, @vitejs/plugin-react, vitest, name, vite (+16 more)
+Cohesion: 0.14
+Nodes (13): name, vite, peerDependencies, react, react-dom, pnpm, overrides, private (+5 more)
 
 ### Community 27 - "Community 27"
-Cohesion: 0.14
-Nodes (16): AgentDrawer(), AgentDrawerProps, AgentNode, AGENTS, statusConfig, WorkflowDiagram(), WorkflowDiagramProps, mapRunsToAgentNodes() (+8 more)
+Cohesion: 0.1
+Nodes (22): AgentDrawer(), AgentDrawerProps, AgentNode, AGENTS, statusConfig, WorkflowDiagram(), WorkflowDiagramProps, useDashboard() (+14 more)
 
 ### Community 28 - "Community 28"
-Cohesion: 0.43
-Nodes (5): ToggleGroup(), ToggleGroupContext, ToggleGroupItem(), Toggle(), toggleVariants
+Cohesion: 0.05
+Nodes (15): BandClient, DirectusBandClient, DirectusClient, run_langgraph_workflow(), software_delivery_flow(), architect_node(), engineer_node(), pm_node() (+7 more)
 
 ### Community 29 - "Community 29"
 Cohesion: 0.12
@@ -158,12 +199,12 @@ Cohesion: 0.1
 Nodes (12): Artifacts, Band Messages, code:text (20 Projects), code:text (AI Engineering Team (Band Hackathon Demo)), code:text (40 workflows), code:text (20 projects), Create Workflows, Findings (+4 more)
 
 ### Community 31 - "Community 31"
-Cohesion: 0.14
-Nodes (17): ActivityItem, ActivityPanel(), agentColors, typeConfig, useMessages(), useWorkflow(), AGENT_CONFIG, agentColor (+9 more)
+Cohesion: 0.15
+Nodes (16): ActivityItem, ActivityPanel(), agentColors, typeConfig, useMessages(), useWorkflow(), agentColor, AgentConsolePage() (+8 more)
 
 ### Community 32 - "Community 32"
-Cohesion: 0.13
-Nodes (24): useDashboard(), directus, DirectusSchema, getDashboardStats(), createMessage(), getMessages(), getArtifacts(), getFindings() (+16 more)
+Cohesion: 0.19
+Nodes (16): directus, DirectusSchema, getDashboardStats(), createMessage(), getMessages(), getArtifacts(), getFindings(), getReport() (+8 more)
 
 ### Community 33 - "Community 33"
 Cohesion: 0.11
@@ -174,8 +215,8 @@ Cohesion: 0.11
 Nodes (18): Artifacts Section, code:text (/reports/:workflowId), code:text (reports), code:text (reports), code:text (summary), code:text (requirements), code:text (title), code:text (findings) (+10 more)
 
 ### Community 35 - "Community 35"
-Cohesion: 0.12
-Nodes (11): Menubar(), MenubarCheckboxItem(), MenubarContent(), MenubarItem(), MenubarLabel(), MenubarRadioItem(), MenubarSeparator(), MenubarShortcut() (+3 more)
+Cohesion: 0.06
+Nodes (30): run(), ArchitectureOutput, ServiceInfo, BaseModel, run(), ImplementationOutput, MilestoneInfo, StoryInfo (+22 more)
 
 ### Community 36 - "Community 36"
 Cohesion: 0.12
@@ -199,19 +240,19 @@ Nodes (15): code:text (/projects/new), code:text (Project Name), code:text (proj
 
 ### Community 41 - "Community 41"
 Cohesion: 0.07
-Nodes (18): Checkbox(), FormControl(), FormDescription(), FormFieldContext, FormFieldContextValue, FormItem(), FormItemContext, FormItemContextValue (+10 more)
+Nodes (14): Checkbox(), HoverCardContent(), PopoverContent(), Progress(), ResizableHandle(), ResizablePanelGroup(), Slider(), Switch() (+6 more)
 
 ### Community 42 - "Community 42"
-Cohesion: 0.18
-Nodes (10): Architecture, CodeBand AI, code:text (apps/web), code:text (apps/web/src), code:text (projects), Definition of Done, Directus Collections, Folder Structure (+2 more)
+Cohesion: 0.14
+Nodes (13): Architecture, CodeBand AI, code:text (apps/web), code:text (apps/web/src), code:text (projects), code:text (POST /api/workflows/start), code:text (Create Workflow), Definition of Done (+5 more)
 
 ### Community 43 - "Community 43"
-Cohesion: 0.33
-Nodes (6): Agent Details Drawer, code:text (/workflows/:id), code:text (agent_runs), code:ts (getAgentRun(agentRunId);), code:json ({), Workflow Page
+Cohesion: 0.17
+Nodes (12): Agent Details Drawer, code:text (/workflows/:id), code:text (PM Agent), code:text (agent_runs), code:ts (getWorkflowRuns(workflowId);), code:ts (readItems("agent_runs");), code:text (status), code:text (agent_runs) (+4 more)
 
 ### Community 44 - "Community 44"
-Cohesion: 0.31
-Nodes (8): useReport(), ReportsPage(), ReportsPageProps, SECTIONS, createProject(), getProject(), getProjects(), Project
+Cohesion: 0.24
+Nodes (10): useReport(), AgentWorkflowPageProps, statusIcons, ReportsPage(), ReportsPageProps, SECTIONS, createProject(), getProject() (+2 more)
 
 ### Community 45 - "Community 45"
 Cohesion: 0.22
@@ -238,12 +279,12 @@ Cohesion: 0.2
 Nodes (10): Band Activity Page, code:text (/activity), code:text (messages), code:ts (getMessages(workflowId);), code:ts (readItems("messages");), code:text (-created_at), code:text (title), code:text (PM Agent created requirements) (+2 more)
 
 ### Community 51 - "Community 51"
-Cohesion: 0.18
-Nodes (7): Sheet(), SheetContent(), SheetDescription(), SheetFooter(), SheetHeader(), SheetOverlay(), SheetTitle()
+Cohesion: 0.07
+Nodes (27): Agent Runs, Artifacts, code:text (projects), code:text (UI), code:text (workflows), code:text (Workflow Manager), code:text (agent_runs), code:text (Workflow Manager) (+19 more)
 
 ### Community 52 - "Community 52"
-Cohesion: 0.29
-Nodes (6): archNode, engNode, mockAgentsList, mockRuns, nodes, pmNode
+Cohesion: 0.08
+Nodes (23): Agent Graph, agents, code:text, code:text, code:text, code:text, code:python (class WorkflowState(TypedDict):), code:text (+15 more)
 
 ### Community 53 - "Community 53"
 Cohesion: 0.33
@@ -262,12 +303,12 @@ Cohesion: 0.5
 Nodes (4): Alert(), AlertDescription(), AlertTitle(), alertVariants
 
 ### Community 57 - "Community 57"
-Cohesion: 0.29
-Nodes (7): AuthContext, AuthContextValue, AuthUser, DirectusAuthProvider(), getCurrentUser(), loginWithDirectus(), logoutFromDirectus()
+Cohesion: 0.09
+Nodes (22): activity/, app/, apps/web, code:text, code:text, code:text, code:text, code:text (+14 more)
 
 ### Community 58 - "Community 58"
-Cohesion: 0.33
-Nodes (6): code:text (PM Agent), code:text (agent_runs), code:ts (getWorkflowRuns(workflowId);), code:ts (readItems("agent_runs");), code:text (status), Workflow Nodes
+Cohesion: 0.11
+Nodes (19): agent_runs, artifacts, code:text (UI), code:text (Workflow Manager), code:text (Workflow Execution Layer), code:text (pending), code:text (Band), code:text (Message Record) (+11 more)
 
 ### Community 59 - "Community 59"
 Cohesion: 0.25
@@ -278,32 +319,188 @@ Cohesion: 0.4
 Nodes (3): AccordionContent(), AccordionItem(), AccordionTrigger()
 
 ### Community 75 - "Community 75"
-Cohesion: 0.4
-Nodes (3): InputOTP(), InputOTPGroup(), InputOTPSlot()
+Cohesion: 0.11
+Nodes (17): AI Recommendations, AI Session Summary, code:mermaid (flowchart TD), Context, Decisions Made, Files Changed, Metadata, Next Steps (+9 more)
+
+### Community 76 - "Community 76"
+Cohesion: 0.12
+Nodes (17): Agent Intelligence, Backend, code:text (Next.js 15), code:text (FastAPI), code:text (Prefect), code:text (LangGraph), code:text (PydanticAI), code:text (Band) (+9 more)
 
 ### Community 77 - "Community 77"
+Cohesion: 0.12
+Nodes (9): DropdownMenuCheckboxItem(), DropdownMenuContent(), DropdownMenuItem(), DropdownMenuLabel(), DropdownMenuRadioItem(), DropdownMenuSeparator(), DropdownMenuShortcut(), DropdownMenuSubContent() (+1 more)
+
+### Community 78 - "Community 78"
+Cohesion: 0.13
+Nodes (15): Agent Runtime, Backend, code:text (Next.js), code:text (FastAPI), code:text (Custom Framework), code:text (PydanticAI), code:text (Band), code:text (Directus) (+7 more)
+
+### Community 79 - "Community 79"
+Cohesion: 0.19
+Nodes (13): Carousel(), CarouselApi, CarouselContent(), CarouselContext, CarouselContextProps, CarouselItem(), CarouselNext(), CarouselOptions (+5 more)
+
+### Community 80 - "Community 80"
+Cohesion: 0.2
+Nodes (11): FormControl(), FormDescription(), FormFieldContext, FormFieldContextValue, FormItem(), FormItemContext, FormItemContextValue, FormLabel() (+3 more)
+
+### Community 81 - "Community 81"
+Cohesion: 0.14
+Nodes (13): Activity Timeline, CodeBand AI, code:text (messages), code:text (PM Agent generated requirements), code:text (Build Expense Tracker SaaS), code:text (User), Core Principle, Final Architecture & Implementation Guide (+5 more)
+
+### Community 82 - "Community 82"
+Cohesion: 0.14
+Nodes (14): code:text, code:text, code:python, code:text, code:python, code:text, code:python, code:text (+6 more)
+
+### Community 83 - "Community 83"
+Cohesion: 0.15
+Nodes (12): author, dependencies, directus, description, license, main, name, scripts (+4 more)
+
+### Community 84 - "Community 84"
+Cohesion: 0.15
+Nodes (13): code:text (Directus), code:text (LangGraph), code:text (PM), code:text (QA), code:text (Band Adapter), code:text (Workflow Visualization), Hackathon Implementation Order, Phase 1 (+5 more)
+
+### Community 85 - "Community 85"
+Cohesion: 0.18
+Nodes (11): band_adapter/, code:text, code:python, code:text, code:python, code:text, code:python, directus_client/ (+3 more)
+
+### Community 86 - "Community 86"
+Cohesion: 0.18
+Nodes (11): Band Owns, code:text (Execution), code:text (State), code:text (Agent Intelligence), code:text (Communication), code:text (Persistence), Core Design Principle, Directus Owns (+3 more)
+
+### Community 87 - "Community 87"
+Cohesion: 0.18
+Nodes (11): code:text, code:text, code:text, code:text, code:text, Day 1, Day 2, Day 3 (+3 more)
+
+### Community 88 - "Community 88"
+Cohesion: 0.18
+Nodes (11): code:json ({), code:text (projects), code:text (workflows), code:text (pending), code:python (software_delivery_flow()), code:python (WorkflowState), Step 1, Step 2 (+3 more)
+
+### Community 89 - "Community 89"
+Cohesion: 0.2
+Nodes (10): agent.py, Agent Structure, code:text, code:python, code:python, code:text, code:text, models.py (+2 more)
+
+### Community 90 - "Community 90"
+Cohesion: 0.2
+Nodes (10): api/, apps/api, code:text, code:text, code:text, code:text, code:text, integrations/ (+2 more)
+
+### Community 91 - "Community 91"
+Cohesion: 0.42
+Nodes (7): getWorkflow(), getWorkflowByProject(), getWorkflowRuns(), runSimulation(), startWorkflowSimulation(), AgentRun, Workflow
+
+### Community 92 - "Community 92"
+Cohesion: 0.22
+Nodes (8): code:json ({), code:text (projects), code:text (workflows), code:text (pending), Step 1, Step 2, Step 3, Workflow Lifecycle
+
+### Community 93 - "Community 93"
+Cohesion: 0.22
+Nodes (9): Activity Timeline, code:text (projects), code:text (agent_runs), code:text (messages), code:text (reports), Dashboard Data Sources, Dashboard Statistics, Reports (+1 more)
+
+### Community 94 - "Community 94"
+Cohesion: 0.25
+Nodes (8): Band Integration Strategy, code:python (class BandClient:), code:python (DirectusBandClient), code:python (band.publish()), code:text (messages), code:python (RealBandClient), Hackathon Mode, Production Mode
+
+### Community 95 - "Community 95"
+Cohesion: 0.25
+Nodes (8): Benefits, code:python (@flow), code:python (retries=3), code:python (timeout_seconds=300), code:text (Prefect UI), code:text (Prefect Database), Flow, Prefect Integration
+
+### Community 96 - "Community 96"
+Cohesion: 0.25
+Nodes (8): apps/directus, bootstrap/, code:text, code:text, code:text, code:text, seed/, snapshot/
+
+### Community 97 - "Community 97"
+Cohesion: 0.29
+Nodes (7): Architect Agent, code:python (requirements.generated), code:json ({), code:python (class ArchitectureOutput(BaseModel):), code:json ({), code:text (artifacts), code:python (architecture.generated)
+
+### Community 98 - "Community 98"
+Cohesion: 0.29
+Nodes (7): code:python (project.created), code:json ({), code:python (class PMOutput(BaseModel):), code:json ({), code:text (requirements), code:python (requirements.generated), PM Agent
+
+### Community 99 - "Community 99"
+Cohesion: 0.29
+Nodes (5): Band Integration, code:text (project.created), Events, Publish, Subscribe
+
+### Community 101 - "Community 101"
+Cohesion: 0.33
+Nodes (6): Band Layer, code:python (@flow), code:python (class WorkflowManager:), Custom Workflow Framework, Layer Responsibilities, Prefect Layer
+
+### Community 102 - "Community 102"
+Cohesion: 0.33
+Nodes (6): code:python (implementation.generated), code:python (class QAOutput(BaseModel):), code:json ({), code:text (findings), code:python (qa.completed), QA Agent
+
+### Community 103 - "Community 103"
+Cohesion: 0.33
+Nodes (6): devDependencies, tailwindcss, @tailwindcss/vite, vite, @vitejs/plugin-react, vitest
+
+### Community 105 - "Community 105"
+Cohesion: 0.4
+Nodes (5): code:python (architecture.generated), code:python (class ImplementationOutput(BaseModel):), code:text (artifacts), code:python (implementation.generated), Engineer Agent
+
+### Community 106 - "Community 106"
+Cohesion: 0.4
+Nodes (5): code:python (implementation.generated), code:python (class SecurityOutput(BaseModel):), code:text (findings), code:python (security.completed), Security Agent
+
+### Community 107 - "Community 107"
+Cohesion: 0.4
+Nodes (5): code:python (qa.completed), code:python (class ReviewOutput(BaseModel):), code:text (reports), code:python (workflow.completed), Reviewer Agent
+
+### Community 108 - "Community 108"
+Cohesion: 0.4
+Nodes (5): code:text (agent_runs), code:text (PM Agent), code:text (pending), code:text (0-100), Workflow Visualization
+
+### Community 109 - "Community 109"
+Cohesion: 0.4
+Nodes (5): Architect Agent, code:python (requirements), code:python (class ArchitectureOutput(BaseModel):), code:text (artifacts), code:python (architecture.generated)
+
+### Community 110 - "Community 110"
+Cohesion: 0.4
+Nodes (5): code:json ({), code:python (class PMOutput(BaseModel):), code:text (requirements), code:python (requirements.generated), PM Agent
+
+### Community 111 - "Community 111"
+Cohesion: 0.4
+Nodes (5): code:python (architecture), code:python (class ImplementationOutput(BaseModel):), code:text (artifacts), code:python (implementation.generated), Engineer Agent
+
+### Community 112 - "Community 112"
+Cohesion: 0.4
+Nodes (5): code:python (implementation), code:python (class QAOutput(BaseModel):), code:text (findings), code:python (qa.completed), QA Agent
+
+### Community 113 - "Community 113"
+Cohesion: 0.4
+Nodes (5): code:python (implementation), code:python (class SecurityOutput(BaseModel):), code:text (findings), code:python (security.completed), Security Agent
+
+### Community 114 - "Community 114"
+Cohesion: 0.4
+Nodes (5): code:python (qa_findings), code:python (class ReviewOutput(BaseModel):), code:text (reports), code:python (workflow.completed), Reviewer Agent
+
+### Community 115 - "Community 115"
+Cohesion: 0.4
+Nodes (5): code:python (builder = StateGraph(WorkflowState)), code:text, Graph Definition, Graph Flow, LangGraph Design
+
+### Community 116 - "Community 116"
+Cohesion: 0.4
+Nodes (5): peerDependenciesMeta, react, react-dom, optional, optional
+
+### Community 118 - "Community 118"
 Cohesion: 0.67
-Nodes (3): code:text (POST /api/workflows/start), code:text (Create Workflow), Hackathon Workflow Simulator
+Nodes (3): Band Hackathon Submission Architecture (Final Version), CodeBand AI, Final Architecture & Implementation Blueprint
 
 ## Knowledge Gaps
-- **357 isolated node(s):** `PreToolUse`, `name`, `private`, `version`, `type` (+352 more)
+- **591 isolated node(s):** `PreToolUse`, `name`, `version`, `main`, `start` (+586 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `cn()` connect `Community 4` to `Community 2`, `Community 3`, `Community 22`, `Community 28`, `Community 29`, `Community 35`, `Community 37`, `Community 41`, `Community 45`, `Community 46`, `Community 47`, `Community 49`, `Community 51`, `Community 56`, `Community 59`, `Community 61`, `Community 74`, `Community 75`, `Community 76`?**
-  _High betweenness centrality (0.169) - this node is a cross-community bridge._
+- **Why does `cn()` connect `Community 4` to `Community 2`, `Community 3`, `Community 37`, `Community 41`, `Community 74`, `Community 45`, `Community 46`, `Community 79`, `Community 77`, `Community 80`, `Community 29`, `Community 49`, `Community 47`, `Community 22`, `Community 56`, `Community 59`, `Community 61`?**
+  _High betweenness centrality (0.072) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `Community 2` to `Community 26`?**
-  _High betweenness centrality (0.070) - this node is a cross-community bridge._
+  _High betweenness centrality (0.034) - this node is a cross-community bridge._
 - **Why does `clsx` connect `Community 2` to `Community 4`?**
-  _High betweenness centrality (0.063) - this node is a cross-community bridge._
-- **What connects `PreToolUse`, `name`, `private` to the rest of the system?**
-  _357 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.030) - this node is a cross-community bridge._
+- **Are the 8 inferred relationships involving `DirectusClient` (e.g. with `main()` and `software_delivery_flow()`) actually correct?**
+  _`DirectusClient` has 8 INFERRED edges - model-reasoned connections that need verification._
+- **What connects `PreToolUse`, `name`, `version` to the rest of the system?**
+  _591 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.05 - nodes in this community are weakly interconnected._
-- **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.04 - nodes in this community are weakly interconnected._

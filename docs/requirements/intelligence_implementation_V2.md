@@ -1173,3 +1173,886 @@ Persistence → Directus
 Presentation → Next.js
 
 This creates a scalable foundation for enterprise multi-agent software delivery and serves as a blueprint for autonomous software engineering teams.
+
+# Repository Implementation Guide
+
+This section explains exactly where every component should live.
+
+---
+
+# Repository Structure
+
+```text
+
+band-masd/
+
+├── apps/
+│
+│   ├── web/
+│   ├── api/
+│   └── directus/
+│
+├── agents/
+│
+├── workflows/
+│
+├── packages/
+│
+├── docs/
+│
+└── tasks/
+
+```
+
+---
+
+# apps/web
+
+Purpose:
+
+User Interface
+
+Contains:
+
+```text
+
+apps/web/
+
+src/
+
+├── app/
+│
+├── components/
+│
+├── hooks/
+│
+├── services/
+│
+├── types/
+│
+└── lib/
+
+```
+
+---
+
+## app/
+
+Contains pages.
+
+```text
+
+app/
+
+dashboard/
+
+projects/
+
+workflows/
+
+activity/
+
+reports/
+
+console/
+
+settings/
+
+```
+
+Examples:
+
+```text
+
+/dashboard
+
+/projects
+
+/projects/new
+
+/workflows/[id]
+
+/activity
+
+/reports/[id]
+
+```
+
+---
+
+## components/
+
+UI Components
+
+```text
+
+components/
+
+dashboard/
+
+workflow/
+
+activity/
+
+reports/
+
+projects/
+
+layout/
+
+shared/
+
+```
+
+---
+
+### dashboard/
+
+```text
+
+stats-card.tsx
+
+project-table.tsx
+
+workflow-summary.tsx
+
+```
+
+---
+
+### workflow/
+
+```text
+
+workflow-canvas.tsx
+
+agent-node.tsx
+
+agent-details.tsx
+
+workflow-status.tsx
+
+```
+
+---
+
+### activity/
+
+```text
+
+activity-timeline.tsx
+
+activity-item.tsx
+
+activity-filter.tsx
+
+```
+
+---
+
+### reports/
+
+```text
+
+report-summary.tsx
+
+qa-report.tsx
+
+security-report.tsx
+
+artifact-list.tsx
+
+```
+
+---
+
+### layout/
+
+```text
+
+sidebar.tsx
+
+header.tsx
+
+activity-panel.tsx
+
+app-shell.tsx
+
+```
+
+---
+
+## hooks/
+
+Frontend data hooks.
+
+```text
+
+useProjects.ts
+
+useWorkflow.ts
+
+useMessages.ts
+
+useReports.ts
+
+useDashboard.ts
+
+```
+
+---
+
+## services/
+
+Frontend API clients.
+
+```text
+
+project.service.ts
+
+workflow.service.ts
+
+message.service.ts
+
+report.service.ts
+
+dashboard.service.ts
+
+```
+
+These call:
+
+```text
+
+apps/api
+
+```
+
+Never Directus directly.
+
+---
+
+# apps/api
+
+Purpose:
+
+Backend APIs
+
+Workflow execution
+
+Agent orchestration
+
+Band integration
+
+LangGraph execution
+
+---
+
+Structure
+
+```text
+
+apps/api/
+
+src/
+
+├── api/
+│
+├── services/
+│
+├── workflows/
+│
+├── integrations/
+│
+├── repositories/
+│
+├── schemas/
+│
+└── core/
+
+```
+
+---
+
+## api/
+
+FastAPI routes.
+
+```text
+
+routes/
+
+projects.py
+
+workflows.py
+
+agents.py
+
+reports.py
+
+dashboard.py
+
+```
+
+---
+
+## services/
+
+Business services.
+
+```text
+
+ProjectService
+
+WorkflowService
+
+AgentService
+
+ReportService
+
+BandService
+
+```
+
+Purpose:
+
+Application layer.
+
+---
+
+## repositories/
+
+Directus access.
+
+```text
+
+ProjectRepository
+
+WorkflowRepository
+
+MessageRepository
+
+ArtifactRepository
+
+```
+
+Only repository layer talks to Directus.
+
+---
+
+## integrations/
+
+External systems.
+
+```text
+
+ollama/
+
+band/
+
+directus/
+
+prefect/
+
+```
+
+---
+
+# apps/directus
+
+Purpose:
+
+Persistence Layer
+
+Contains:
+
+```text
+
+snapshot/
+
+seed/
+
+bootstrap/
+
+```
+
+---
+
+## snapshot/
+
+```text
+
+schema.yaml
+
+```
+
+Single source of truth.
+
+---
+
+## seed/
+
+```text
+
+agents.json
+
+projects.json
+
+```
+
+Demo data.
+
+---
+
+## bootstrap/
+
+```text
+
+main.py
+
+seed.py
+
+```
+
+Initialize environment.
+
+---
+
+# agents
+
+Purpose:
+
+All AI Agents
+
+One directory per agent.
+
+```text
+
+agents/
+
+pm_agent/
+
+architect_agent/
+
+engineer_agent/
+
+qa_agent/
+
+security_agent/
+
+reviewer_agent/
+
+```
+
+---
+
+# Agent Structure
+
+Example:
+
+```text
+
+pm_agent/
+
+agent.py
+
+models.py
+
+prompts/
+
+tools/
+
+tests/
+
+```
+
+---
+
+## agent.py
+
+PydanticAI implementation.
+
+```python
+
+pm_agent = Agent(...)
+
+```
+
+---
+
+## models.py
+
+Output schemas.
+
+```python
+
+class PMOutput(BaseModel):
+    ...
+```
+
+---
+
+## prompts/
+
+Prompt templates.
+
+```text
+
+system_prompt.md
+
+requirements_prompt.md
+
+```
+
+---
+
+## tools/
+
+Agent tools.
+
+```text
+
+directus_tool.py
+
+search_tool.py
+
+```
+
+---
+
+# workflows
+
+Purpose:
+
+LangGraph + Prefect
+
+---
+
+Structure
+
+```text
+
+workflows/
+
+graphs/
+
+state/
+
+flows/
+
+nodes/
+
+```
+
+---
+
+## graphs/
+
+LangGraph definitions.
+
+```text
+
+software_delivery_graph.py
+
+```
+
+Contains:
+
+```python
+
+StateGraph
+
+builder.add_node()
+
+builder.add_edge()
+
+```
+
+---
+
+## state/
+
+Workflow state.
+
+```text
+
+workflow_state.py
+
+```
+
+Contains:
+
+```python
+
+class WorkflowState(...)
+```
+
+---
+
+## nodes/
+
+Each LangGraph node.
+
+```text
+
+pm_node.py
+
+architect_node.py
+
+engineer_node.py
+
+qa_node.py
+
+security_node.py
+
+reviewer_node.py
+
+```
+
+Each node calls an agent.
+
+---
+
+Example:
+
+```python
+
+def pm_node(
+    state
+):
+    ...
+```
+
+---
+
+## flows/
+
+Prefect flows.
+
+```text
+
+software_delivery_flow.py
+
+```
+
+Contains:
+
+```python
+
+@flow
+def software_delivery_flow():
+```
+
+---
+
+# packages
+
+Purpose:
+
+Reusable shared modules
+
+---
+
+Structure
+
+```text
+
+packages/
+
+band_adapter/
+
+directus_client/
+
+shared_types/
+
+workflow_sdk/
+
+```
+
+---
+
+## band_adapter/
+
+Most important package.
+
+Provides:
+
+```python
+
+publish()
+
+subscribe()
+
+```
+
+Implementations:
+
+```text
+
+DirectusBandClient
+
+RealBandClient
+```
+
+---
+
+## directus_client/
+
+Directus SDK wrapper.
+
+```python
+
+create_project()
+
+create_workflow()
+
+create_message()
+
+```
+
+---
+
+## shared_types/
+
+Shared DTOs.
+
+Used by:
+
+```text
+
+web
+api
+agents
+workflows
+```
+
+---
+
+## workflow_sdk/
+
+Custom framework.
+
+Contains:
+
+```python
+
+WorkflowManager
+
+AgentExecutor
+
+WorkflowContext
+
+```
+
+This is your business abstraction.
+
+---
+
+# docs
+
+Architecture documents.
+
+```text
+
+architecture.md
+
+api-spec.md
+
+workflow-design.md
+
+agent-design.md
+
+```
+
+---
+
+# tasks
+
+Team collaboration.
+
+```text
+
+TASK-001.md
+
+TASK-002.md
+
+TASK-003.md
+```
+
+Every task generated by AI gets stored here.
+
+---
+
+# Recommended Implementation Order
+
+## Day 1
+
+```text
+
+Directus
+
+Web UI
+
+FastAPI
+
+Shared Types
+
+```
+
+---
+
+## Day 2
+
+```text
+
+Workflow State
+
+LangGraph
+
+Prefect
+
+```
+
+---
+
+## Day 3
+
+```text
+
+PM Agent
+
+Architect Agent
+
+Engineer Agent
+
+```
+
+---
+
+## Day 4
+
+```text
+
+QA Agent
+
+Security Agent
+
+Reviewer Agent
+
+```
+
+---
+
+## Day 5
+
+```text
+
+Band Integration
+
+Activity Timeline
+
+Workflow Visualization
+
+```
+
+This structure keeps responsibilities clean and makes it easy to explain the architecture to hackathon judges.
