@@ -26,7 +26,11 @@ async def seed_agents():
                 payload = agent.model_dump(exclude_none=True)
                 await services.directus._request("POST", "/items/agents", json_data=payload)
         except Exception as e:
-            print(f"[Seeding Error] Failed to seed agent {agent.code}: {e}")
+            if "401" in str(e) or "Unauthorized" in str(e):
+                print(f"[Seeding Error] Failed to seed agent {agent.code}: 401 Unauthorized. "
+                      "Please check that DIRECTUS_API_TOKEN in your .env is correct, valid, and has read/write permissions for the 'agents' collection.")
+            else:
+                print(f"[Seeding Error] Failed to seed agent {agent.code}: {e}")
 
 async def seed_demo_project() -> Project:
     print("[Seeder] Seeding demo project...")

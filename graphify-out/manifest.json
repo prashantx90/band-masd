@@ -125,8 +125,8 @@
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\api\\src\\bootstrap\\seeder.py": {
-    "mtime": 1781796003.5218432,
-    "ast_hash": "29070355b5d92b6e61205ec6ccba7960",
+    "mtime": 1781802739.9643075,
+    "ast_hash": "b2a5fd0b77366d9a4c4bb1a5e6a1194a",
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\api\\src\\bootstrap\\services.py": {
@@ -900,8 +900,8 @@
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\startup_troubleshooting.md": {
-    "mtime": 1781797268.3543124,
-    "ast_hash": "6a59595b627ea1fc2516f2d0967cc789",
+    "mtime": 1781802732.629185,
+    "ast_hash": "00ebc2091f7d40c20745739250aee589",
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\requirements\\bootstrap.md": {
@@ -957,6 +957,11 @@
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\TASK-005.md": {
     "mtime": 1781796463.191837,
     "ast_hash": "04ea151805f6acc93f9d662946dd1b16",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\TASK-006.md": {
+    "mtime": 1781802464.7515366,
+    "ast_hash": "5413c6df8776f6096854672dd204b80b",
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\tasks-template.md": {
