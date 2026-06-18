@@ -4,6 +4,481 @@
     "ast_hash": "137368df43718b73e622c7834bac533b",
     "semantic_hash": ""
   },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\directus\\bootstrap\\config.py": {
+    "mtime": 1781710342.5623245,
+    "ast_hash": "81051bcc2cf1bedf378224b0a93e2877",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\directus\\bootstrap\\main.py": {
+    "mtime": 1781710347.7361584,
+    "ast_hash": "81051bcc2cf1bedf378224b0a93e2877",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\directus\\bootstrap\\seed.py": {
+    "mtime": 1781710344.28691,
+    "ast_hash": "81051bcc2cf1bedf378224b0a93e2877",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\directus\\bootstrap\\snapshot.py": {
+    "mtime": 1781710345.8138337,
+    "ast_hash": "81051bcc2cf1bedf378224b0a93e2877",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\directus\\bootstrap\\wait.py": {
+    "mtime": 1781710346.784728,
+    "ast_hash": "81051bcc2cf1bedf378224b0a93e2877",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\directus\\datamodel\\samples\\002_stocker_import_collections.sql": {
+    "mtime": 1781712821.6169841,
+    "ast_hash": "bb46c3d9d67b109f0a64f66eed0dfc75",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\directus\\datamodel\\samples\\create_raw_ingestion_registry.sql": {
+    "mtime": 1781708488.5974722,
+    "ast_hash": "ec2a261a2ddb8df0b9914833e15d1bfc",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\directus\\datamodel\\samples\\stocker_data_model_update.sql": {
+    "mtime": 1781708504.3551574,
+    "ast_hash": "9432d8af1c75f0f56958ef34ca1b123e",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\package.json": {
+    "mtime": 1781715397.2049608,
+    "ast_hash": "3fe785b3be3fb6f95340f660d2ee7959",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\postcss.config.mjs": {
+    "mtime": 1781706685.154389,
+    "ast_hash": "512ddfe3175b0d294ec1e4789f27885f",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\vite.config.ts": {
+    "mtime": 1781717187.4315553,
+    "ast_hash": "4d772206642172ad878f606c56fac075",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\main.tsx": {
+    "mtime": 1781718056.3201835,
+    "ast_hash": "d941f2470302b2851fba6312e28f3f0a",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\App.tsx": {
+    "mtime": 1781718061.7783248,
+    "ast_hash": "75ccadf0c6e5405d69c286377821c2b8",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ActivityPanel.tsx": {
+    "mtime": 1781715063.7365458,
+    "ast_hash": "cdbeb40ad9ef519d6d9dd3cf28bdee3b",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\AgentDrawer.tsx": {
+    "mtime": 1781706684.5974889,
+    "ast_hash": "65d2106c6e3136d9a7a13796954fb0de",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\Header.tsx": {
+    "mtime": 1781706684.603726,
+    "ast_hash": "65148ae0b91eba7e77062d2457045e43",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\Sidebar.tsx": {
+    "mtime": 1781718069.6665907,
+    "ast_hash": "cc39afc7ef491c7fda4d4013d56b0696",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\WorkflowDiagram.tsx": {
+    "mtime": 1781714994.9122462,
+    "ast_hash": "be03bab123f0fe99b68be47958bddf0b",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\figma\\ImageWithFallback.tsx": {
+    "mtime": 1781706684.625054,
+    "ast_hash": "cf265545a904ec8dfc50a4dd25209a79",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\pages\\AgentConsolePage.tsx": {
+    "mtime": 1781715043.0446317,
+    "ast_hash": "689212e026a56fed977c244e3efe4271",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\pages\\AgentWorkflowPage.tsx": {
+    "mtime": 1781715015.7348666,
+    "ast_hash": "b96aa38753c59fbc525e0d7ed7a28715",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\pages\\BandActivityPage.tsx": {
+    "mtime": 1781715033.8140395,
+    "ast_hash": "a11da12d01ca61fd6051085fe90e00c1",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\pages\\DashboardPage.tsx": {
+    "mtime": 1781715007.6073215,
+    "ast_hash": "1981fe325c7f382428ee243727ff31de",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\pages\\LoginPage.tsx": {
+    "mtime": 1781718049.3313727,
+    "ast_hash": "9ebc9a9ac512ce2a55a36c440e218a60",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\pages\\NewProjectPage.tsx": {
+    "mtime": 1781715025.1589892,
+    "ast_hash": "24fe98e9059b13506071eaeaeb336b0f",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\pages\\ProjectsPage.tsx": {
+    "mtime": 1781714987.5265036,
+    "ast_hash": "72059ff849215dd56ace8aaadb7271f7",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\pages\\ReportsPage.tsx": {
+    "mtime": 1781715053.884666,
+    "ast_hash": "064e085d53eee8a4926a6bbcfef47e09",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\pages\\SettingsPage.tsx": {
+    "mtime": 1781706685.0083263,
+    "ast_hash": "43f4872533240871bb31e1b52df6bf44",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\accordion.tsx": {
+    "mtime": 1781706684.8745165,
+    "ast_hash": "b70c6a9ebee8874bb4e5880da21a4f44",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\alert-dialog.tsx": {
+    "mtime": 1781706684.8486242,
+    "ast_hash": "fffdba13911be5058cb47ae712dd00b6",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\alert.tsx": {
+    "mtime": 1781706684.842446,
+    "ast_hash": "162e5c706a1cd900d863fd5a19a56507",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\aspect-ratio.tsx": {
+    "mtime": 1781706684.8373208,
+    "ast_hash": "2c1c30af12401d88f8df52c3c235ed67",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\avatar.tsx": {
+    "mtime": 1781706684.9262967,
+    "ast_hash": "c8fcbe36f44f9d68c45ce38546bdda9c",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\badge.tsx": {
+    "mtime": 1781706684.886949,
+    "ast_hash": "027ca1b168b5a31ec381898dd0fad1d8",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\breadcrumb.tsx": {
+    "mtime": 1781706684.8310425,
+    "ast_hash": "ffaa516f002d988d1a3d2cffb2a5f175",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\button.tsx": {
+    "mtime": 1781706684.817731,
+    "ast_hash": "2a2ce95de39f4f4849f70bb615492ab7",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\calendar.tsx": {
+    "mtime": 1781706684.8050597,
+    "ast_hash": "f5fd009223e3652640773e98dcc5e59f",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\card.tsx": {
+    "mtime": 1781706684.7744498,
+    "ast_hash": "1c1ec988ee2908e66b010798309baa58",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\carousel.tsx": {
+    "mtime": 1781706684.7877667,
+    "ast_hash": "c89d7f94c3d16dcf2d4e34f0b8034084",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\chart.tsx": {
+    "mtime": 1781706684.825346,
+    "ast_hash": "42ef994d83724dcaacbdddeaddf7b18b",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\checkbox.tsx": {
+    "mtime": 1781706684.7928827,
+    "ast_hash": "513285928084159260a7f0f6735f77c8",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\collapsible.tsx": {
+    "mtime": 1781706684.86786,
+    "ast_hash": "fb83308ef990f33e60b56b22c6adb007",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\command.tsx": {
+    "mtime": 1781706684.9514992,
+    "ast_hash": "41e1d0c759f0327b879dfec678cfe781",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\context-menu.tsx": {
+    "mtime": 1781706684.7677715,
+    "ast_hash": "d613a68dc16ac28500406d3ed7d1cc44",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\dialog.tsx": {
+    "mtime": 1781706684.799476,
+    "ast_hash": "d908f64f8ea05b532d292ff2cfc0f9d0",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\drawer.tsx": {
+    "mtime": 1781706684.7811418,
+    "ast_hash": "eb7f3850284135ed58adeeb2205e739c",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\dropdown-menu.tsx": {
+    "mtime": 1781706684.7546988,
+    "ast_hash": "88eba49303246bd059776e95106373e5",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\form.tsx": {
+    "mtime": 1781706684.7417595,
+    "ast_hash": "7bd150b19048c2af09b63dd0a260b179",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\hover-card.tsx": {
+    "mtime": 1781706684.9062185,
+    "ast_hash": "2225b5b5db78c8dde5f0aff6aa08458c",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\input-otp.tsx": {
+    "mtime": 1781706684.7481327,
+    "ast_hash": "a74758e038db3ef3301c58bd0ac01753",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\input.tsx": {
+    "mtime": 1781706684.9001436,
+    "ast_hash": "3a32dac1fb72ab6a6893f806aac049e0",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\label.tsx": {
+    "mtime": 1781706684.7608285,
+    "ast_hash": "06608274383a01446d19b9a7ed8148c3",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\menubar.tsx": {
+    "mtime": 1781706684.8616624,
+    "ast_hash": "c955592a9b680c223a6aa7ba5eca19af",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\navigation-menu.tsx": {
+    "mtime": 1781706684.7204618,
+    "ast_hash": "c6ecd95499ba6e8fe4d8fdd16be18d24",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\pagination.tsx": {
+    "mtime": 1781706684.7281172,
+    "ast_hash": "7531a02a3c7a33d56e2f668ffd7a0d35",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\popover.tsx": {
+    "mtime": 1781706684.855007,
+    "ast_hash": "3db5181d3777cead79949d25c31872aa",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\progress.tsx": {
+    "mtime": 1781706684.9384325,
+    "ast_hash": "a21bc28c146d6e943b3204b095f17a74",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\radio-group.tsx": {
+    "mtime": 1781706684.9457104,
+    "ast_hash": "25f34d829563805260a4b1234bfcac3f",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\resizable.tsx": {
+    "mtime": 1781706684.7136843,
+    "ast_hash": "dbedce80325c20ea43ce386433e87415",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\scroll-area.tsx": {
+    "mtime": 1781706684.7349124,
+    "ast_hash": "ceed8816f5ac36bda5c970e49fed5347",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\select.tsx": {
+    "mtime": 1781706684.7076452,
+    "ast_hash": "7efb1603282cbfbd4bb752fc6aa16465",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\separator.tsx": {
+    "mtime": 1781706684.8935964,
+    "ast_hash": "8011cea02bdcd4a2e666dacb82cf43d6",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\sheet.tsx": {
+    "mtime": 1781706684.9328847,
+    "ast_hash": "14f866a1ec7bd747f499b606f8e40cb3",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\sidebar.tsx": {
+    "mtime": 1781706684.8116305,
+    "ast_hash": "6f2411b67de8153c8890d9688b636cb0",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\skeleton.tsx": {
+    "mtime": 1781706684.918064,
+    "ast_hash": "a71aca7b1a33fbf0e5ecd93015c7804f",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\slider.tsx": {
+    "mtime": 1781706684.8813086,
+    "ast_hash": "276b72ee040e75c35385b068e6c279d2",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\sonner.tsx": {
+    "mtime": 1781706684.7015731,
+    "ast_hash": "ace3a6465858e1f9a441724008f2d921",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\switch.tsx": {
+    "mtime": 1781706684.6949964,
+    "ast_hash": "24628008ea7aeeecdd193ca7de846552",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\table.tsx": {
+    "mtime": 1781706684.687941,
+    "ast_hash": "2066531279772875cba1f2c269fe23b4",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\tabs.tsx": {
+    "mtime": 1781706684.6792147,
+    "ast_hash": "e85ffdace1c1d8b2e4c748c2877b9fe2",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\textarea.tsx": {
+    "mtime": 1781706684.6698973,
+    "ast_hash": "9aa996cfdc9b59dd5e9cce00e5fb8280",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\toggle-group.tsx": {
+    "mtime": 1781706684.912112,
+    "ast_hash": "4bc07765706ef9a2e74f97de0fc0ecc0",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\toggle.tsx": {
+    "mtime": 1781706684.6617138,
+    "ast_hash": "4c8cf865ef8acde9a3558cb8c21ecdc4",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\tooltip.tsx": {
+    "mtime": 1781706684.6550965,
+    "ast_hash": "7e731b948edb6f93cf7d1841d056e5bb",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\use-mobile.ts": {
+    "mtime": 1781706684.6474166,
+    "ast_hash": "21f0293b823c5298aa735fc013840cff",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\app\\components\\ui\\utils.ts": {
+    "mtime": 1781706684.6378152,
+    "ast_hash": "d9837f38cc05303254571985e3164050",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\context\\DirectusAuthContext.tsx": {
+    "mtime": 1781718421.8970592,
+    "ast_hash": "ffb2c9aeb67fbb2adfb817f4bba30ce4",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\hooks\\useDashboard.ts": {
+    "mtime": 1781714952.8542523,
+    "ast_hash": "4f6fb4eecc11446d017bd6f55e20973f",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\hooks\\useMessages.ts": {
+    "mtime": 1781714965.7262459,
+    "ast_hash": "d31d75a33818cebd9662bb595e660ad0",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\hooks\\useProjects.ts": {
+    "mtime": 1781714957.4679673,
+    "ast_hash": "f591327895638f128aa58cccc0ee6d1c",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\hooks\\useReport.ts": {
+    "mtime": 1781714970.1508799,
+    "ast_hash": "66a1eeae12958697fbf56d1a3c549a39",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\hooks\\useWorkflow.ts": {
+    "mtime": 1781714961.6404207,
+    "ast_hash": "1a6c9935d959783e974f2e3d707d6e0b",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\lib\\agent-mapper.test.ts": {
+    "mtime": 1781715401.0386498,
+    "ast_hash": "14dc03e34f4b19d0013f6ea964b80233",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\lib\\agent-mapper.ts": {
+    "mtime": 1781715000.6569066,
+    "ast_hash": "7f757c4a74ffdc5825fe591ea1735cfb",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\lib\\directus-schema.ts": {
+    "mtime": 1781714916.2244494,
+    "ast_hash": "e1adfa48306870bebfe3b90a92875d74",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\lib\\directus.ts": {
+    "mtime": 1781718035.31689,
+    "ast_hash": "af287122f299cf568fd382000af2efb8",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\services\\agent.service.ts": {
+    "mtime": 1781714941.8753152,
+    "ast_hash": "c060826f8504f74d0160b5b52012611f",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\services\\auth.service.ts": {
+    "mtime": 1781718682.5411434,
+    "ast_hash": "30f29c3a370d59cdbfcdc7889f923894",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\services\\dashboard.service.ts": {
+    "mtime": 1781714938.3061695,
+    "ast_hash": "c826f2c0ee0f1c719e5f602723fc2631",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\services\\message.service.ts": {
+    "mtime": 1781714945.3518872,
+    "ast_hash": "94248b2c511ebd27b40a63a4e2327e9d",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\services\\project.service.ts": {
+    "mtime": 1781714924.6945024,
+    "ast_hash": "44b2964da548fc51b919d4095ab44f7b",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\services\\report.service.ts": {
+    "mtime": 1781714948.7433977,
+    "ast_hash": "5dd3f42995fd4967c28638ad8170fddf",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\services\\workflow.service.ts": {
+    "mtime": 1781714931.8595452,
+    "ast_hash": "7ebcb8efeb5567de9602edc168b71bd6",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\types\\index.ts": {
+    "mtime": 1781714911.5188942,
+    "ast_hash": "0de08afc4ecfe7eec98b18127d237aa7",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\requirements\\directus_collection.sql": {
+    "mtime": 1781708765.945991,
+    "ast_hash": "bf7613268a5e333df106fca57f8786c9",
+    "semantic_hash": ""
+  },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\scripts\\generate-directory-structure.ps1": {
     "mtime": 1781626779.9151857,
     "ast_hash": "587d1e4d8bb3679d19dea8d06ec839e3",
@@ -64,6 +539,31 @@
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\ATTRIBUTIONS.md": {
+    "mtime": 1781706685.1307173,
+    "ast_hash": "0ef7cd1ecf2c4438bc1c8787c02252da",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\index.html": {
+    "mtime": 1781706685.0742407,
+    "ast_hash": "85046ba5a172a5294c24461783ff179a",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\pnpm-workspace.yaml": {
+    "mtime": 1781706685.1876872,
+    "ast_hash": "568472a1cb971e6f9d8bd2e7f9bc9ccc",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\README.md": {
+    "mtime": 1781706685.087169,
+    "ast_hash": "99e55d132bdb718ada8676b2ec460980",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\guidelines\\Guidelines.md": {
+    "mtime": 1781706685.105821,
+    "ast_hash": "5af43702d745a31480e9a483616bf246",
+    "semantic_hash": ""
+  },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\architecture.md": {
     "mtime": 1781626871.3091717,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
@@ -84,9 +584,34 @@
     "ast_hash": "33754b61a36399d5fd363f828a616063",
     "semantic_hash": ""
   },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\requirements\\directus_collection.md": {
+    "mtime": 1781708080.7882159,
+    "ast_hash": "85bf38682070508fe99c4d73ce3f0e1c",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\requirements\\seed_data.md": {
+    "mtime": 1781712744.1235077,
+    "ast_hash": "46231b9e6eff08bf00a31c483572c9a4",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\requirements\\ui_backend_integration.md": {
+    "mtime": 1781714473.233415,
+    "ast_hash": "99cdfe84a446bb445bf0a6c06c926792",
+    "semantic_hash": ""
+  },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\TASK-001.md": {
-    "mtime": 1781706552.7913456,
-    "ast_hash": "7b018b2217ebe8440a9b9c85653091bd",
+    "mtime": 1781709156.31263,
+    "ast_hash": "e97da98a9a6988155c859acaa112e27a",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\TASK-002.md": {
+    "mtime": 1781710362.5781085,
+    "ast_hash": "78d60d1fc03d0d8d9014fa6ce371ad25",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\TASK-003.md": {
+    "mtime": 1781718120.6565619,
+    "ast_hash": "abcc07dc7fcb5fdba601c03be06cfc27",
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\tasks-template.md": {

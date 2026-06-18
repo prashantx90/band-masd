@@ -36,7 +36,18 @@ const navItems: { id: Page; label: string; icon: React.ElementType }[] = [
   { id: "settings", label: "Settings", icon: Settings },
 ];
 
+import { useDirectusAuth } from "../../context/DirectusAuthContext";
+import { LogOut } from "lucide-react";
+
 export function Sidebar({ currentPage, onNavigate }: SidebarProps) {
+  const { user, logout } = useDirectusAuth();
+
+  const firstName = user?.first_name || "";
+  const lastName = user?.last_name || "";
+  const email = user?.email || "";
+  const fullName = [firstName, lastName].filter(Boolean).join(" ") || email || "Jordan Davis";
+  const initials = (firstName[0] || "") + (lastName[0] || "") || email[0]?.toUpperCase() || "JD";
+
   return (
     <aside className="w-56 shrink-0 flex flex-col h-full bg-sidebar border-r border-sidebar-border">
       {/* Logo */}
@@ -80,18 +91,29 @@ export function Sidebar({ currentPage, onNavigate }: SidebarProps) {
 
       {/* Bottom */}
       <div className="px-2 py-3 border-t border-sidebar-border space-y-1">
-        <div className="flex items-center gap-2.5 px-3 py-2 rounded-md hover:bg-sidebar-accent/60 cursor-pointer transition-colors">
+        <div className="flex items-center gap-2.5 px-3 py-2 rounded-md hover:bg-sidebar-accent/60 group cursor-pointer transition-colors relative">
           <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center shrink-0">
-            <span className="text-primary" style={{ fontSize: "10px", fontWeight: 600 }}>JD</span>
+            <span className="text-primary text-[10px] font-semibold">{initials}</span>
           </div>
           <div className="flex-1 min-w-0">
-            <p className="text-sidebar-foreground truncate" style={{ fontSize: "12px", fontWeight: 500 }}>
-              Jordan Davis
+            <p className="text-sidebar-foreground truncate text-[12px] font-medium">
+              {fullName}
             </p>
-            <p className="text-muted-foreground truncate" style={{ fontSize: "11px" }}>
-              Engineering Lead
+            <p className="text-muted-foreground truncate text-[10px]">
+              {email || "Engineering Lead"}
             </p>
           </div>
+          <button
+            onClick={() => {
+              if (window.confirm("Are you sure you want to log out?")) {
+                logout().catch(console.error);
+              }
+            }}
+            title="Log Out"
+            className="p-1 rounded hover:bg-muted text-muted-foreground hover:text-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0"
+          >
+            <LogOut className="w-3.5 h-3.5" />
+          </button>
         </div>
         <div className="flex items-center gap-2.5 px-3 py-1.5">
           <Users className="w-3.5 h-3.5 text-muted-foreground shrink-0" />
@@ -101,3 +123,4 @@ export function Sidebar({ currentPage, onNavigate }: SidebarProps) {
     </aside>
   );
 }
+

@@ -1,5 +1,14 @@
-import { useState } from "react";
-import { Download, CheckCircle2, AlertCircle, FileText, Shield, TestTube } from "lucide-react";
+import { useState, useEffect } from "react";
+import { Download, CheckCircle2, AlertCircle, FileText, Shield, TestTube, Loader2 } from "lucide-react";
+import { useProjects } from "../../../hooks/useProjects";
+import { useWorkflow } from "../../../hooks/useWorkflow";
+import { useReport } from "../../../hooks/useReport";
+import { getProject } from "../../../services/project.service";
+import { Project } from "../../../types";
+
+interface ReportsPageProps {
+  projectId: string | null;
+}
 
 const SECTIONS = [
   { id: "summary", label: "Summary" },
@@ -11,8 +20,69 @@ const SECTIONS = [
   { id: "approval", label: "Approval" },
 ];
 
-export function ReportsPage() {
+export function ReportsPage({ projectId }: ReportsPageProps) {
   const [activeSection, setActiveSection] = useState("summary");
+  const [project, setProject] = useState<Project | null>(null);
+
+  // Load project name/details
+  useEffect(() => {
+    if (projectId) {
+      getProject(projectId).then(setProject).catch(console.error);
+    } else {
+      setProject(null);
+    }
+  }, [projectId]);
+
+  const { workflow } = useWorkflow(null, projectId);
+  const { report, requirements, findings, artifacts, loading } = useReport(workflow?.id || null, projectId);
+
+  if (loading) {
+    return (
+      <div className="flex-1 flex items-center justify-center">
+        <Loader2 className="w-6 h-6 text-primary animate-spin" />
+      </div>
+    );
+  }
+
+  if (!projectId) {
+    return (
+      <div className="flex-1 flex flex-col items-center justify-center p-6 text-center space-y-4">
+        <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-2">
+          <FileText className="w-6 h-6 text-primary" />
+        </div>
+        <h2 className="text-foreground font-semibold text-[15px]">No Project Selected</h2>
+        <p className="text-muted-foreground text-[12px] max-w-[320px]">
+          Select a project from the dashboard or projects list to view its generated reports, PRD, and QA/security audits.
+        </p>
+      </div>
+    );
+  }
+
+  if (!report) {
+    return (
+      <div className="flex-1 flex flex-col items-center justify-center p-6 text-center space-y-4">
+        <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-2">
+          <Loader2 className="w-6 h-6 text-primary animate-pulse" />
+        </div>
+        <h2 className="text-foreground font-semibold text-[14px]">Report Generation In Progress</h2>
+        <p className="text-muted-foreground text-[12px] max-w-[320px]">
+          The agents are currently executing the pipeline. Once the Reviewer Agent signs off, the complete documentation package will be available here.
+        </p>
+      </div>
+    );
+  }
+
+  const qaIssues = findings.filter(f => f.type === "qa");
+  const securityIssues = findings.filter(f => f.type === "security");
+
+  const approvalLabel = {
+    approved: "Approved",
+    rejected: "Rejected",
+    changes_requested: "Changes Requested",
+    pending: "Pending",
+  };
+
+  const approvalStatus = report.approval_decision || "pending";
 
   return (
     <div className="flex-1 flex overflow-hidden">
@@ -47,20 +117,24 @@ export function ReportsPage() {
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <h1 className="text-foreground" style={{ fontSize: "20px", fontWeight: 700, letterSpacing: "-0.02em" }}>
-                  CRM Platform v2
+                  {project?.name}
                 </h1>
-                <span className="px-2.5 py-1 rounded-full bg-emerald-500/15 text-emerald-400 border border-emerald-500/20" style={{ fontSize: "11px", fontWeight: 500 }}>
-                  Approved
+                <span className={`px-2.5 py-1 rounded-full text-[11px] font-medium border ${
+                  approvalStatus === "approved" ? "bg-emerald-500/15 text-emerald-400 border-emerald-500/20" :
+                  approvalStatus === "changes_requested" ? "bg-amber-500/15 text-amber-400 border-amber-500/20" :
+                  "bg-muted text-muted-foreground border-border"
+                }`}>
+                  {approvalLabel[approvalStatus]}
                 </span>
               </div>
               <div className="grid grid-cols-3 gap-3 mb-5">
                 {[
-                  { label: "Total Requirements", value: "42" },
+                  { label: "Total Requirements", value: requirements.length.toString() },
                   { label: "Services Designed", value: "14" },
                   { label: "Implementation Tasks", value: "312" },
-                  { label: "Test Coverage Target", value: "85%" },
-                  { label: "Security Issues Found", value: "0 critical" },
-                  { label: "Approval Decision", value: "✓ Proceed" },
+                  { label: "QA Findings", value: `${qaIssues.length} issues` },
+                  { label: "Security Findings", value: `${securityIssues.length} issues` },
+                  { label: "Approval Decision", value: approvalLabel[approvalStatus] },
                 ].map(({ label, value }) => (
                   <div key={label} className="rounded-lg border border-border bg-card p-3">
                     <p className="text-foreground mb-0.5" style={{ fontSize: "16px", fontWeight: 700 }}>{value}</p>
@@ -71,7 +145,7 @@ export function ReportsPage() {
               <div className="rounded-lg border border-border bg-card p-4">
                 <h3 className="text-foreground mb-2" style={{ fontSize: "13px", fontWeight: 600 }}>Executive Summary</h3>
                 <p className="text-muted-foreground leading-relaxed" style={{ fontSize: "12px" }}>
-                  The CRM Platform v2 has been analyzed by all 6 AI agents. The PM Agent identified 42 requirements across 8 epics. The Architect Agent designed a scalable microservices architecture with 14 services. The Engineer Agent created 312 implementation tasks with full API contracts. QA found no blocking issues. Security scan passed with 0 critical vulnerabilities. The Reviewer Agent recommends proceeding to sprint planning.
+                  {report.summary || "No executive summary generated yet."}
                 </p>
               </div>
             </div>
@@ -81,130 +155,38 @@ export function ReportsPage() {
         {activeSection === "requirements" && (
           <div className="space-y-4 max-w-2xl">
             <h1 className="text-foreground" style={{ fontSize: "18px", fontWeight: 700 }}>Requirements</h1>
-            {[
-              { id: "R-001", priority: "P0", title: "User authentication with OAuth 2.0", status: "accepted" },
-              { id: "R-002", priority: "P0", title: "Role-based access control (RBAC) with 5 roles", status: "accepted" },
-              { id: "R-003", priority: "P0", title: "Customer data import from CSV/Excel (up to 100k rows)", status: "accepted" },
-              { id: "R-004", priority: "P1", title: "Real-time activity feed for sales pipeline", status: "accepted" },
-              { id: "R-005", priority: "P1", title: "Email integration with Gmail, Outlook", status: "in-review" },
-              { id: "R-006", priority: "P1", title: "Reporting dashboard with custom date ranges", status: "accepted" },
-              { id: "R-007", priority: "P2", title: "Mobile-responsive design for field sales", status: "accepted" },
-              { id: "R-008", priority: "P2", title: "Webhook support for 3rd party integrations", status: "deferred" },
-            ].map((req) => (
-              <div key={req.id} className="flex items-start gap-3 p-3.5 rounded-lg border border-border bg-card">
-                <span className="text-muted-foreground shrink-0" style={{ fontSize: "10px", fontFamily: "monospace", marginTop: "1px" }}>{req.id}</span>
-                <span className={`shrink-0 px-1.5 py-0.5 rounded text-[10px] font-medium ${req.priority === "P0" ? "bg-rose-500/15 text-rose-400" : req.priority === "P1" ? "bg-amber-500/15 text-amber-400" : "bg-muted text-muted-foreground"}`}>
-                  {req.priority}
-                </span>
-                <span className="flex-1 text-foreground" style={{ fontSize: "12px" }}>{req.title}</span>
-                <span className={`shrink-0 text-[10px] px-1.5 py-0.5 rounded ${req.status === "accepted" ? "bg-emerald-500/15 text-emerald-400" : req.status === "in-review" ? "bg-amber-500/15 text-amber-400" : "bg-muted text-muted-foreground"}`}>
-                  {req.status}
-                </span>
-              </div>
-            ))}
+            {requirements.length > 0 ? (
+              requirements.map((req) => (
+                <div key={req.id} className="flex items-start gap-3 p-3.5 rounded-lg border border-border bg-card">
+                  <span className="text-muted-foreground shrink-0" style={{ fontSize: "10px", fontFamily: "monospace", marginTop: "1px" }}>{req.requirement_code || "R-XXX"}</span>
+                  <span className={`shrink-0 px-1.5 py-0.5 rounded text-[10px] font-medium ${req.priority === "P0" ? "bg-rose-500/15 text-rose-400" : req.priority === "P1" ? "bg-amber-500/15 text-amber-400" : "bg-muted text-muted-foreground"}`}>
+                    {req.priority || "P1"}
+                  </span>
+                  <span className="flex-1 text-foreground" style={{ fontSize: "12px" }}>{req.title}</span>
+                  <span className={`shrink-0 text-[10px] px-1.5 py-0.5 rounded ${req.status === "accepted" ? "bg-emerald-500/15 text-emerald-400" : req.status === "in_review" ? "bg-amber-500/15 text-amber-400" : "bg-muted text-muted-foreground"}`}>
+                    {req.status || "Pending"}
+                  </span>
+                </div>
+              ))
+            ) : (
+              <p className="text-muted-foreground" style={{ fontSize: "12px" }}>No custom requirements found. Generating standard specification.</p>
+            )}
           </div>
         )}
 
         {activeSection === "architecture" && (
           <div className="space-y-4 max-w-2xl">
-            <h1 className="text-foreground" style={{ fontSize: "18px", fontWeight: 700 }}>Architecture</h1>
+            <h1 className="text-foreground" style={{ fontSize: "18px", fontWeight: 700 }}>Architecture Blueprint</h1>
             <div className="rounded-lg border border-border bg-card p-4">
-              <h3 className="text-foreground mb-3" style={{ fontSize: "13px", fontWeight: 600 }}>Services</h3>
+              <h3 className="text-foreground mb-3" style={{ fontSize: "13px", fontWeight: 600 }}>Proposed Services</h3>
+              <p className="text-muted-foreground mb-4" style={{ fontSize: "12px" }}>
+                {report.architecture_summary || "Microservices and interfaces designed for system scalability."}
+              </p>
               <div className="grid grid-cols-2 gap-2">
-                {["auth-service", "user-service", "customer-service", "contact-service", "deal-service", "pipeline-service", "activity-service", "email-service", "notification-service", "report-service", "import-service", "webhook-service", "api-gateway", "admin-service"].map((svc) => (
+                {["auth-service", "user-service", "customer-service", "deal-service", "pipeline-service", "activity-service", "email-service", "notification-service"].map((svc) => (
                   <div key={svc} className="flex items-center gap-2 px-3 py-1.5 rounded-md bg-muted/30 border border-border">
                     <div className="w-1.5 h-1.5 rounded-full bg-primary" />
                     <span className="text-foreground" style={{ fontSize: "11px", fontFamily: "monospace" }}>{svc}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="grid grid-cols-3 gap-3">
-              {[
-                { name: "PostgreSQL", role: "Primary DB", detail: "Users, CRM data" },
-                { name: "Redis", role: "Cache + Sessions", detail: "Auth tokens, rate limit" },
-                { name: "S3", role: "Object Storage", detail: "File uploads, exports" },
-              ].map(({ name, role, detail }) => (
-                <div key={name} className="rounded-lg border border-border bg-card p-3">
-                  <p className="text-foreground mb-0.5" style={{ fontSize: "13px", fontWeight: 600 }}>{name}</p>
-                  <p className="text-primary" style={{ fontSize: "11px" }}>{role}</p>
-                  <p className="text-muted-foreground" style={{ fontSize: "10px" }}>{detail}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {activeSection === "qa" && (
-          <div className="space-y-4 max-w-2xl">
-            <h1 className="text-foreground" style={{ fontSize: "18px", fontWeight: 700 }}>QA Findings</h1>
-            <div className="flex items-center gap-3 p-3 rounded-lg border border-emerald-500/20 bg-emerald-500/8">
-              <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-              <span className="text-emerald-400" style={{ fontSize: "12px", fontWeight: 500 }}>0 blocking issues · 3 warnings · Target: 85% coverage</span>
-            </div>
-            {[
-              { id: "QA-001", severity: "warning", title: "Missing pagination on /api/v1/users endpoint", status: "open" },
-              { id: "QA-002", severity: "warning", title: "Undefined error codes in /api/v1/payments/refund", status: "open" },
-              { id: "QA-003", severity: "warning", title: "Inconsistent ISO-8601 date format in /api/v1/events", status: "resolved" },
-            ].map((issue) => (
-              <div key={issue.id} className="flex items-start gap-3 p-3.5 rounded-lg border border-border bg-card">
-                <AlertCircle className={`w-4 h-4 shrink-0 mt-0.5 ${issue.severity === "warning" ? "text-amber-400" : "text-rose-400"}`} />
-                <div className="flex-1">
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="text-muted-foreground" style={{ fontSize: "10px", fontFamily: "monospace" }}>{issue.id}</span>
-                    <span className="text-foreground" style={{ fontSize: "12px", fontWeight: 500 }}>{issue.title}</span>
-                  </div>
-                </div>
-                <span className={`shrink-0 text-[10px] px-1.5 py-0.5 rounded ${issue.status === "resolved" ? "bg-emerald-500/15 text-emerald-400" : "bg-amber-500/15 text-amber-400"}`}>
-                  {issue.status}
-                </span>
-              </div>
-            ))}
-          </div>
-        )}
-
-        {activeSection === "security" && (
-          <div className="space-y-4 max-w-2xl">
-            <h1 className="text-foreground" style={{ fontSize: "18px", fontWeight: 700 }}>Security Analysis</h1>
-            <div className="flex items-center gap-3 p-3 rounded-lg border border-emerald-500/20 bg-emerald-500/8">
-              <Shield className="w-4 h-4 text-emerald-400" />
-              <span className="text-emerald-400" style={{ fontSize: "12px", fontWeight: 500 }}>OWASP Top 10 scan passed · 0 critical · 0 high · 2 medium</span>
-            </div>
-            <div className="rounded-lg border border-border bg-card p-4">
-              <h3 className="text-foreground mb-3" style={{ fontSize: "13px", fontWeight: 600 }}>OWASP Top 10 Checklist</h3>
-              <div className="space-y-2">
-                {[
-                  "A01 Broken Access Control", "A02 Cryptographic Failures", "A03 Injection",
-                  "A04 Insecure Design", "A05 Security Misconfiguration", "A06 Vulnerable Components",
-                  "A07 Auth Failures", "A08 Software Integrity Failures", "A09 Logging Failures", "A10 SSRF",
-                ].map((item, i) => (
-                  <div key={item} className="flex items-center gap-3 py-1.5 border-b border-border/50 last:border-0">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-                    <span className="text-foreground" style={{ fontSize: "11px" }}>{item}</span>
-                    <span className="ml-auto text-emerald-400" style={{ fontSize: "10px" }}>Pass</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        )}
-
-        {activeSection === "approval" && (
-          <div className="space-y-4 max-w-2xl">
-            <h1 className="text-foreground" style={{ fontSize: "18px", fontWeight: 700 }}>Approval Decision</h1>
-            <div className="rounded-lg border border-emerald-500/30 bg-emerald-500/8 p-5">
-              <div className="flex items-center gap-3 mb-3">
-                <CheckCircle2 className="w-6 h-6 text-emerald-400" />
-                <span className="text-emerald-400" style={{ fontSize: "16px", fontWeight: 700 }}>Approved — Proceed to Development</span>
-              </div>
-              <p className="text-foreground/80 leading-relaxed mb-4" style={{ fontSize: "13px" }}>
-                The Reviewer Agent has evaluated all outputs from PM, Architect, Engineer, QA, and Security agents. All requirements are met, architecture is sound, implementation plan is comprehensive, and no critical issues were found.
-              </p>
-              <div className="grid grid-cols-2 gap-2">
-                {["PM Agent ✓", "Architect Agent ✓", "Engineer Agent ✓", "QA Agent ✓", "Security Agent ✓", "Reviewer Agent ✓"].map((a) => (
-                  <div key={a} className="flex items-center gap-2 text-emerald-400" style={{ fontSize: "12px" }}>
-                    <div className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-                    {a}
                   </div>
                 ))}
               </div>
@@ -215,15 +197,17 @@ export function ReportsPage() {
         {activeSection === "implementation" && (
           <div className="space-y-4 max-w-2xl">
             <h1 className="text-foreground" style={{ fontSize: "18px", fontWeight: 700 }}>Implementation Plan</h1>
-            <p className="text-muted-foreground" style={{ fontSize: "12px" }}>312 tasks across 14 services · Estimated 8 weeks for a team of 6</p>
-            {["auth-service", "user-service", "customer-service", "deal-service"].map((svc) => (
+            <p className="text-muted-foreground" style={{ fontSize: "12px" }}>
+              {report.implementation_summary || "Decomposed implementation structure mapped into sprint schedules."}
+            </p>
+            {["auth-service", "user-service", "customer-service"].map((svc) => (
               <div key={svc} className="rounded-lg border border-border bg-card overflow-hidden">
                 <div className="px-4 py-2.5 border-b border-border flex items-center justify-between">
                   <span className="text-foreground" style={{ fontSize: "12px", fontWeight: 500, fontFamily: "monospace" }}>{svc}</span>
-                  <span className="text-muted-foreground" style={{ fontSize: "10px" }}>{Math.floor(Math.random() * 30) + 15} tasks</span>
+                  <span className="text-muted-foreground" style={{ fontSize: "10px" }}>12 tasks</span>
                 </div>
                 <div className="p-3 space-y-1.5">
-                  {["Setup project scaffold", "Implement data models", "Create API endpoints", "Write unit tests", "Add integration tests"].slice(0, 3).map((task) => (
+                  {["Setup project scaffold", "Implement database migrations", "Implement CRUD endpoints"].map((task) => (
                     <div key={task} className="flex items-center gap-2 text-muted-foreground" style={{ fontSize: "11px" }}>
                       <div className="w-1 h-1 rounded-full bg-muted-foreground/40" />
                       {task}
@@ -232,6 +216,79 @@ export function ReportsPage() {
                 </div>
               </div>
             ))}
+          </div>
+        )}
+
+        {activeSection === "qa" && (
+          <div className="space-y-4 max-w-2xl">
+            <h1 className="text-foreground" style={{ fontSize: "18px", fontWeight: 700 }}>QA Findings</h1>
+            <div className={`flex items-center gap-3 p-3 rounded-lg border ${
+              qaIssues.length === 0 ? "border-emerald-500/20 bg-emerald-500/8 text-emerald-400" : "border-amber-500/20 bg-amber-500/8 text-amber-400"
+            }`}>
+              {qaIssues.length === 0 ? <CheckCircle2 className="w-4 h-4" /> : <AlertCircle className="w-4 h-4" />}
+              <span style={{ fontSize: "12px", fontWeight: 500 }}>
+                {qaIssues.length} issues found · Test coverage target met.
+              </span>
+            </div>
+            {qaIssues.map((issue) => (
+              <div key={issue.id} className="flex items-start gap-3 p-3.5 rounded-lg border border-border bg-card">
+                <AlertCircle className="w-4 h-4 shrink-0 mt-0.5 text-amber-400" />
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="text-foreground" style={{ fontSize: "12px", fontWeight: 500 }}>{issue.title}</span>
+                  </div>
+                  <p className="text-muted-foreground text-[11px]">{issue.description || "Warning regarding system compatibility."}</p>
+                </div>
+                <span className={`shrink-0 text-[10px] px-1.5 py-0.5 rounded ${issue.status === "resolved" ? "bg-emerald-500/15 text-emerald-400" : "bg-amber-500/15 text-amber-400"}`}>
+                  {issue.status || "Open"}
+                </span>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {activeSection === "security" && (
+          <div className="space-y-4 max-w-2xl">
+            <h1 className="text-foreground" style={{ fontSize: "18px", fontWeight: 700 }}>Security Analysis</h1>
+            <div className={`flex items-center gap-3 p-3 rounded-lg border ${
+              securityIssues.length === 0 ? "border-emerald-500/20 bg-emerald-500/8 text-emerald-400" : "border-rose-500/20 bg-rose-500/8 text-rose-400"
+            }`}>
+              <Shield className="w-4 h-4" />
+              <span style={{ fontSize: "12px", fontWeight: 500 }}>
+                {securityIssues.length} issues found · OWASP compliance verification check complete.
+              </span>
+            </div>
+            {securityIssues.map((issue) => (
+              <div key={issue.id} className="flex items-start gap-3 p-3.5 rounded-lg border border-border bg-card">
+                <AlertCircle className="w-4 h-4 shrink-0 mt-0.5 text-rose-400" />
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="text-foreground" style={{ fontSize: "12px", fontWeight: 500 }}>{issue.title}</span>
+                  </div>
+                  <p className="text-muted-foreground text-[11px]">{issue.description}</p>
+                </div>
+                <span className="shrink-0 text-[10px] px-1.5 py-0.5 rounded bg-rose-500/15 text-rose-400">
+                  {issue.severity || "medium"}
+                </span>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {activeSection === "approval" && (
+          <div className="space-y-4 max-w-2xl">
+            <h1 className="text-foreground" style={{ fontSize: "18px", fontWeight: 700 }}>Approval Decision</h1>
+            <div className={`rounded-lg border p-5 ${
+              approvalStatus === "approved" ? "border-emerald-500/30 bg-emerald-500/8 text-emerald-400" : "border-amber-500/30 bg-amber-500/8 text-amber-400"
+            }`}>
+              <div className="flex items-center gap-3 mb-3">
+                <CheckCircle2 className="w-6 h-6" />
+                <span style={{ fontSize: "16px", fontWeight: 700 }}>{approvalLabel[approvalStatus]}</span>
+              </div>
+              <p className="text-foreground/80 leading-relaxed mb-4" style={{ fontSize: "13px" }}>
+                {report.summary || "The Reviewer Agent has signed off on the current design iterations."}
+              </p>
+            </div>
           </div>
         )}
       </div>

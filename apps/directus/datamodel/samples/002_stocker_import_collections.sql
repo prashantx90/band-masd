@@ -44,9 +44,9 @@ SELECT
 FROM information_schema.tables t
 LEFT JOIN directus_collections dc 
     ON dc.collection = t.table_name
-WHERE t.table_schema IN ('market_data','signals','user_data','system')
+WHERE --t.table_schema IN ('market_data','signals','user_data','system')
   --t.table_schema IN ('allstocker','analytics')  -- 👈 update
-  AND t.table_type = 'BASE TABLE'
+   t.table_type = 'BASE TABLE'
   AND t.table_name NOT LIKE 'directus_%'
   AND dc.collection IS NULL;
 
@@ -104,7 +104,7 @@ FROM information_schema.columns c
 LEFT JOIN directus_fields df
     ON df.collection = c.table_name
    AND df.field = c.column_name
-WHERE c.table_schema IN ('market_data','signals','user_data','system')
+WHERE --c.table_schema IN ('market_data','signals','user_data','system')
  --c.table_schema IN ('allstocker','analytics')  -- 👈 update
- AND c.table_name NOT LIKE 'directus_%'
+   c.table_name NOT LIKE 'directus_%'
   AND df.field IS NULL;

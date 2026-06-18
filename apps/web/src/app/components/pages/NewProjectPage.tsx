@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { MessageSquare, Layout, Code2, TestTube, Shield, CheckSquare, ChevronRight, Sparkles } from "lucide-react";
+import { MessageSquare, Layout, Code2, TestTube, Shield, CheckSquare, ChevronRight, Sparkles, Loader2, Play } from "lucide-react";
+import { useProjects } from "../../../hooks/useProjects";
 
 const WORKFLOW_STEPS = [
   { icon: MessageSquare, name: "PM Agent", color: "text-blue-400", bg: "bg-blue-500/12" },
@@ -10,7 +11,13 @@ const WORKFLOW_STEPS = [
   { icon: CheckSquare, name: "Reviewer Agent", color: "text-emerald-400", bg: "bg-emerald-500/12" },
 ];
 
-export function NewProjectPage() {
+interface NewProjectPageProps {
+  onNavigate: (page: any) => void;
+  onProjectCreated: (projectId: string) => void;
+}
+
+export function NewProjectPage({ onNavigate, onProjectCreated }: NewProjectPageProps) {
+  const { addProject } = useProjects();
   const [form, setForm] = useState({
     name: "",
     description: "",
@@ -19,14 +26,57 @@ export function NewProjectPage() {
     techPrefs: "",
   });
   const [generating, setGenerating] = useState(false);
-  const [generated, setGenerated] = useState(false);
+  const [generatedProject, setGeneratedProject] = useState<any>(null);
 
-  const handleGenerate = () => {
+  const handleGenerate = async () => {
+    if (!form.name) return;
     setGenerating(true);
-    setTimeout(() => {
+    try {
+      const proj = await addProject({
+        name: form.name,
+        description: form.description,
+        business_requirements: form.requirements,
+        target_users: form.users,
+        technology_preferences: form.techPrefs,
+        status: "draft",
+        approval_status: "pending",
+      });
+      setGeneratedProject(proj);
+    } catch (err) {
+      console.error("Failed to generate project:", err);
+    } finally {
       setGenerating(false);
-      setGenerated(true);
-    }, 2000);
+    }
+  };
+
+  const handleStartWorkflow = async () => {
+    let proj = generatedProject;
+    setGenerating(true);
+    try {
+      if (!proj) {
+        proj = await addProject({
+          name: form.name,
+          description: form.description,
+          business_requirements: form.requirements,
+          target_users: form.users,
+          technology_preferences: form.techPrefs,
+          status: "running",
+          approval_status: "pending",
+        });
+      } else {
+        // Update status to running
+        const { updateProject } = await import("../../../services/project.service");
+        // Wait, did we export updateProject? We can write to it or write directus.request(updateItem)
+        const directus = (await import("../../../lib/directus")).default;
+        const { updateItem } = await import("@directus/sdk");
+        await directus.request(updateItem("projects", proj.id, { status: "running" }));
+      }
+      onProjectCreated(proj.id);
+    } catch (err) {
+      console.error("Failed to start workflow:", err);
+    } finally {
+      setGenerating(false);
+    }
   };
 
   return (
@@ -119,17 +169,28 @@ export function NewProjectPage() {
         <div className="flex items-center gap-3 mb-8">
           <button
             onClick={handleGenerate}
-            disabled={generating || !form.name}
-            className="flex items-center gap-2 px-5 py-2.5 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            disabled={generating || !form.name || !!generatedProject}
+            className="flex items-center gap-2 px-5 py-2.5 rounded-md bg-card border border-border hover:border-border/80 text-foreground disabled:opacity-50 disabled:cursor-not-allowed transition-colors cursor-pointer"
             style={{ fontSize: "13px", fontWeight: 500 }}
           >
-            <Sparkles className={`w-4 h-4 ${generating ? "animate-spin" : ""}`} />
-            {generating ? "Generating Plan..." : "Generate Plan"}
+            {generating && !generatedProject ? (
+              <Loader2 className="w-4 h-4 animate-spin text-primary" />
+            ) : (
+              <Sparkles className="w-4 h-4 text-amber-400" />
+            )}
+            {generating && !generatedProject ? "Generating Plan..." : generatedProject ? "Plan Generated" : "Generate Plan"}
           </button>
           <button
-            className="flex items-center gap-2 px-5 py-2.5 rounded-md border border-primary text-primary hover:bg-primary/8 transition-colors"
+            onClick={handleStartWorkflow}
+            disabled={generating || !form.name}
+            className="flex items-center gap-2 px-5 py-2.5 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors cursor-pointer"
             style={{ fontSize: "13px", fontWeight: 500 }}
           >
+            {generating && generatedProject ? (
+              <Loader2 className="w-4 h-4 animate-spin" />
+            ) : (
+              <Play className="w-4 h-4" />
+            )}
             Start Workflow
           </button>
         </div>
@@ -156,7 +217,7 @@ export function NewProjectPage() {
             ))}
           </div>
 
-          {generated && (
+          {generatedProject && (
             <div className="mt-4 p-3 rounded-md bg-emerald-500/10 border border-emerald-500/20">
               <p className="text-emerald-400" style={{ fontSize: "12px", fontWeight: 500 }}>
                 ✓ Plan generated — 6 agents configured, estimated 12 min to complete full analysis

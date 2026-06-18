@@ -1,20 +1,18 @@
 import { useState } from "react";
-import { Plus, Search, FolderOpen } from "lucide-react";
+import { Plus, Search, FolderOpen, Loader2 } from "lucide-react";
+import { useProjects } from "../../../hooks/useProjects";
 
-const PROJECTS = [
-  { name: "CRM Platform v2", desc: "Customer relationship management system with pipeline, contacts, and reporting", status: "running", agents: 3, tasks: 312, created: "Jun 14, 2026", approval: "pending" },
-  { name: "E-commerce MVP", desc: "Full-stack e-commerce with payments, inventory, and admin dashboard", status: "completed", agents: 6, tasks: 524, created: "Jun 10, 2026", approval: "approved" },
-  { name: "Auth Microservice", desc: "Centralized authentication service with OAuth 2.0, RBAC, and audit logs", status: "completed", agents: 4, tasks: 118, created: "Jun 6, 2026", approval: "approved" },
-  { name: "Analytics Dashboard", desc: "Real-time analytics for product metrics, funnels, and retention", status: "running", agents: 2, tasks: 87, created: "Jun 13, 2026", approval: "in-review" },
-  { name: "Notification Service", desc: "Multi-channel notification system for email, push, SMS, and webhooks", status: "pending", agents: 1, tasks: 0, created: "Jun 16, 2026", approval: "pending" },
-  { name: "Mobile API Gateway", desc: "API gateway for mobile clients with rate limiting, caching, and versioning", status: "blocked", agents: 3, tasks: 204, created: "Jun 9, 2026", approval: "changes-requested" },
-];
+interface ProjectsPageProps {
+  onNavigate: (page: any) => void;
+  onSelectProject: (projectId: string) => void;
+}
 
 const statusBg: Record<string, string> = {
   running: "bg-primary/15 text-primary",
   completed: "bg-emerald-500/15 text-emerald-400",
   pending: "bg-muted text-muted-foreground",
   blocked: "bg-rose-500/15 text-rose-400",
+  draft: "bg-gray-500/15 text-gray-400",
 };
 
 const approvalBg: Record<string, string> = {
@@ -22,6 +20,7 @@ const approvalBg: Record<string, string> = {
   pending: "bg-muted text-muted-foreground",
   "in-review": "bg-amber-500/15 text-amber-400",
   "changes-requested": "bg-rose-500/15 text-rose-400",
+  rejected: "bg-rose-600/15 text-rose-500",
 };
 
 const approvalLabel: Record<string, string> = {
@@ -29,22 +28,44 @@ const approvalLabel: Record<string, string> = {
   pending: "Pending",
   "in-review": "In Review",
   "changes-requested": "Changes Requested",
+  rejected: "Rejected",
 };
 
-export function ProjectsPage() {
+const getAgentsForStatus = (status: string) => {
+  switch (status) {
+    case 'completed': return ["PM", "Arch", "Eng", "QA", "Sec", "Rev"];
+    case 'running': return ["PM", "Arch", "Eng"];
+    case 'pending': return ["PM"];
+    case 'blocked': return ["PM", "Arch"];
+    default: return ["PM"];
+  }
+};
+
+export function ProjectsPage({ onNavigate, onSelectProject }: ProjectsPageProps) {
+  const { projects, loading } = useProjects();
   const [search, setSearch] = useState("");
 
-  const filtered = PROJECTS.filter((p) =>
+  const filtered = projects.filter((p) =>
     p.name.toLowerCase().includes(search.toLowerCase()) ||
-    p.desc.toLowerCase().includes(search.toLowerCase())
+    (p.description || "").toLowerCase().includes(search.toLowerCase())
   );
+
+  if (loading) {
+    return (
+      <div className="flex-1 flex items-center justify-center">
+        <Loader2 className="w-6 h-6 text-primary animate-spin" />
+      </div>
+    );
+  }
 
   return (
     <div className="flex-1 overflow-y-auto px-6 py-5" style={{ scrollbarWidth: "none" }}>
       <div className="flex items-center justify-between mb-5">
         <div>
           <h1 className="text-foreground mb-1" style={{ fontSize: "16px", fontWeight: 700, letterSpacing: "-0.01em" }}>Projects</h1>
-          <p className="text-muted-foreground" style={{ fontSize: "12px" }}>{PROJECTS.length} projects · {PROJECTS.filter(p => p.status === "running").length} active</p>
+          <p className="text-muted-foreground" style={{ fontSize: "12px" }}>
+            {projects.length} projects · {projects.filter(p => p.status === "running").length} active
+          </p>
         </div>
         <div className="flex items-center gap-2">
           <div className="flex items-center gap-2 px-3 py-1.5 rounded-md bg-muted border border-border">
@@ -58,7 +79,11 @@ export function ProjectsPage() {
               style={{ fontSize: "12px", width: "160px" }}
             />
           </div>
-          <button className="flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors" style={{ fontSize: "12px", fontWeight: 500 }}>
+          <button 
+            onClick={() => onNavigate("new-project")}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors" 
+            style={{ fontSize: "12px", fontWeight: 500 }}
+          >
             <Plus className="w-3.5 h-3.5" />
             New Project
           </button>
@@ -66,35 +91,42 @@ export function ProjectsPage() {
       </div>
 
       <div className="grid grid-cols-3 gap-3">
-        {filtered.map((project) => (
-          <div key={project.name} className="rounded-lg border border-border bg-card p-4 hover:border-border/60 cursor-pointer transition-all hover:shadow-lg group">
-            <div className="flex items-start justify-between mb-3">
-              <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
-                <FolderOpen className="w-4 h-4 text-primary" />
+        {filtered.map((project) => {
+          const agents = getAgentsForStatus(project.status);
+          return (
+            <div 
+              key={project.id} 
+              onClick={() => onSelectProject(project.id)}
+              className="rounded-lg border border-border bg-card p-4 hover:border-border/60 cursor-pointer transition-all hover:shadow-lg group"
+            >
+              <div className="flex items-start justify-between mb-3">
+                <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
+                  <FolderOpen className="w-4 h-4 text-primary" />
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <span className={`px-1.5 py-0.5 rounded text-[10px] font-medium ${statusBg[project.status] || statusBg.draft}`}>
+                    {project.status.charAt(0).toUpperCase() + project.status.slice(1)}
+                  </span>
+                </div>
               </div>
-              <div className="flex items-center gap-1.5">
-                <span className={`px-1.5 py-0.5 rounded text-[10px] font-medium ${statusBg[project.status]}`}>
-                  {project.status.charAt(0).toUpperCase() + project.status.slice(1)}
+              <h3 className="text-foreground mb-1.5 group-hover:text-primary transition-colors" style={{ fontSize: "13px", fontWeight: 600 }}>
+                {project.name}
+              </h3>
+              <p className="text-muted-foreground leading-snug mb-4 h-12 overflow-hidden text-ellipsis" style={{ fontSize: "11px" }}>
+                {project.description || "No description provided."}
+              </p>
+              <div className="flex items-center justify-between pt-3 border-t border-border">
+                <div className="flex items-center gap-3">
+                  <span className="text-muted-foreground" style={{ fontSize: "10px" }}>{agents.length} agents</span>
+                  <span className="text-muted-foreground" style={{ fontSize: "10px" }}>{project.status === 'completed' ? 312 : project.status === 'running' ? 142 : 0} tasks</span>
+                </div>
+                <span className={`px-1.5 py-0.5 rounded text-[10px] font-medium ${approvalBg[project.approval_status] || approvalBg.pending}`}>
+                  {approvalLabel[project.approval_status] || "Pending"}
                 </span>
               </div>
             </div>
-            <h3 className="text-foreground mb-1.5 group-hover:text-primary transition-colors" style={{ fontSize: "13px", fontWeight: 600 }}>
-              {project.name}
-            </h3>
-            <p className="text-muted-foreground leading-snug mb-4" style={{ fontSize: "11px" }}>
-              {project.desc}
-            </p>
-            <div className="flex items-center justify-between pt-3 border-t border-border">
-              <div className="flex items-center gap-3">
-                <span className="text-muted-foreground" style={{ fontSize: "10px" }}>{project.agents} agents</span>
-                <span className="text-muted-foreground" style={{ fontSize: "10px" }}>{project.tasks} tasks</span>
-              </div>
-              <span className={`px-1.5 py-0.5 rounded text-[10px] font-medium ${approvalBg[project.approval]}`}>
-                {approvalLabel[project.approval]}
-              </span>
-            </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );

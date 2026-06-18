@@ -98,10 +98,11 @@ const statusConfig = {
 };
 
 interface WorkflowDiagramProps {
+  agents?: AgentNode[];
   onAgentClick?: (agent: AgentNode) => void;
 }
 
-export function WorkflowDiagram({ onAgentClick }: WorkflowDiagramProps) {
+export function WorkflowDiagram({ agents, onAgentClick }: WorkflowDiagramProps) {
   const [animated, setAnimated] = useState(false);
 
   useEffect(() => {
@@ -109,9 +110,11 @@ export function WorkflowDiagram({ onAgentClick }: WorkflowDiagramProps) {
     return () => clearTimeout(t);
   }, []);
 
+  const nodes = agents || AGENTS;
+
   return (
     <div className="flex items-start gap-0 overflow-x-auto pb-2" style={{ scrollbarWidth: "none" }}>
-      {AGENTS.map((agent, idx) => {
+      {nodes.map((agent, idx) => {
         const Icon = agent.icon;
         const status = statusConfig[agent.status];
         const isRunning = agent.status === "running";

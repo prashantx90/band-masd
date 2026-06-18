@@ -24,12 +24,30 @@ const PAGE_META: Record<Page, { title: string; subtitle?: string; showActions?: 
   "new-project": { title: "New Project", subtitle: "Start a new AI software development workflow" },
 };
 
+import { useDirectusAuth } from "../context/DirectusAuthContext";
+import { LoginPage } from "./components/pages/LoginPage";
+import { Loader2 } from "lucide-react";
+
 export default function App() {
+  const { user, loading } = useDirectusAuth();
   const [page, setPage] = useState<Page>("dashboard");
+  const [selectedProjectId, setSelectedProjectId] = useState<string | null>(null);
 
   const meta = PAGE_META[page];
 
   const navigate = (p: Page) => setPage(p);
+
+  if (loading) {
+    return (
+      <div className="w-screen h-screen flex items-center justify-center bg-[#07070b]">
+        <Loader2 className="w-8 h-8 text-primary animate-spin" />
+      </div>
+    );
+  }
+
+  if (!user) {
+    return <LoginPage />;
+  }
 
   return (
     <div className="dark flex h-screen w-screen overflow-hidden bg-background text-foreground" style={{ fontFamily: "'Inter', system-ui, sans-serif" }}>
@@ -50,14 +68,55 @@ export default function App() {
         <div className="flex-1 flex overflow-hidden">
           {/* Page content */}
           <div className="flex-1 flex overflow-hidden">
-            {page === "dashboard" && <DashboardPage />}
-            {page === "projects" && <ProjectsPage />}
-            {page === "workflows" && <AgentWorkflowPage />}
-            {page === "console" && <AgentConsolePage />}
-            {page === "band-activity" && <BandActivityPage />}
-            {page === "reports" && <ReportsPage />}
+            {page === "dashboard" && (
+              <DashboardPage
+                onNavigate={navigate}
+                onSelectProject={(projId) => {
+                  setSelectedProjectId(projId);
+                  navigate("workflows");
+                }}
+              />
+            )}
+            {page === "projects" && (
+              <ProjectsPage
+                onNavigate={navigate}
+                onSelectProject={(projId) => {
+                  setSelectedProjectId(projId);
+                  navigate("workflows");
+                }}
+              />
+            )}
+            {page === "workflows" && (
+              <AgentWorkflowPage
+                projectId={selectedProjectId}
+                onNavigate={navigate}
+              />
+            )}
+            {page === "console" && (
+              <AgentConsolePage
+                projectId={selectedProjectId}
+              />
+            )}
+            {page === "band-activity" && (
+              <BandActivityPage
+                projectId={selectedProjectId}
+              />
+            )}
+            {page === "reports" && (
+              <ReportsPage
+                projectId={selectedProjectId}
+              />
+            )}
             {page === "settings" && <SettingsPage />}
-            {page === "new-project" && <NewProjectPage />}
+            {page === "new-project" && (
+              <NewProjectPage
+                onNavigate={navigate}
+                onProjectCreated={(projId) => {
+                  setSelectedProjectId(projId);
+                  navigate("workflows");
+                }}
+              />
+            )}
           </div>
 
           {/* Right activity panel — hidden on console/reports to maximize space */}
