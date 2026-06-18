@@ -1,16 +1,16 @@
 # Graph Report - band-masd  (2026-06-18)
 
 ## Corpus Check
-- 186 files · ~132,380 words
+- 188 files · ~133,326 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1554 nodes · 2010 edges · 154 communities (143 shown, 11 thin omitted)
+- 1596 nodes · 2050 edges · 155 communities (143 shown, 12 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 45 edges (avg confidence: 0.79)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e3d5497f`
+- Built from commit: `43e101da`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -121,7 +121,6 @@
 - [[_COMMUNITY_Community 136|Community 136]]
 - [[_COMMUNITY_Community 137|Community 137]]
 - [[_COMMUNITY_Community 138|Community 138]]
-- [[_COMMUNITY_Community 139|Community 139]]
 - [[_COMMUNITY_Community 140|Community 140]]
 - [[_COMMUNITY_Community 141|Community 141]]
 - [[_COMMUNITY_Community 142|Community 142]]
@@ -133,6 +132,8 @@
 - [[_COMMUNITY_Community 148|Community 148]]
 - [[_COMMUNITY_Community 149|Community 149]]
 - [[_COMMUNITY_Community 150|Community 150]]
+- [[_COMMUNITY_Community 154|Community 154]]
+- [[_COMMUNITY_Community 155|Community 155]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `cn()` - 224 edges
@@ -158,7 +159,7 @@
 - `software_delivery_flow()` --calls--> `DirectusClient`  [INFERRED]
   workflows/flows/software_delivery_flow.py → packages/directus_client/client.py
 
-## Communities (154 total, 11 thin omitted)
+## Communities (155 total, 12 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
@@ -177,8 +178,8 @@ Cohesion: 0.05
 Nodes (42): Input(), Separator(), Sheet(), SheetContent(), SheetDescription(), SheetFooter(), SheetHeader(), SheetOverlay() (+34 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.07
-Nodes (39): AccordionContent(), AccordionItem(), AccordionTrigger(), Avatar(), AvatarFallback(), AvatarImage(), BreadcrumbEllipsis(), BreadcrumbItem() (+31 more)
+Cohesion: 0.06
+Nodes (45): AccordionContent(), AccordionItem(), AccordionTrigger(), Avatar(), AvatarFallback(), AvatarImage(), BreadcrumbEllipsis(), BreadcrumbItem() (+37 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.05
@@ -237,8 +238,8 @@ Cohesion: 0.06
 Nodes (30): run(), ArchitectureOutput, ServiceInfo, BaseModel, run(), ImplementationOutput, MilestoneInfo, StoryInfo (+22 more)
 
 ### Community 36 - "Community 36"
-Cohesion: 0.17
-Nodes (12): Active Workflow Widget, code:text (CRM Platform v2), code:text (workflows), code:ts (getWorkflow(workflowId);), code:text (/), code:text (Active Projects), code:text (projects), code:ts (getDashboardStats();) (+4 more)
+Cohesion: 0.12
+Nodes (17): Active Workflow Widget, code:text (CRM Platform v2), code:text (workflows), code:ts (getWorkflow(workflowId);), code:text (projects), code:ts (getProjects();), code:ts (readItems("projects");), code:text (name) (+9 more)
 
 ### Community 37 - "Community 37"
 Cohesion: 0.12
@@ -257,8 +258,8 @@ Cohesion: 0.13
 Nodes (15): code:text (/projects/new), code:text (Project Name), code:text (projects.name), code:text (Project Description), code:text (projects.description), code:text (Business Requirements), code:text (projects.business_requirements), code:text (Target Users) (+7 more)
 
 ### Community 41 - "Community 41"
-Cohesion: 0.07
-Nodes (12): Badge(), badgeVariants, Checkbox(), HoverCardContent(), Label(), PopoverContent(), Progress(), ResizableHandle() (+4 more)
+Cohesion: 0.08
+Nodes (15): Badge(), badgeVariants, Checkbox(), HoverCardContent(), Progress(), ResizableHandle(), ResizablePanelGroup(), Slider() (+7 more)
 
 ### Community 42 - "Community 42"
 Cohesion: 0.14
@@ -277,8 +278,8 @@ Cohesion: 0.22
 Nodes (8): ChartConfig, ChartContainer(), ChartContext, ChartContextProps, ChartLegendContent(), ChartTooltipContent(), THEMES, useChart()
 
 ### Community 46 - "Community 46"
-Cohesion: 0.18
-Nodes (6): DrawerContent(), DrawerDescription(), DrawerFooter(), DrawerHeader(), DrawerOverlay(), DrawerTitle()
+Cohesion: 0.08
+Nodes (24): 1. Prefect Router AttributeError (`AttributeError: 'PrefectRouter' object has no attribute 'routes'`), 1. Set Up Environment, 2. Configure Environment Variables, 2. Prefect Database Concurrency Locks (`database is locked`), 3. Directus / Database Connection Failures, 3. Start the Local Prefect Server (with SQLite in-memory setting), 4. PydanticAI Agent Model Init / Keyword Arguments Failures, 4. Run the Platform Bootstrapper (+16 more)
 
 ### Community 47 - "Community 47"
 Cohesion: 0.18
@@ -349,8 +350,8 @@ Cohesion: 0.12
 Nodes (17): Agent Intelligence, Backend, code:text (Next.js 15), code:text (FastAPI), code:text (Prefect), code:text (LangGraph), code:text (PydanticAI), code:text (Band) (+9 more)
 
 ### Community 77 - "Community 77"
-Cohesion: 0.12
-Nodes (9): DropdownMenuCheckboxItem(), DropdownMenuContent(), DropdownMenuItem(), DropdownMenuLabel(), DropdownMenuRadioItem(), DropdownMenuSeparator(), DropdownMenuShortcut(), DropdownMenuSubContent() (+1 more)
+Cohesion: 0.18
+Nodes (6): DrawerContent(), DrawerDescription(), DrawerFooter(), DrawerHeader(), DrawerOverlay(), DrawerTitle()
 
 ### Community 78 - "Community 78"
 Cohesion: 0.13
@@ -361,8 +362,8 @@ Cohesion: 0.19
 Nodes (13): Carousel(), CarouselApi, CarouselContent(), CarouselContext, CarouselContextProps, CarouselItem(), CarouselNext(), CarouselOptions (+5 more)
 
 ### Community 80 - "Community 80"
-Cohesion: 0.23
-Nodes (10): FormControl(), FormDescription(), FormFieldContext, FormFieldContextValue, FormItem(), FormItemContext, FormItemContextValue, FormLabel() (+2 more)
+Cohesion: 0.2
+Nodes (11): FormControl(), FormDescription(), FormFieldContext, FormFieldContextValue, FormItem(), FormItemContext, FormItemContextValue, FormLabel() (+3 more)
 
 ### Community 81 - "Community 81"
 Cohesion: 0.14
@@ -505,8 +506,8 @@ Cohesion: 0.29
 Nodes (3): band(), directus(), ServiceRegistry
 
 ### Community 129 - "Community 129"
-Cohesion: 0.43
-Nodes (5): ToggleGroup(), ToggleGroupContext, ToggleGroupItem(), Toggle(), toggleVariants
+Cohesion: 0.12
+Nodes (16): AI Recommendations, AI Session Summary, code:mermaid (flowchart TD), Context, Decisions Made, Files Changed, Metadata, Next Steps (+8 more)
 
 ### Community 130 - "Community 130"
 Cohesion: 0.4
@@ -539,10 +540,6 @@ Nodes (5): code:text (workflows/graphs/), code:text (software_delivery_graph.py)
 ### Community 138 - "Community 138"
 Cohesion: 0.4
 Nodes (4): code:text (workflows/state/), code:text (workflow_state.py), code:python (project), Step 12
-
-### Community 139 - "Community 139"
-Cohesion: 0.4
-Nodes (5): code:text (projects), code:ts (getProjects();), code:ts (readItems("projects");), code:text (name), Recent Projects Table
 
 ### Community 140 - "Community 140"
 Cohesion: 0.5
@@ -588,25 +585,29 @@ Nodes (3): code:text (bootstrap/config.py), code:python (from pydantic_settings 
 Cohesion: 0.67
 Nodes (3): code:text (Build a SaaS Expense Tracker), code:text (Project Created), Demo Scenario
 
+### Community 154 - "Community 154"
+Cohesion: 0.4
+Nodes (3): InputOTP(), InputOTPGroup(), InputOTPSlot()
+
 ## Knowledge Gaps
-- **651 isolated node(s):** `PreToolUse`, `Config`, `name`, `version`, `main` (+646 more)
+- **674 isolated node(s):** `PreToolUse`, `Config`, `name`, `version`, `main` (+669 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `cn()` connect `Community 4` to `Community 129`, `Community 2`, `Community 3`, `Community 37`, `Community 41`, `Community 74`, `Community 45`, `Community 46`, `Community 79`, `Community 77`, `Community 80`, `Community 49`, `Community 47`, `Community 22`, `Community 56`, `Community 29`?**
-  _High betweenness centrality (0.064) - this node is a cross-community bridge._
+- **Why does `cn()` connect `Community 4` to `Community 2`, `Community 3`, `Community 37`, `Community 41`, `Community 74`, `Community 45`, `Community 77`, `Community 79`, `Community 80`, `Community 49`, `Community 47`, `Community 22`, `Community 56`, `Community 154`, `Community 155`, `Community 29`?**
+  _High betweenness centrality (0.060) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `Community 2` to `Community 26`?**
-  _High betweenness centrality (0.030) - this node is a cross-community bridge._
-- **Why does `clsx` connect `Community 2` to `Community 4`?**
   _High betweenness centrality (0.027) - this node is a cross-community bridge._
+- **Why does `clsx` connect `Community 2` to `Community 4`?**
+  _High betweenness centrality (0.024) - this node is a cross-community bridge._
 - **Are the 9 inferred relationships involving `DirectusClient` (e.g. with `directus()` and `main()`) actually correct?**
   _`DirectusClient` has 9 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 8 inferred relationships involving `DirectusBandClient` (e.g. with `band()` and `software_delivery_flow()`) actually correct?**
   _`DirectusBandClient` has 8 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `PreToolUse`, `Config`, `name` to the rest of the system?**
-  _651 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _674 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06 - nodes in this community are weakly interconnected._

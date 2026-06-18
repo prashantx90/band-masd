@@ -61,7 +61,7 @@
       "label": "run()",
       "file_type": "code",
       "source_file": "agents/architect_agent/agent.py",
-      "source_location": "L36",
+      "source_location": "L37",
       "id": "architect_agent_agent_run",
       "community": 35,
       "norm_label": "run()"
@@ -124,7 +124,7 @@
       "label": "run()",
       "file_type": "code",
       "source_file": "agents/engineer_agent/agent.py",
-      "source_location": "L36",
+      "source_location": "L37",
       "id": "engineer_agent_agent_run",
       "community": 35,
       "norm_label": "run()"
@@ -241,7 +241,7 @@
       "label": "run()",
       "file_type": "code",
       "source_file": "agents/qa_agent/agent.py",
-      "source_location": "L36",
+      "source_location": "L37",
       "id": "qa_agent_agent_run",
       "community": 35,
       "norm_label": "run()"
@@ -295,7 +295,7 @@
       "label": "run()",
       "file_type": "code",
       "source_file": "agents/reviewer_agent/agent.py",
-      "source_location": "L37",
+      "source_location": "L38",
       "id": "reviewer_agent_agent_run",
       "community": 35,
       "norm_label": "run()"
@@ -340,7 +340,7 @@
       "label": "run()",
       "file_type": "code",
       "source_file": "agents/security_agent/agent.py",
-      "source_location": "L36",
+      "source_location": "L37",
       "id": "security_agent_agent_run",
       "community": 35,
       "norm_label": "run()"
@@ -3501,7 +3501,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_drawer_tsx",
-      "community": 46,
+      "community": 77,
       "norm_label": "drawer.tsx"
     },
     {
@@ -3510,7 +3510,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L8",
       "id": "ui_drawer_drawer",
-      "community": 46,
+      "community": 77,
       "norm_label": "drawer()"
     },
     {
@@ -3519,7 +3519,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L14",
       "id": "ui_drawer_drawertrigger",
-      "community": 46,
+      "community": 77,
       "norm_label": "drawertrigger()"
     },
     {
@@ -3528,7 +3528,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L20",
       "id": "ui_drawer_drawerportal",
-      "community": 46,
+      "community": 77,
       "norm_label": "drawerportal()"
     },
     {
@@ -3537,7 +3537,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L26",
       "id": "ui_drawer_drawerclose",
-      "community": 46,
+      "community": 77,
       "norm_label": "drawerclose()"
     },
     {
@@ -3546,7 +3546,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L32",
       "id": "ui_drawer_draweroverlay",
-      "community": 46,
+      "community": 77,
       "norm_label": "draweroverlay()"
     },
     {
@@ -3555,7 +3555,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L48",
       "id": "ui_drawer_drawercontent",
-      "community": 46,
+      "community": 77,
       "norm_label": "drawercontent()"
     },
     {
@@ -3564,7 +3564,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L75",
       "id": "ui_drawer_drawerheader",
-      "community": 46,
+      "community": 77,
       "norm_label": "drawerheader()"
     },
     {
@@ -3573,7 +3573,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L85",
       "id": "ui_drawer_drawerfooter",
-      "community": 46,
+      "community": 77,
       "norm_label": "drawerfooter()"
     },
     {
@@ -3582,7 +3582,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L95",
       "id": "ui_drawer_drawertitle",
-      "community": 46,
+      "community": 77,
       "norm_label": "drawertitle()"
     },
     {
@@ -3591,7 +3591,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L108",
       "id": "ui_drawer_drawerdescription",
-      "community": 46,
+      "community": 77,
       "norm_label": "drawerdescription()"
     },
     {
@@ -3600,7 +3600,7 @@
       "source_file": "apps/web/src/app/components/ui/dropdown-menu.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_dropdown_menu_tsx",
-      "community": 77,
+      "community": 4,
       "norm_label": "dropdown-menu.tsx"
     },
     {
@@ -3609,7 +3609,7 @@
       "source_file": "apps/web/src/app/components/ui/dropdown-menu.tsx",
       "source_location": "L9",
       "id": "ui_dropdown_menu_dropdownmenu",
-      "community": 77,
+      "community": 4,
       "norm_label": "dropdownmenu()"
     },
     {
@@ -3618,7 +3618,7 @@
       "source_file": "apps/web/src/app/components/ui/dropdown-menu.tsx",
       "source_location": "L15",
       "id": "ui_dropdown_menu_dropdownmenuportal",
-      "community": 77,
+      "community": 4,
       "norm_label": "dropdownmenuportal()"
     },
     {
@@ -3627,7 +3627,7 @@
       "source_file": "apps/web/src/app/components/ui/dropdown-menu.tsx",
       "source_location": "L23",
       "id": "ui_dropdown_menu_dropdownmenutrigger",
-      "community": 77,
+      "community": 4,
       "norm_label": "dropdownmenutrigger()"
     },
     {
@@ -3636,7 +3636,7 @@
       "source_file": "apps/web/src/app/components/ui/dropdown-menu.tsx",
       "source_location": "L34",
       "id": "ui_dropdown_menu_dropdownmenucontent",
-      "community": 77,
+      "community": 4,
       "norm_label": "dropdownmenucontent()"
     },
     {
@@ -3645,7 +3645,7 @@
       "source_file": "apps/web/src/app/components/ui/dropdown-menu.tsx",
       "source_location": "L54",
       "id": "ui_dropdown_menu_dropdownmenugroup",
-      "community": 77,
+      "community": 4,
       "norm_label": "dropdownmenugroup()"
     },
     {
@@ -3654,7 +3654,7 @@
       "source_file": "apps/web/src/app/components/ui/dropdown-menu.tsx",
       "source_location": "L62",
       "id": "ui_dropdown_menu_dropdownmenuitem",
-      "community": 77,
+      "community": 4,
       "norm_label": "dropdownmenuitem()"
     },
     {
@@ -3663,7 +3663,7 @@
       "source_file": "apps/web/src/app/components/ui/dropdown-menu.tsx",
       "source_location": "L85",
       "id": "ui_dropdown_menu_dropdownmenucheckboxitem",
-      "community": 77,
+      "community": 4,
       "norm_label": "dropdownmenucheckboxitem()"
     },
     {
@@ -3672,7 +3672,7 @@
       "source_file": "apps/web/src/app/components/ui/dropdown-menu.tsx",
       "source_location": "L111",
       "id": "ui_dropdown_menu_dropdownmenuradiogroup",
-      "community": 77,
+      "community": 4,
       "norm_label": "dropdownmenuradiogroup()"
     },
     {
@@ -3681,7 +3681,7 @@
       "source_file": "apps/web/src/app/components/ui/dropdown-menu.tsx",
       "source_location": "L122",
       "id": "ui_dropdown_menu_dropdownmenuradioitem",
-      "community": 77,
+      "community": 4,
       "norm_label": "dropdownmenuradioitem()"
     },
     {
@@ -3690,7 +3690,7 @@
       "source_file": "apps/web/src/app/components/ui/dropdown-menu.tsx",
       "source_location": "L146",
       "id": "ui_dropdown_menu_dropdownmenulabel",
-      "community": 77,
+      "community": 4,
       "norm_label": "dropdownmenulabel()"
     },
     {
@@ -3699,7 +3699,7 @@
       "source_file": "apps/web/src/app/components/ui/dropdown-menu.tsx",
       "source_location": "L166",
       "id": "ui_dropdown_menu_dropdownmenuseparator",
-      "community": 77,
+      "community": 4,
       "norm_label": "dropdownmenuseparator()"
     },
     {
@@ -3708,7 +3708,7 @@
       "source_file": "apps/web/src/app/components/ui/dropdown-menu.tsx",
       "source_location": "L179",
       "id": "ui_dropdown_menu_dropdownmenushortcut",
-      "community": 77,
+      "community": 4,
       "norm_label": "dropdownmenushortcut()"
     },
     {
@@ -3717,7 +3717,7 @@
       "source_file": "apps/web/src/app/components/ui/dropdown-menu.tsx",
       "source_location": "L195",
       "id": "ui_dropdown_menu_dropdownmenusub",
-      "community": 77,
+      "community": 4,
       "norm_label": "dropdownmenusub()"
     },
     {
@@ -3726,7 +3726,7 @@
       "source_file": "apps/web/src/app/components/ui/dropdown-menu.tsx",
       "source_location": "L201",
       "id": "ui_dropdown_menu_dropdownmenusubtrigger",
-      "community": 77,
+      "community": 4,
       "norm_label": "dropdownmenusubtrigger()"
     },
     {
@@ -3735,7 +3735,7 @@
       "source_file": "apps/web/src/app/components/ui/dropdown-menu.tsx",
       "source_location": "L225",
       "id": "ui_dropdown_menu_dropdownmenusubcontent",
-      "community": 77,
+      "community": 4,
       "norm_label": "dropdownmenusubcontent()"
     },
     {
@@ -3888,7 +3888,7 @@
       "source_file": "apps/web/src/app/components/ui/input-otp.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_input_otp_tsx",
-      "community": 4,
+      "community": 154,
       "norm_label": "input-otp.tsx"
     },
     {
@@ -3897,7 +3897,7 @@
       "source_file": "apps/web/src/app/components/ui/input-otp.tsx",
       "source_location": "L9",
       "id": "ui_input_otp_inputotp",
-      "community": 4,
+      "community": 154,
       "norm_label": "inputotp()"
     },
     {
@@ -3906,7 +3906,7 @@
       "source_file": "apps/web/src/app/components/ui/input-otp.tsx",
       "source_location": "L29",
       "id": "ui_input_otp_inputotpgroup",
-      "community": 4,
+      "community": 154,
       "norm_label": "inputotpgroup()"
     },
     {
@@ -3915,7 +3915,7 @@
       "source_file": "apps/web/src/app/components/ui/input-otp.tsx",
       "source_location": "L39",
       "id": "ui_input_otp_inputotpslot",
-      "community": 4,
+      "community": 154,
       "norm_label": "inputotpslot()"
     },
     {
@@ -3924,7 +3924,7 @@
       "source_file": "apps/web/src/app/components/ui/input-otp.tsx",
       "source_location": "L69",
       "id": "ui_input_otp_inputotpseparator",
-      "community": 4,
+      "community": 154,
       "norm_label": "inputotpseparator()"
     },
     {
@@ -3951,7 +3951,7 @@
       "source_file": "apps/web/src/app/components/ui/label.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_label_tsx",
-      "community": 41,
+      "community": 80,
       "norm_label": "label.tsx"
     },
     {
@@ -3960,7 +3960,7 @@
       "source_file": "apps/web/src/app/components/ui/label.tsx",
       "source_location": "L8",
       "id": "ui_label_label",
-      "community": 41,
+      "community": 80,
       "norm_label": "label()"
     },
     {
@@ -4293,7 +4293,7 @@
       "source_file": "apps/web/src/app/components/ui/popover.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_popover_tsx",
-      "community": 41,
+      "community": 155,
       "norm_label": "popover.tsx"
     },
     {
@@ -4302,7 +4302,7 @@
       "source_file": "apps/web/src/app/components/ui/popover.tsx",
       "source_location": "L8",
       "id": "ui_popover_popover",
-      "community": 41,
+      "community": 155,
       "norm_label": "popover()"
     },
     {
@@ -4311,7 +4311,7 @@
       "source_file": "apps/web/src/app/components/ui/popover.tsx",
       "source_location": "L14",
       "id": "ui_popover_popovertrigger",
-      "community": 41,
+      "community": 155,
       "norm_label": "popovertrigger()"
     },
     {
@@ -4320,7 +4320,7 @@
       "source_file": "apps/web/src/app/components/ui/popover.tsx",
       "source_location": "L20",
       "id": "ui_popover_popovercontent",
-      "community": 41,
+      "community": 155,
       "norm_label": "popovercontent()"
     },
     {
@@ -4329,7 +4329,7 @@
       "source_file": "apps/web/src/app/components/ui/popover.tsx",
       "source_location": "L42",
       "id": "ui_popover_popoveranchor",
-      "community": 41,
+      "community": 155,
       "norm_label": "popoveranchor()"
     },
     {
@@ -5130,7 +5130,7 @@
       "source_file": "apps/web/src/app/components/ui/toggle-group.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_toggle_group_tsx",
-      "community": 129,
+      "community": 41,
       "norm_label": "toggle-group.tsx"
     },
     {
@@ -5139,7 +5139,7 @@
       "source_file": "apps/web/src/app/components/ui/toggle-group.tsx",
       "source_location": "L10",
       "id": "ui_toggle_group_togglegroupcontext",
-      "community": 129,
+      "community": 41,
       "norm_label": "togglegroupcontext"
     },
     {
@@ -5148,7 +5148,7 @@
       "source_file": "apps/web/src/app/components/ui/toggle-group.tsx",
       "source_location": "L17",
       "id": "ui_toggle_group_togglegroup",
-      "community": 129,
+      "community": 41,
       "norm_label": "togglegroup()"
     },
     {
@@ -5157,7 +5157,7 @@
       "source_file": "apps/web/src/app/components/ui/toggle-group.tsx",
       "source_location": "L43",
       "id": "ui_toggle_group_togglegroupitem",
-      "community": 129,
+      "community": 41,
       "norm_label": "togglegroupitem()"
     },
     {
@@ -5166,7 +5166,7 @@
       "source_file": "apps/web/src/app/components/ui/toggle.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_toggle_tsx",
-      "community": 129,
+      "community": 41,
       "norm_label": "toggle.tsx"
     },
     {
@@ -5175,7 +5175,7 @@
       "source_file": "apps/web/src/app/components/ui/toggle.tsx",
       "source_location": "L9",
       "id": "ui_toggle_togglevariants",
-      "community": 129,
+      "community": 41,
       "norm_label": "togglevariants"
     },
     {
@@ -5184,7 +5184,7 @@
       "source_file": "apps/web/src/app/components/ui/toggle.tsx",
       "source_location": "L31",
       "id": "ui_toggle_toggle",
-      "community": 129,
+      "community": 41,
       "norm_label": "toggle()"
     },
     {
@@ -7598,6 +7598,231 @@
       "id": "docs_product_guide_13_hackathon_judging_alignment",
       "community": 1,
       "norm_label": "13. hackathon judging alignment"
+    },
+    {
+      "label": "startup_troubleshooting.md",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L1",
+      "id": "docs_startup_troubleshooting_md",
+      "community": 46,
+      "norm_label": "startup_troubleshooting.md"
+    },
+    {
+      "label": "Starting the CodeBand AI Application & Troubleshooting Guide",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L1",
+      "id": "docs_startup_troubleshooting_starting_the_codeband_ai_application_troubleshooting_guide",
+      "community": 46,
+      "norm_label": "starting the codeband ai application & troubleshooting guide"
+    },
+    {
+      "label": "Quick Start Guide",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L7",
+      "id": "docs_startup_troubleshooting_quick_start_guide",
+      "community": 46,
+      "norm_label": "quick start guide"
+    },
+    {
+      "label": "1. Set Up Environment",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L11",
+      "id": "docs_startup_troubleshooting_1_set_up_environment",
+      "community": 46,
+      "norm_label": "1. set up environment"
+    },
+    {
+      "label": "code:powershell (# Activate Virtual Environment (Windows))",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L13",
+      "id": "docs_startup_troubleshooting_codeblock_1",
+      "community": 46,
+      "norm_label": "code:powershell (# activate virtual environment (windows))"
+    },
+    {
+      "label": "2. Configure Environment Variables",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L21",
+      "id": "docs_startup_troubleshooting_2_configure_environment_variables",
+      "community": 46,
+      "norm_label": "2. configure environment variables"
+    },
+    {
+      "label": "code:env (# Directus Database Settings)",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L23",
+      "id": "docs_startup_troubleshooting_codeblock_2",
+      "community": 46,
+      "norm_label": "code:env (# directus database settings)"
+    },
+    {
+      "label": "3. Start the Local Prefect Server (with SQLite in-memory setting)",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L36",
+      "id": "docs_startup_troubleshooting_3_start_the_local_prefect_server_with_sqlite_in_memory_setting",
+      "community": 46,
+      "norm_label": "3. start the local prefect server (with sqlite in-memory setting)"
+    },
+    {
+      "label": "code:powershell (# Set in-memory database and start server)",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L38",
+      "id": "docs_startup_troubleshooting_codeblock_3",
+      "community": 46,
+      "norm_label": "code:powershell (# set in-memory database and start server)"
+    },
+    {
+      "label": "4. Run the Platform Bootstrapper",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L44",
+      "id": "docs_startup_troubleshooting_4_run_the_platform_bootstrapper",
+      "community": 46,
+      "norm_label": "4. run the platform bootstrapper"
+    },
+    {
+      "label": "code:powershell (# Enable mock mode if Directus or Ollama is offline)",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L46",
+      "id": "docs_startup_troubleshooting_codeblock_4",
+      "community": 46,
+      "norm_label": "code:powershell (# enable mock mode if directus or ollama is offline)"
+    },
+    {
+      "label": "5. Launch the REST API Service",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L54",
+      "id": "docs_startup_troubleshooting_5_launch_the_rest_api_service",
+      "community": 46,
+      "norm_label": "5. launch the rest api service"
+    },
+    {
+      "label": "code:powershell (.venv\\Scripts\\uvicorn apps.api.src.main:app --reload --port )",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L56",
+      "id": "docs_startup_troubleshooting_codeblock_5",
+      "community": 46,
+      "norm_label": "code:powershell (.venv\\scripts\\uvicorn apps.api.src.main:app --reload --port )"
+    },
+    {
+      "label": "Environment Variable Reference",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L62",
+      "id": "docs_startup_troubleshooting_environment_variable_reference",
+      "community": 46,
+      "norm_label": "environment variable reference"
+    },
+    {
+      "label": "Common Bootstrap Issues & Solutions",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L75",
+      "id": "docs_startup_troubleshooting_common_bootstrap_issues_solutions",
+      "community": 46,
+      "norm_label": "common bootstrap issues & solutions"
+    },
+    {
+      "label": "1. Prefect Router AttributeError (`AttributeError: 'PrefectRouter' object has no attribute 'routes'`)",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L77",
+      "id": "docs_startup_troubleshooting_1_prefect_router_attributeerror_attributeerror_prefectrouter_object_has_no_attribute_routes",
+      "community": 46,
+      "norm_label": "1. prefect router attributeerror (`attributeerror: 'prefectrouter' object has no attribute 'routes'`)"
+    },
+    {
+      "label": "code:powershell (.venv\\Scripts\\pip install fastapi==0.111.0)",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L80",
+      "id": "docs_startup_troubleshooting_codeblock_6",
+      "community": 46,
+      "norm_label": "code:powershell (.venv\\scripts\\pip install fastapi==0.111.0)"
+    },
+    {
+      "label": "2. Prefect Database Concurrency Locks (`database is locked`)",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L84",
+      "id": "docs_startup_troubleshooting_2_prefect_database_concurrency_locks_database_is_locked",
+      "community": 46,
+      "norm_label": "2. prefect database concurrency locks (`database is locked`)"
+    },
+    {
+      "label": "code:powershell ($env:PREFECT_API_DATABASE_CONNECTION_URL=\"sqlite+aiosqlite:/)",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L87",
+      "id": "docs_startup_troubleshooting_codeblock_7",
+      "community": 46,
+      "norm_label": "code:powershell ($env:prefect_api_database_connection_url=\"sqlite+aiosqlite:/)"
+    },
+    {
+      "label": "3. Directus / Database Connection Failures",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L92",
+      "id": "docs_startup_troubleshooting_3_directus_database_connection_failures",
+      "community": 46,
+      "norm_label": "3. directus / database connection failures"
+    },
+    {
+      "label": "code:powershell ($env:DIRECTUS_MOCK_MODE=\"true\")",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L95",
+      "id": "docs_startup_troubleshooting_codeblock_8",
+      "community": 46,
+      "norm_label": "code:powershell ($env:directus_mock_mode=\"true\")"
+    },
+    {
+      "label": "4. PydanticAI Agent Model Init / Keyword Arguments Failures",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L100",
+      "id": "docs_startup_troubleshooting_4_pydanticai_agent_model_init_keyword_arguments_failures",
+      "community": 46,
+      "norm_label": "4. pydanticai agent model init / keyword arguments failures"
+    },
+    {
+      "label": "code:python (from pydantic_ai.providers.openai import OpenAIProvider)",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L103",
+      "id": "docs_startup_troubleshooting_codeblock_9",
+      "community": 46,
+      "norm_label": "code:python (from pydantic_ai.providers.openai import openaiprovider)"
+    },
+    {
+      "label": "5. PydanticAI Constructor `result_type` Error",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L110",
+      "id": "docs_startup_troubleshooting_5_pydanticai_constructor_result_type_error",
+      "community": 46,
+      "norm_label": "5. pydanticai constructor `result_type` error"
+    },
+    {
+      "label": "code:python (agent = Agent(model, output_type=ExpectedSchemaClass))",
+      "file_type": "document",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L113",
+      "id": "docs_startup_troubleshooting_codeblock_10",
+      "community": 46,
+      "norm_label": "code:python (agent = agent(model, output_type=expectedschemaclass))"
     },
     {
       "label": "bootstrap.md",
@@ -12411,7 +12636,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L179",
       "id": "requirements_ui_backend_integration_recent_projects_table",
-      "community": 139,
+      "community": 36,
       "norm_label": "recent projects table"
     },
     {
@@ -12420,7 +12645,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L183",
       "id": "requirements_ui_backend_integration_codeblock_13",
-      "community": 139,
+      "community": 36,
       "norm_label": "code:text (projects)"
     },
     {
@@ -12429,7 +12654,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L189",
       "id": "requirements_ui_backend_integration_codeblock_14",
-      "community": 139,
+      "community": 36,
       "norm_label": "code:ts (getprojects();)"
     },
     {
@@ -12438,7 +12663,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L195",
       "id": "requirements_ui_backend_integration_codeblock_15",
-      "community": 139,
+      "community": 36,
       "norm_label": "code:ts (readitems(\"projects\");)"
     },
     {
@@ -12447,7 +12672,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L201",
       "id": "requirements_ui_backend_integration_codeblock_16",
-      "community": 139,
+      "community": 36,
       "norm_label": "code:text (name)"
     },
     {
@@ -13819,6 +14044,159 @@
       "norm_label": "next steps"
     },
     {
+      "label": "TASK-005.md",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L1",
+      "id": "docs_tasks_task_005_md",
+      "community": 129,
+      "norm_label": "task-005.md"
+    },
+    {
+      "label": "TASK-005: Platform Bootstrapping and Registry Services",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L1",
+      "id": "tasks_task_005_task_005_platform_bootstrapping_and_registry_services",
+      "community": 129,
+      "norm_label": "task-005: platform bootstrapping and registry services"
+    },
+    {
+      "label": "Metadata",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L3",
+      "id": "tasks_task_005_metadata",
+      "community": 129,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "Problem Statement",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L17",
+      "id": "tasks_task_005_problem_statement",
+      "community": 129,
+      "norm_label": "problem statement"
+    },
+    {
+      "label": "Objective",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L23",
+      "id": "tasks_task_005_objective",
+      "community": 129,
+      "norm_label": "objective"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L36",
+      "id": "tasks_task_005_context",
+      "community": 129,
+      "norm_label": "context"
+    },
+    {
+      "label": "AI Session Summary",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L42",
+      "id": "tasks_task_005_ai_session_summary",
+      "community": 129,
+      "norm_label": "ai session summary"
+    },
+    {
+      "label": "Tools Used",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L44",
+      "id": "tasks_task_005_tools_used",
+      "community": 129,
+      "norm_label": "tools used"
+    },
+    {
+      "label": "Prompts Summary",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L52",
+      "id": "tasks_task_005_prompts_summary",
+      "community": 129,
+      "norm_label": "prompts summary"
+    },
+    {
+      "label": "AI Recommendations",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L59",
+      "id": "tasks_task_005_ai_recommendations",
+      "community": 129,
+      "norm_label": "ai recommendations"
+    },
+    {
+      "label": "Recommendation 1: Mock-Friendly Startup Checks",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L61",
+      "id": "tasks_task_005_recommendation_1_mock_friendly_startup_checks",
+      "community": 129,
+      "norm_label": "recommendation 1: mock-friendly startup checks"
+    },
+    {
+      "label": "Decisions Made",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L66",
+      "id": "tasks_task_005_decisions_made",
+      "community": 129,
+      "norm_label": "decisions made"
+    },
+    {
+      "label": "Technical Design",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L74",
+      "id": "tasks_task_005_technical_design",
+      "community": 129,
+      "norm_label": "technical design"
+    },
+    {
+      "label": "code:mermaid (flowchart TD)",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L76",
+      "id": "tasks_task_005_codeblock_1",
+      "community": 129,
+      "norm_label": "code:mermaid (flowchart td)"
+    },
+    {
+      "label": "Files Changed",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L88",
+      "id": "tasks_task_005_files_changed",
+      "community": 129,
+      "norm_label": "files changed"
+    },
+    {
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L119",
+      "id": "tasks_task_005_open_questions",
+      "community": 129,
+      "norm_label": "open questions"
+    },
+    {
+      "label": "Next Steps",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L125",
+      "id": "tasks_task_005_next_steps",
+      "community": 129,
+      "norm_label": "next steps"
+    },
+    {
       "label": "tasks-template.md",
       "file_type": "document",
       "source_file": "docs/tasks/tasks-template.md",
@@ -14017,9 +14395,9 @@
       "source_file": "agents/registry.py",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_registry_py",
-      "target": "agents_registry_load",
-      "confidence_score": 1.0
+      "target": "agents_registry_load"
     },
     {
       "relation": "contains",
@@ -14635,9 +15013,9 @@
       "source_file": "apps/api/src/bootstrap/config.py",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_config_py",
-      "target": "bootstrap_config_settings",
-      "confidence_score": 1.0
+      "target": "bootstrap_config_settings"
     },
     {
       "relation": "contains",
@@ -14645,9 +15023,9 @@
       "source_file": "apps/api/src/bootstrap/config.py",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_config_py",
-      "target": "bootstrap_config_config",
-      "confidence_score": 1.0
+      "target": "bootstrap_config_config"
     },
     {
       "relation": "inherits",
@@ -14655,9 +15033,9 @@
       "source_file": "apps/api/src/bootstrap/config.py",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_config_settings",
-      "target": "basesettings",
-      "confidence_score": 1.0
+      "target": "basesettings"
     },
     {
       "relation": "contains",
@@ -14665,9 +15043,9 @@
       "source_file": "apps/api/src/bootstrap/healthcheck.py",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_healthcheck_py",
-      "target": "bootstrap_healthcheck_healthcheck",
-      "confidence_score": 1.0
+      "target": "bootstrap_healthcheck_healthcheck"
     },
     {
       "relation": "contains",
@@ -14675,9 +15053,9 @@
       "source_file": "apps/api/src/bootstrap/healthcheck.py",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_healthcheck_py",
-      "target": "bootstrap_healthcheck_directus",
-      "confidence_score": 1.0
+      "target": "bootstrap_healthcheck_directus"
     },
     {
       "relation": "contains",
@@ -14685,9 +15063,9 @@
       "source_file": "apps/api/src/bootstrap/healthcheck.py",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_healthcheck_py",
-      "target": "bootstrap_healthcheck_ollama",
-      "confidence_score": 1.0
+      "target": "bootstrap_healthcheck_ollama"
     },
     {
       "relation": "contains",
@@ -14695,9 +15073,9 @@
       "source_file": "apps/api/src/bootstrap/healthcheck.py",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_healthcheck_py",
-      "target": "bootstrap_healthcheck_prefect",
-      "confidence_score": 1.0
+      "target": "bootstrap_healthcheck_prefect"
     },
     {
       "relation": "contains",
@@ -14705,9 +15083,9 @@
       "source_file": "apps/api/src/bootstrap/healthcheck.py",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_healthcheck_py",
-      "target": "bootstrap_healthcheck_band",
-      "confidence_score": 1.0
+      "target": "bootstrap_healthcheck_band"
     },
     {
       "relation": "uses",
@@ -14715,9 +15093,9 @@
       "source_file": "apps/api/src/bootstrap/startup.py",
       "source_location": "L4",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "bootstrap_startup_startupmanager",
-      "target": "bootstrap_healthcheck_healthcheck",
-      "confidence_score": 0.5
+      "target": "bootstrap_healthcheck_healthcheck"
     },
     {
       "relation": "calls",
@@ -14726,9 +15104,9 @@
       "source_file": "apps/api/src/bootstrap/healthcheck.py",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_healthcheck_band",
-      "target": "bootstrap_healthcheck_directus",
-      "confidence_score": 1.0
+      "target": "bootstrap_healthcheck_directus"
     },
     {
       "relation": "contains",
@@ -14736,9 +15114,9 @@
       "source_file": "apps/api/src/bootstrap/launcher.py",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_launcher_py",
-      "target": "bootstrap_launcher_main",
-      "confidence_score": 1.0
+      "target": "bootstrap_launcher_main"
     },
     {
       "relation": "calls",
@@ -14757,9 +15135,9 @@
       "source_file": "apps/api/src/bootstrap/seeder.py",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_seeder_py",
-      "target": "bootstrap_seeder_agents_exist",
-      "confidence_score": 1.0
+      "target": "bootstrap_seeder_agents_exist"
     },
     {
       "relation": "contains",
@@ -14767,9 +15145,9 @@
       "source_file": "apps/api/src/bootstrap/seeder.py",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_seeder_py",
-      "target": "bootstrap_seeder_seed_agents",
-      "confidence_score": 1.0
+      "target": "bootstrap_seeder_seed_agents"
     },
     {
       "relation": "contains",
@@ -14777,9 +15155,9 @@
       "source_file": "apps/api/src/bootstrap/seeder.py",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_seeder_py",
-      "target": "bootstrap_seeder_seed_demo_project",
-      "confidence_score": 1.0
+      "target": "bootstrap_seeder_seed_demo_project"
     },
     {
       "relation": "contains",
@@ -14787,9 +15165,9 @@
       "source_file": "apps/api/src/bootstrap/seeder.py",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_seeder_py",
-      "target": "bootstrap_seeder_seed_demo_workflow",
-      "confidence_score": 1.0
+      "target": "bootstrap_seeder_seed_demo_workflow"
     },
     {
       "relation": "contains",
@@ -14797,9 +15175,9 @@
       "source_file": "apps/api/src/bootstrap/seeder.py",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_seeder_py",
-      "target": "bootstrap_seeder_seed_demo_messages",
-      "confidence_score": 1.0
+      "target": "bootstrap_seeder_seed_demo_messages"
     },
     {
       "relation": "calls",
@@ -14862,9 +15240,9 @@
       "source_file": "apps/api/src/bootstrap/services.py",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_services_py",
-      "target": "bootstrap_services_serviceregistry",
-      "confidence_score": 1.0
+      "target": "bootstrap_services_serviceregistry"
     },
     {
       "relation": "contains",
@@ -14872,9 +15250,9 @@
       "source_file": "apps/api/src/bootstrap/services.py",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_services_py",
-      "target": "bootstrap_services_directus",
-      "confidence_score": 1.0
+      "target": "bootstrap_services_directus"
     },
     {
       "relation": "contains",
@@ -14882,9 +15260,9 @@
       "source_file": "apps/api/src/bootstrap/services.py",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_services_py",
-      "target": "bootstrap_services_band",
-      "confidence_score": 1.0
+      "target": "bootstrap_services_band"
     },
     {
       "relation": "contains",
@@ -14892,9 +15270,9 @@
       "source_file": "apps/api/src/bootstrap/services.py",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_services_py",
-      "target": "bootstrap_services_ollama",
-      "confidence_score": 1.0
+      "target": "bootstrap_services_ollama"
     },
     {
       "relation": "contains",
@@ -14902,9 +15280,9 @@
       "source_file": "apps/api/src/bootstrap/services.py",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_services_py",
-      "target": "bootstrap_services_prefect",
-      "confidence_score": 1.0
+      "target": "bootstrap_services_prefect"
     },
     {
       "relation": "method",
@@ -14912,9 +15290,9 @@
       "source_file": "apps/api/src/bootstrap/services.py",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_services_serviceregistry",
-      "target": "bootstrap_services_serviceregistry_init",
-      "confidence_score": 1.0
+      "target": "bootstrap_services_serviceregistry_init"
     },
     {
       "relation": "calls",
@@ -14944,9 +15322,9 @@
       "source_file": "apps/api/src/bootstrap/startup.py",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apps_api_src_bootstrap_startup_py",
-      "target": "bootstrap_startup_startupmanager",
-      "confidence_score": 1.0
+      "target": "bootstrap_startup_startupmanager"
     },
     {
       "relation": "method",
@@ -14954,9 +15332,9 @@
       "source_file": "apps/api/src/bootstrap/startup.py",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_startup_startupmanager",
-      "target": "bootstrap_startup_startupmanager_initialize",
-      "confidence_score": 1.0
+      "target": "bootstrap_startup_startupmanager_initialize"
     },
     {
       "relation": "contains",
@@ -26723,9 +27101,9 @@
       "source_file": "workflows/registry.py",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workflows_registry_py",
-      "target": "workflows_registry_load",
-      "confidence_score": 1.0
+      "target": "workflows_registry_load"
     },
     {
       "relation": "contains",
@@ -27730,12 +28108,252 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_md",
+      "target": "docs_startup_troubleshooting_starting_the_codeband_ai_application_troubleshooting_guide"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_starting_the_codeband_ai_application_troubleshooting_guide",
+      "target": "docs_startup_troubleshooting_quick_start_guide"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_starting_the_codeband_ai_application_troubleshooting_guide",
+      "target": "docs_startup_troubleshooting_environment_variable_reference"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_starting_the_codeband_ai_application_troubleshooting_guide",
+      "target": "docs_startup_troubleshooting_common_bootstrap_issues_solutions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_quick_start_guide",
+      "target": "docs_startup_troubleshooting_1_set_up_environment"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_quick_start_guide",
+      "target": "docs_startup_troubleshooting_2_configure_environment_variables"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_quick_start_guide",
+      "target": "docs_startup_troubleshooting_3_start_the_local_prefect_server_with_sqlite_in_memory_setting"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_quick_start_guide",
+      "target": "docs_startup_troubleshooting_4_run_the_platform_bootstrapper"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_quick_start_guide",
+      "target": "docs_startup_troubleshooting_5_launch_the_rest_api_service"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_1_set_up_environment",
+      "target": "docs_startup_troubleshooting_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_2_configure_environment_variables",
+      "target": "docs_startup_troubleshooting_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_3_start_the_local_prefect_server_with_sqlite_in_memory_setting",
+      "target": "docs_startup_troubleshooting_codeblock_3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_4_run_the_platform_bootstrapper",
+      "target": "docs_startup_troubleshooting_codeblock_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_5_launch_the_rest_api_service",
+      "target": "docs_startup_troubleshooting_codeblock_5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_common_bootstrap_issues_solutions",
+      "target": "docs_startup_troubleshooting_1_prefect_router_attributeerror_attributeerror_prefectrouter_object_has_no_attribute_routes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_common_bootstrap_issues_solutions",
+      "target": "docs_startup_troubleshooting_2_prefect_database_concurrency_locks_database_is_locked"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_common_bootstrap_issues_solutions",
+      "target": "docs_startup_troubleshooting_3_directus_database_connection_failures"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_common_bootstrap_issues_solutions",
+      "target": "docs_startup_troubleshooting_4_pydanticai_agent_model_init_keyword_arguments_failures"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L110",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_common_bootstrap_issues_solutions",
+      "target": "docs_startup_troubleshooting_5_pydanticai_constructor_result_type_error"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_1_prefect_router_attributeerror_attributeerror_prefectrouter_object_has_no_attribute_routes",
+      "target": "docs_startup_troubleshooting_codeblock_6"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_2_prefect_database_concurrency_locks_database_is_locked",
+      "target": "docs_startup_troubleshooting_codeblock_7"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_3_directus_database_connection_failures",
+      "target": "docs_startup_troubleshooting_codeblock_8"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_4_pydanticai_agent_model_init_keyword_arguments_failures",
+      "target": "docs_startup_troubleshooting_codeblock_9"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/startup_troubleshooting.md",
+      "source_location": "L113",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_startup_troubleshooting_5_pydanticai_constructor_result_type_error",
+      "target": "docs_startup_troubleshooting_codeblock_10"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_codeblock_1",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_1"
     },
     {
       "relation": "contains",
@@ -27743,9 +28361,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_codeblock_2",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_2"
     },
     {
       "relation": "contains",
@@ -27753,9 +28371,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_codeblock_3",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_3"
     },
     {
       "relation": "contains",
@@ -27763,9 +28381,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_final_runtime_architecture",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_final_runtime_architecture"
     },
     {
       "relation": "contains",
@@ -27773,9 +28391,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_new_structure",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_new_structure"
     },
     {
       "relation": "contains",
@@ -27783,9 +28401,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_step_1",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_step_1"
     },
     {
       "relation": "contains",
@@ -27793,9 +28411,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L119",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_step_2",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_step_2"
     },
     {
       "relation": "contains",
@@ -27803,9 +28421,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L163",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_step_3",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_step_3"
     },
     {
       "relation": "contains",
@@ -27813,9 +28431,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L203",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_step_4",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_step_4"
     },
     {
       "relation": "contains",
@@ -27823,9 +28441,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L241",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_step_5",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_step_5"
     },
     {
       "relation": "contains",
@@ -27833,9 +28451,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L314",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_step_6",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_step_6"
     },
     {
       "relation": "contains",
@@ -27843,9 +28461,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L346",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_step_7",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_step_7"
     },
     {
       "relation": "contains",
@@ -27853,9 +28471,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L391",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_step_8",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_step_8"
     },
     {
       "relation": "contains",
@@ -27863,9 +28481,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L431",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_step_9",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_step_9"
     },
     {
       "relation": "contains",
@@ -27873,9 +28491,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L483",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_step_10",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_step_10"
     },
     {
       "relation": "contains",
@@ -27883,9 +28501,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L538",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_step_11",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_step_11"
     },
     {
       "relation": "contains",
@@ -27893,9 +28511,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L599",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_step_12",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_step_12"
     },
     {
       "relation": "contains",
@@ -27903,9 +28521,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L647",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_step_13",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_step_13"
     },
     {
       "relation": "contains",
@@ -27913,9 +28531,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L686",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_step_14",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_step_14"
     },
     {
       "relation": "contains",
@@ -27923,9 +28541,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L732",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_step_15",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_step_15"
     },
     {
       "relation": "contains",
@@ -27933,9 +28551,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L766",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_step_16",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_step_16"
     },
     {
       "relation": "contains",
@@ -27943,9 +28561,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L812",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_final_startup_flow",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_final_startup_flow"
     },
     {
       "relation": "contains",
@@ -27953,9 +28571,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L868",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_requirements_bootstrap_md",
-      "target": "requirements_bootstrap_final_runtime_flow",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_final_runtime_flow"
     },
     {
       "relation": "contains",
@@ -27963,9 +28581,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_final_runtime_architecture",
-      "target": "requirements_bootstrap_codeblock_4",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_4"
     },
     {
       "relation": "contains",
@@ -27973,9 +28591,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_new_structure",
-      "target": "requirements_bootstrap_codeblock_5",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_5"
     },
     {
       "relation": "contains",
@@ -27983,9 +28601,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_1",
-      "target": "requirements_bootstrap_codeblock_6",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_6"
     },
     {
       "relation": "contains",
@@ -27993,9 +28611,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_1",
-      "target": "requirements_bootstrap_codeblock_7",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_7"
     },
     {
       "relation": "contains",
@@ -28003,9 +28621,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L123",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_2",
-      "target": "requirements_bootstrap_codeblock_8",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_8"
     },
     {
       "relation": "contains",
@@ -28013,9 +28631,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L131",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_2",
-      "target": "requirements_bootstrap_codeblock_9",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_9"
     },
     {
       "relation": "contains",
@@ -28023,9 +28641,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L145",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_2",
-      "target": "requirements_bootstrap_codeblock_10",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_10"
     },
     {
       "relation": "contains",
@@ -28033,9 +28651,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L151",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_2",
-      "target": "requirements_bootstrap_codeblock_11",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_11"
     },
     {
       "relation": "contains",
@@ -28043,9 +28661,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L157",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_2",
-      "target": "requirements_bootstrap_codeblock_12",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_12"
     },
     {
       "relation": "contains",
@@ -28053,9 +28671,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L167",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_3",
-      "target": "requirements_bootstrap_codeblock_13",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_13"
     },
     {
       "relation": "contains",
@@ -28063,9 +28681,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L175",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_3",
-      "target": "requirements_bootstrap_codeblock_14",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_14"
     },
     {
       "relation": "contains",
@@ -28073,9 +28691,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L191",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_3",
-      "target": "requirements_bootstrap_codeblock_15",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_15"
     },
     {
       "relation": "contains",
@@ -28083,9 +28701,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L197",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_3",
-      "target": "requirements_bootstrap_codeblock_16",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_16"
     },
     {
       "relation": "contains",
@@ -28093,9 +28711,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L207",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_4",
-      "target": "requirements_bootstrap_codeblock_17",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_17"
     },
     {
       "relation": "contains",
@@ -28103,9 +28721,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L219",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_4",
-      "target": "requirements_bootstrap_codeblock_18",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_18"
     },
     {
       "relation": "contains",
@@ -28113,9 +28731,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L233",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_4",
-      "target": "requirements_bootstrap_codeblock_19",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_19"
     },
     {
       "relation": "contains",
@@ -28123,9 +28741,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L245",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_5",
-      "target": "requirements_bootstrap_codeblock_20",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_20"
     },
     {
       "relation": "contains",
@@ -28133,9 +28751,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L257",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_5",
-      "target": "requirements_bootstrap_codeblock_21",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_21"
     },
     {
       "relation": "contains",
@@ -28143,9 +28761,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L277",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_5",
-      "target": "requirements_bootstrap_codeblock_22",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_22"
     },
     {
       "relation": "contains",
@@ -28153,9 +28771,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L288",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_5",
-      "target": "requirements_bootstrap_codeblock_23",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_23"
     },
     {
       "relation": "contains",
@@ -28163,9 +28781,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L318",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_6",
-      "target": "requirements_bootstrap_codeblock_24",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_24"
     },
     {
       "relation": "contains",
@@ -28173,9 +28791,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L330",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_6",
-      "target": "requirements_bootstrap_codeblock_25",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_25"
     },
     {
       "relation": "contains",
@@ -28183,9 +28801,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L340",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_6",
-      "target": "requirements_bootstrap_codeblock_26",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_26"
     },
     {
       "relation": "contains",
@@ -28193,9 +28811,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L352",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_7",
-      "target": "requirements_bootstrap_codeblock_27",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_27"
     },
     {
       "relation": "contains",
@@ -28203,9 +28821,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L364",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_7",
-      "target": "requirements_bootstrap_codeblock_28",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_28"
     },
     {
       "relation": "contains",
@@ -28213,9 +28831,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L385",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_7",
-      "target": "requirements_bootstrap_codeblock_29",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_29"
     },
     {
       "relation": "contains",
@@ -28223,9 +28841,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L397",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_8",
-      "target": "requirements_bootstrap_codeblock_30",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_30"
     },
     {
       "relation": "contains",
@@ -28233,9 +28851,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L413",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_8",
-      "target": "requirements_bootstrap_codeblock_31",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_31"
     },
     {
       "relation": "contains",
@@ -28243,9 +28861,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L425",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_8",
-      "target": "requirements_bootstrap_codeblock_32",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_32"
     },
     {
       "relation": "contains",
@@ -28253,9 +28871,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L437",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_9",
-      "target": "requirements_bootstrap_codeblock_33",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_33"
     },
     {
       "relation": "contains",
@@ -28263,9 +28881,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L445",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_9",
-      "target": "requirements_bootstrap_codeblock_34",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_34"
     },
     {
       "relation": "contains",
@@ -28273,9 +28891,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L461",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_9",
-      "target": "requirements_bootstrap_codeblock_35",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_35"
     },
     {
       "relation": "contains",
@@ -28283,9 +28901,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L467",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_9",
-      "target": "requirements_bootstrap_codeblock_36",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_36"
     },
     {
       "relation": "contains",
@@ -28293,9 +28911,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L475",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_9",
-      "target": "requirements_bootstrap_codeblock_37",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_37"
     },
     {
       "relation": "contains",
@@ -28303,9 +28921,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L489",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_10",
-      "target": "requirements_bootstrap_codeblock_38",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_38"
     },
     {
       "relation": "contains",
@@ -28313,9 +28931,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L497",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_10",
-      "target": "requirements_bootstrap_codeblock_39",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_39"
     },
     {
       "relation": "contains",
@@ -28323,9 +28941,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L509",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_10",
-      "target": "requirements_bootstrap_codeblock_40",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_40"
     },
     {
       "relation": "contains",
@@ -28333,9 +28951,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L519",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_10",
-      "target": "requirements_bootstrap_codeblock_41",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_41"
     },
     {
       "relation": "contains",
@@ -28343,9 +28961,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L529",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_10",
-      "target": "requirements_bootstrap_codeblock_42",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_42"
     },
     {
       "relation": "contains",
@@ -28353,9 +28971,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L544",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_11",
-      "target": "requirements_bootstrap_codeblock_43",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_43"
     },
     {
       "relation": "contains",
@@ -28363,9 +28981,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L552",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_11",
-      "target": "requirements_bootstrap_codeblock_44",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_44"
     },
     {
       "relation": "contains",
@@ -28373,9 +28991,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L560",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_11",
-      "target": "requirements_bootstrap_codeblock_45",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_45"
     },
     {
       "relation": "contains",
@@ -28383,9 +29001,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L574",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_11",
-      "target": "requirements_bootstrap_codeblock_46",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_46"
     },
     {
       "relation": "contains",
@@ -28393,9 +29011,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L603",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_12",
-      "target": "requirements_bootstrap_codeblock_47",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_47"
     },
     {
       "relation": "contains",
@@ -28403,9 +29021,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L611",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_12",
-      "target": "requirements_bootstrap_codeblock_48",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_48"
     },
     {
       "relation": "contains",
@@ -28413,9 +29031,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L619",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_12",
-      "target": "requirements_bootstrap_codeblock_49",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_49"
     },
     {
       "relation": "contains",
@@ -28423,9 +29041,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L629",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_12",
-      "target": "requirements_bootstrap_codeblock_50",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_50"
     },
     {
       "relation": "contains",
@@ -28433,9 +29051,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L653",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_13",
-      "target": "requirements_bootstrap_codeblock_51",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_51"
     },
     {
       "relation": "contains",
@@ -28443,9 +29061,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L661",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_13",
-      "target": "requirements_bootstrap_codeblock_52",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_52"
     },
     {
       "relation": "contains",
@@ -28453,9 +29071,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L669",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_13",
-      "target": "requirements_bootstrap_codeblock_53",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_53"
     },
     {
       "relation": "contains",
@@ -28463,9 +29081,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L692",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_14",
-      "target": "requirements_bootstrap_codeblock_54",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_54"
     },
     {
       "relation": "contains",
@@ -28473,9 +29091,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L700",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_14",
-      "target": "requirements_bootstrap_codeblock_55",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_55"
     },
     {
       "relation": "contains",
@@ -28483,9 +29101,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L710",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_14",
-      "target": "requirements_bootstrap_codeblock_56",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_56"
     },
     {
       "relation": "contains",
@@ -28493,9 +29111,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L736",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_15",
-      "target": "requirements_bootstrap_codeblock_57",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_57"
     },
     {
       "relation": "contains",
@@ -28503,9 +29121,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L744",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_15",
-      "target": "requirements_bootstrap_codeblock_58",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_58"
     },
     {
       "relation": "contains",
@@ -28513,9 +29131,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L758",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_15",
-      "target": "requirements_bootstrap_codeblock_59",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_59"
     },
     {
       "relation": "contains",
@@ -28523,9 +29141,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L772",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_16",
-      "target": "requirements_bootstrap_codeblock_60",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_60"
     },
     {
       "relation": "contains",
@@ -28533,9 +29151,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L780",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_16",
-      "target": "requirements_bootstrap_codeblock_61",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_61"
     },
     {
       "relation": "contains",
@@ -28543,9 +29161,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L802",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_step_16",
-      "target": "requirements_bootstrap_codeblock_62",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_62"
     },
     {
       "relation": "contains",
@@ -28553,9 +29171,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L816",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_final_startup_flow",
-      "target": "requirements_bootstrap_codeblock_63",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_63"
     },
     {
       "relation": "contains",
@@ -28563,9 +29181,9 @@
       "source_file": "docs/requirements/bootstrap.md",
       "source_location": "L872",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "requirements_bootstrap_final_runtime_flow",
-      "target": "requirements_bootstrap_codeblock_64",
-      "confidence_score": 1.0
+      "target": "requirements_bootstrap_codeblock_64"
     },
     {
       "relation": "contains",
@@ -34540,6 +35158,166 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_tasks_task_005_md",
+      "target": "tasks_task_005_task_005_platform_bootstrapping_and_registry_services"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_tasks_task_005_md",
+      "target": "tasks_task_005_problem_statement"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_tasks_task_005_md",
+      "target": "tasks_task_005_objective"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_tasks_task_005_md",
+      "target": "tasks_task_005_context"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_tasks_task_005_md",
+      "target": "tasks_task_005_ai_session_summary"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_tasks_task_005_md",
+      "target": "tasks_task_005_decisions_made"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_tasks_task_005_md",
+      "target": "tasks_task_005_technical_design"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_tasks_task_005_md",
+      "target": "tasks_task_005_files_changed"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L119",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_tasks_task_005_md",
+      "target": "tasks_task_005_open_questions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L125",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_tasks_task_005_md",
+      "target": "tasks_task_005_next_steps"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tasks_task_005_task_005_platform_bootstrapping_and_registry_services",
+      "target": "tasks_task_005_metadata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tasks_task_005_ai_session_summary",
+      "target": "tasks_task_005_tools_used"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tasks_task_005_ai_session_summary",
+      "target": "tasks_task_005_prompts_summary"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tasks_task_005_ai_session_summary",
+      "target": "tasks_task_005_ai_recommendations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tasks_task_005_ai_recommendations",
+      "target": "tasks_task_005_recommendation_1_mock_friendly_startup_checks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-005.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tasks_task_005_technical_design",
+      "target": "tasks_task_005_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/tasks/tasks-template.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -34709,5 +35487,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e3d5497f1c6380467566974a2f9b0d22d8aee4f5"
+  "built_at_commit": "43e101daac4b976f0a9373f6a092e58ce1913076"
 }
