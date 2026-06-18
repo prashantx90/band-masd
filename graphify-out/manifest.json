@@ -4,6 +4,11 @@
     "ast_hash": "137368df43718b73e622c7834bac533b",
     "semantic_hash": ""
   },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\agents\\registry.py": {
+    "mtime": 1781796009.6431062,
+    "ast_hash": "d19be7a07b06643e072175d58fb4cdd4",
+    "semantic_hash": ""
+  },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\agents\\architect_agent\\agent.py": {
     "mtime": 1781793231.9266667,
     "ast_hash": "3df031fe606ad70c1f8cd5b64cc684b6",
@@ -102,6 +107,36 @@
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\api\\src\\__init__.py": {
     "mtime": 1781792402.8084269,
     "ast_hash": "268cf1495b9b77ef95ed41137bad65d4",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\api\\src\\bootstrap\\config.py": {
+    "mtime": 1781795982.538025,
+    "ast_hash": "6e9cc799f31a5d717970860c7f4b904d",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\api\\src\\bootstrap\\healthcheck.py": {
+    "mtime": 1781795988.8609242,
+    "ast_hash": "59eda813688990e730e5821e37592107",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\api\\src\\bootstrap\\launcher.py": {
+    "mtime": 1781796023.7897494,
+    "ast_hash": "1749093ae4b485599e6f607600131f44",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\api\\src\\bootstrap\\seeder.py": {
+    "mtime": 1781796003.5218432,
+    "ast_hash": "29070355b5d92b6e61205ec6ccba7960",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\api\\src\\bootstrap\\services.py": {
+    "mtime": 1781795995.7851071,
+    "ast_hash": "8030a5d10a4a8215c0b6a99da3a1f176",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\api\\src\\bootstrap\\startup.py": {
+    "mtime": 1781796019.4423292,
+    "ast_hash": "364ae8c314ee299877f427acef573a8d",
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\api\\src\\routers\\agents.py": {
@@ -679,6 +714,11 @@
     "ast_hash": "2c537eced2983c962b18ebc53d513091",
     "semantic_hash": ""
   },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\workflows\\registry.py": {
+    "mtime": 1781796013.852508,
+    "ast_hash": "3d231c3e2ecd56107cb00f6a9efd329a",
+    "semantic_hash": ""
+  },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\workflows\\__init__.py": {
     "mtime": 1781792359.0564876,
     "ast_hash": "efae625e6993a14f7c9c66415c64bd2f",
@@ -859,6 +899,11 @@
     "ast_hash": "33754b61a36399d5fd363f828a616063",
     "semantic_hash": ""
   },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\requirements\\bootstrap.md": {
+    "mtime": 1781795724.6411605,
+    "ast_hash": "d1b3700b3a24b07af038da4ca629765c",
+    "semantic_hash": ""
+  },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\requirements\\directus_collection.md": {
     "mtime": 1781708080.7882159,
     "ast_hash": "85bf38682070508fe99c4d73ce3f0e1c",
@@ -900,8 +945,8 @@
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\TASK-004.md": {
-    "mtime": 1781792119.785158,
-    "ast_hash": "18d9be97e75756c1b46c31da48272a4a",
+    "mtime": 1781794672.6487467,
+    "ast_hash": "190b00ef245ea6bd32ff61c0dbc4c581",
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\tasks-template.md": {
