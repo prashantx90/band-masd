@@ -1,16 +1,16 @@
-# Graph Report - band-masd  (2026-06-18)
+# Graph Report - band-masd  (2026-07-11)
 
 ## Corpus Check
-- 193 files · ~134,726 words
+- 197 files · ~137,735 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1672 nodes · 2121 edges · 164 communities (152 shown, 12 thin omitted)
+- 1768 nodes · 2213 edges · 163 communities (150 shown, 13 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 45 edges (avg confidence: 0.79)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a03c98ae`
+- Built from commit: `6c27f9a0`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -27,6 +27,7 @@
 - [[_COMMUNITY_Community 9|Community 9]]
 - [[_COMMUNITY_Community 10|Community 10]]
 - [[_COMMUNITY_Community 11|Community 11]]
+- [[_COMMUNITY_Community 13|Community 13]]
 - [[_COMMUNITY_Community 22|Community 22]]
 - [[_COMMUNITY_Community 23|Community 23]]
 - [[_COMMUNITY_Community 24|Community 24]]
@@ -141,7 +142,6 @@
 - [[_COMMUNITY_Community 160|Community 160]]
 - [[_COMMUNITY_Community 161|Community 161]]
 - [[_COMMUNITY_Community 162|Community 162]]
-- [[_COMMUNITY_Community 163|Community 163]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `cn()` - 224 edges
@@ -167,7 +167,7 @@
 - `software_delivery_flow()` --calls--> `DirectusClient`  [INFERRED]
   workflows/flows/software_delivery_flow.py → packages/directus_client/client.py
 
-## Communities (164 total, 12 thin omitted)
+## Communities (163 total, 13 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
@@ -187,7 +187,7 @@ Nodes (42): Input(), Separator(), Sheet(), SheetContent(), SheetDescription(), S
 
 ### Community 4 - "Community 4"
 Cohesion: 0.06
-Nodes (47): Avatar(), AvatarFallback(), AvatarImage(), Card(), CardAction(), CardContent(), CardDescription(), CardFooter() (+39 more)
+Nodes (43): AccordionContent(), AccordionItem(), AccordionTrigger(), Avatar(), AvatarFallback(), AvatarImage(), BreadcrumbEllipsis(), BreadcrumbItem() (+35 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.05
@@ -200,6 +200,10 @@ Nodes (17): AI Recommendations, AI Session Summary, code:mermaid (flowchart LR),
 ### Community 7 - "Community 7"
 Cohesion: 0.11
 Nodes (17): AI Recommendations, AI Session Summary, code:mermaid (flowchart LR), Context, Decisions Made, Files Changed, Metadata, Next Steps (+9 more)
+
+### Community 13 - "Community 13"
+Cohesion: 0.05
+Nodes (38): 1. Make the Script Executable, 1. Prefect Router `AttributeError`, 1. Virtual Environment & Requirements, 2. Configure Environment Variables, 2. Run the Startup Script, 2. SQLite Concurrency locks (`database is locked`), 3. Directus 401 Unauthorized Error, 3. Start Prefect Server (+30 more)
 
 ### Community 22 - "Community 22"
 Cohesion: 0.1
@@ -266,8 +270,8 @@ Cohesion: 0.13
 Nodes (15): code:text (/projects/new), code:text (Project Name), code:text (projects.name), code:text (Project Description), code:text (projects.description), code:text (Business Requirements), code:text (projects.business_requirements), code:text (Target Users) (+7 more)
 
 ### Community 41 - "Community 41"
-Cohesion: 0.08
-Nodes (15): Badge(), badgeVariants, Checkbox(), HoverCardContent(), Progress(), ResizableHandle(), ResizablePanelGroup(), Slider() (+7 more)
+Cohesion: 0.07
+Nodes (19): Alert(), AlertDescription(), AlertTitle(), alertVariants, Badge(), badgeVariants, Checkbox(), HoverCardContent() (+11 more)
 
 ### Community 42 - "Community 42"
 Cohesion: 0.14
@@ -290,8 +294,8 @@ Cohesion: 0.07
 Nodes (26): 1. Prefect Router AttributeError (`AttributeError: 'PrefectRouter' object has no attribute 'routes'`), 1. Set Up Environment, 2. Configure Environment Variables, 2. Prefect Database Concurrency Locks (`database is locked`), 3. Directus / Database Connection Failures, 3. Start the Local Prefect Server (with SQLite in-memory setting), 4. PydanticAI Agent Model Init / Keyword Arguments Failures, 4. Run the Platform Bootstrapper (+18 more)
 
 ### Community 47 - "Community 47"
-Cohesion: 0.18
-Nodes (7): SelectContent(), SelectItem(), SelectLabel(), SelectScrollDownButton(), SelectScrollUpButton(), SelectSeparator(), SelectTrigger()
+Cohesion: 0.11
+Nodes (17): AI Recommendations, AI Session Summary, code:mermaid (flowchart LR), Context, Decisions Made, Files Changed, Metadata, Next Steps (+9 more)
 
 ### Community 48 - "Community 48"
 Cohesion: 0.18
@@ -310,8 +314,8 @@ Cohesion: 0.07
 Nodes (27): Agent Runs, Artifacts, code:text (projects), code:text (UI), code:text (workflows), code:text (Workflow Manager), code:text (agent_runs), code:text (Workflow Manager) (+19 more)
 
 ### Community 52 - "Community 52"
-Cohesion: 0.08
-Nodes (22): Agent Graph, agents, code:text, code:text, code:text, code:text, code:python (class WorkflowState(TypedDict):), code:text (+14 more)
+Cohesion: 0.06
+Nodes (28): Agent Graph, agents, Band Hackathon Submission Architecture (Final Version), CodeBand AI, code:text, code:text, code:text, code:text (+20 more)
 
 ### Community 53 - "Community 53"
 Cohesion: 0.33
@@ -326,8 +330,8 @@ Cohesion: 0.33
 Nodes (6): code:text (/projects), code:text (projects), code:ts (getProjects();), code:text (status), code:text (name), Projects Page
 
 ### Community 56 - "Community 56"
-Cohesion: 0.5
-Nodes (4): Alert(), AlertDescription(), AlertTitle(), alertVariants
+Cohesion: 0.11
+Nodes (17): AI Recommendations, AI Session Summary, code:mermaid (flowchart LR), Context, Decisions Made, Files Changed, Metadata, Next Steps (+9 more)
 
 ### Community 57 - "Community 57"
 Cohesion: 0.09
@@ -390,12 +394,12 @@ Cohesion: 0.15
 Nodes (13): code:text (Directus), code:text (LangGraph), code:text (PM), code:text (QA), code:text (Band Adapter), code:text (Workflow Visualization), Hackathon Implementation Order, Phase 1 (+5 more)
 
 ### Community 85 - "Community 85"
-Cohesion: 0.18
-Nodes (11): band_adapter/, code:text, code:python, code:text, code:python, code:text, code:python, directus_client/ (+3 more)
+Cohesion: 0.09
+Nodes (22): band_adapter/, Band Owns, code:text (Execution), code:text (State), code:text, code:python, code:text, code:python (+14 more)
 
 ### Community 86 - "Community 86"
-Cohesion: 0.18
-Nodes (11): Band Owns, code:text (Execution), code:text (State), code:text (Agent Intelligence), code:text (Communication), code:text (Persistence), Core Design Principle, Directus Owns (+3 more)
+Cohesion: 0.11
+Nodes (17): AI Recommendations, AI Session Summary, code:mermaid (flowchart TD), Context, Decisions Made, Files Changed, Metadata, Next Steps (+9 more)
 
 ### Community 87 - "Community 87"
 Cohesion: 0.18
@@ -506,8 +510,8 @@ Cohesion: 0.4
 Nodes (5): code:python (builder = StateGraph(WorkflowState)), code:text, Graph Definition, Graph Flow, LangGraph Design
 
 ### Community 118 - "Community 118"
-Cohesion: 0.67
-Nodes (3): Band Hackathon Submission Architecture (Final Version), CodeBand AI, Final Architecture & Implementation Blueprint
+Cohesion: 0.12
+Nodes (11): Menubar(), MenubarCheckboxItem(), MenubarContent(), MenubarItem(), MenubarLabel(), MenubarRadioItem(), MenubarSeparator(), MenubarShortcut() (+3 more)
 
 ### Community 119 - "Community 119"
 Cohesion: 0.29
@@ -610,44 +614,36 @@ Cohesion: 0.33
 Nodes (6): devDependencies, tailwindcss, @tailwindcss/vite, vite, @vitejs/plugin-react, vitest
 
 ### Community 157 - "Community 157"
-Cohesion: 0.4
-Nodes (3): AccordionContent(), AccordionItem(), AccordionTrigger()
+Cohesion: 0.22
+Nodes (9): NavigationMenu(), NavigationMenuContent(), NavigationMenuIndicator(), NavigationMenuItem(), NavigationMenuLink(), NavigationMenuList(), NavigationMenuTrigger(), navigationMenuTriggerStyle (+1 more)
 
 ### Community 159 - "Community 159"
 Cohesion: 0.4
 Nodes (5): peerDependenciesMeta, react, react-dom, optional, optional
 
-### Community 160 - "Community 160"
-Cohesion: 0.25
-Nodes (6): BreadcrumbEllipsis(), BreadcrumbItem(), BreadcrumbLink(), BreadcrumbList(), BreadcrumbPage(), BreadcrumbSeparator()
-
 ### Community 162 - "Community 162"
 Cohesion: 0.4
 Nodes (5): code:text (projects), code:ts (getProjects();), code:ts (readItems("projects");), code:text (name), Recent Projects Table
 
-### Community 163 - "Community 163"
-Cohesion: 0.67
-Nodes (3): code:text (Build a SaaS Expense Tracker), code:text (Project Created), Demo Scenario
-
 ## Knowledge Gaps
-- **728 isolated node(s):** `PreToolUse`, `Config`, `name`, `version`, `main` (+723 more)
+- **790 isolated node(s):** `PREFECT_API_DATABASE_CONNECTION_URL`, `PreToolUse`, `Config`, `name`, `version` (+785 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `cn()` connect `Community 4` to `Community 160`, `Community 161`, `Community 2`, `Community 3`, `Community 37`, `Community 41`, `Community 139`, `Community 45`, `Community 77`, `Community 79`, `Community 80`, `Community 47`, `Community 29`, `Community 22`, `Community 56`, `Community 154`, `Community 157`?**
-  _High betweenness centrality (0.055) - this node is a cross-community bridge._
+- **Why does `cn()` connect `Community 4` to `Community 161`, `Community 2`, `Community 3`, `Community 37`, `Community 41`, `Community 139`, `Community 45`, `Community 77`, `Community 79`, `Community 80`, `Community 22`, `Community 118`, `Community 157`, `Community 154`, `Community 29`?**
+  _High betweenness centrality (0.051) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `Community 2` to `Community 26`?**
-  _High betweenness centrality (0.025) - this node is a cross-community bridge._
+  _High betweenness centrality (0.024) - this node is a cross-community bridge._
 - **Why does `clsx` connect `Community 2` to `Community 4`?**
-  _High betweenness centrality (0.023) - this node is a cross-community bridge._
+  _High betweenness centrality (0.021) - this node is a cross-community bridge._
 - **Are the 9 inferred relationships involving `DirectusClient` (e.g. with `directus()` and `main()`) actually correct?**
   _`DirectusClient` has 9 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 8 inferred relationships involving `DirectusBandClient` (e.g. with `band()` and `software_delivery_flow()`) actually correct?**
   _`DirectusBandClient` has 8 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `PreToolUse`, `Config`, `name` to the rest of the system?**
-  _728 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `PREFECT_API_DATABASE_CONNECTION_URL`, `PreToolUse`, `Config` to the rest of the system?**
+  _790 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06 - nodes in this community are weakly interconnected._

@@ -1,4 +1,9 @@
 {
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\start-all.sh": {
+    "mtime": 1783765244.65842,
+    "ast_hash": "a95aad0d6163852d57d46f29d48369b0",
+    "semantic_hash": ""
+  },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\.codex\\hooks.json": {
     "mtime": 1781705033.5329492,
     "ast_hash": "137368df43718b73e622c7834bac533b",
@@ -235,8 +240,8 @@
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\vite.config.ts": {
-    "mtime": 1781803914.745882,
-    "ast_hash": "b5b7edc9c444ed999f9dc58dd4c43342",
+    "mtime": 1783758143.0099828,
+    "ast_hash": "98ea9f26cc7da25391eecd9b1ac3aabb",
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\apps\\web\\src\\main.tsx": {
@@ -800,8 +805,8 @@
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\README.md": {
-    "mtime": 1781626871.3086653,
-    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "mtime": 1783765256.339269,
+    "ast_hash": "f7cda575c82e4b866144f2a0623fb77d",
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\requirements.txt": {
@@ -905,7 +910,7 @@
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\startup_troubleshooting.md": {
-    "mtime": 1781803175.0533814,
+    "mtime": 1782393727.3324242,
     "ast_hash": "8d9292a1cc9349f013c0790a9b1bafc4",
     "semantic_hash": ""
   },
@@ -982,6 +987,21 @@
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\TASK-009.md": {
     "mtime": 1781803592.7138886,
     "ast_hash": "bc73a4eb31e34eaf4354891f77be786d",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\TASK-010.md": {
+    "mtime": 1781803954.7031565,
+    "ast_hash": "acd21682b401a718d8e36282d02182a3",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\TASK-011.md": {
+    "mtime": 1781804171.6590018,
+    "ast_hash": "c9082ae10c7f6d47ec80bf19500f9b68",
+    "semantic_hash": ""
+  },
+  "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\TASK-012.md": {
+    "mtime": 1783765260.923881,
+    "ast_hash": "dc3042ae61f8eaa980cb3a10d6f006e8",
     "semantic_hash": ""
   },
   "C:\\work\\workspace\\lab84\\hackathon\\band-masd\\docs\\tasks\\tasks-template.md": {

@@ -33,7 +33,8 @@ export default defineConfig({
   envPrefix: ['VITE_', 'NEXT_PUBLIC_', 'DIRECTUS_'],
 
   server: {
-    host: '192.168.29.50',
+    //host: '192.168.29.50',
+    host: '0.0.0.0',
     port: 5173,
   },
 
