@@ -913,6 +913,15 @@
       "norm_label": "scripts"
     },
     {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "apps/directus/package.json",
+      "source_location": "L6",
+      "id": "directus_package_scripts_test",
+      "community": 83,
+      "norm_label": "test"
+    },
+    {
       "label": "start",
       "file_type": "code",
       "source_file": "apps/directus/package.json",
@@ -2457,7 +2466,7 @@
       "source_file": "apps/web/src/app/components/ui/accordion.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_accordion_tsx",
-      "community": 4,
+      "community": 162,
       "norm_label": "accordion.tsx"
     },
     {
@@ -2466,7 +2475,7 @@
       "source_file": "apps/web/src/app/components/ui/accordion.tsx",
       "source_location": "L9",
       "id": "ui_accordion_accordion",
-      "community": 4,
+      "community": 162,
       "norm_label": "accordion()"
     },
     {
@@ -2475,7 +2484,7 @@
       "source_file": "apps/web/src/app/components/ui/accordion.tsx",
       "source_location": "L15",
       "id": "ui_accordion_accordionitem",
-      "community": 4,
+      "community": 162,
       "norm_label": "accordionitem()"
     },
     {
@@ -2484,7 +2493,7 @@
       "source_file": "apps/web/src/app/components/ui/accordion.tsx",
       "source_location": "L28",
       "id": "ui_accordion_accordiontrigger",
-      "community": 4,
+      "community": 162,
       "norm_label": "accordiontrigger()"
     },
     {
@@ -2493,7 +2502,7 @@
       "source_file": "apps/web/src/app/components/ui/accordion.tsx",
       "source_location": "L50",
       "id": "ui_accordion_accordioncontent",
-      "community": 4,
+      "community": 162,
       "norm_label": "accordioncontent()"
     },
     {
@@ -2610,7 +2619,7 @@
       "source_file": "apps/web/src/app/components/ui/alert.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_alert_tsx",
-      "community": 41,
+      "community": 163,
       "norm_label": "alert.tsx"
     },
     {
@@ -2619,7 +2628,7 @@
       "source_file": "apps/web/src/app/components/ui/alert.tsx",
       "source_location": "L6",
       "id": "ui_alert_alertvariants",
-      "community": 41,
+      "community": 163,
       "norm_label": "alertvariants"
     },
     {
@@ -2628,7 +2637,7 @@
       "source_file": "apps/web/src/app/components/ui/alert.tsx",
       "source_location": "L22",
       "id": "ui_alert_alert",
-      "community": 41,
+      "community": 163,
       "norm_label": "alert()"
     },
     {
@@ -2637,7 +2646,7 @@
       "source_file": "apps/web/src/app/components/ui/alert.tsx",
       "source_location": "L37",
       "id": "ui_alert_alerttitle",
-      "community": 41,
+      "community": 163,
       "norm_label": "alerttitle()"
     },
     {
@@ -2646,7 +2655,7 @@
       "source_file": "apps/web/src/app/components/ui/alert.tsx",
       "source_location": "L50",
       "id": "ui_alert_alertdescription",
-      "community": 41,
+      "community": 163,
       "norm_label": "alertdescription()"
     },
     {
@@ -3537,7 +3546,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_drawer_tsx",
-      "community": 77,
+      "community": 4,
       "norm_label": "drawer.tsx"
     },
     {
@@ -3546,7 +3555,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L8",
       "id": "ui_drawer_drawer",
-      "community": 77,
+      "community": 4,
       "norm_label": "drawer()"
     },
     {
@@ -3555,7 +3564,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L14",
       "id": "ui_drawer_drawertrigger",
-      "community": 77,
+      "community": 4,
       "norm_label": "drawertrigger()"
     },
     {
@@ -3564,7 +3573,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L20",
       "id": "ui_drawer_drawerportal",
-      "community": 77,
+      "community": 4,
       "norm_label": "drawerportal()"
     },
     {
@@ -3573,7 +3582,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L26",
       "id": "ui_drawer_drawerclose",
-      "community": 77,
+      "community": 4,
       "norm_label": "drawerclose()"
     },
     {
@@ -3582,7 +3591,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L32",
       "id": "ui_drawer_draweroverlay",
-      "community": 77,
+      "community": 4,
       "norm_label": "draweroverlay()"
     },
     {
@@ -3591,7 +3600,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L48",
       "id": "ui_drawer_drawercontent",
-      "community": 77,
+      "community": 4,
       "norm_label": "drawercontent()"
     },
     {
@@ -3600,7 +3609,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L75",
       "id": "ui_drawer_drawerheader",
-      "community": 77,
+      "community": 4,
       "norm_label": "drawerheader()"
     },
     {
@@ -3609,7 +3618,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L85",
       "id": "ui_drawer_drawerfooter",
-      "community": 77,
+      "community": 4,
       "norm_label": "drawerfooter()"
     },
     {
@@ -3618,7 +3627,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L95",
       "id": "ui_drawer_drawertitle",
-      "community": 77,
+      "community": 4,
       "norm_label": "drawertitle()"
     },
     {
@@ -3627,7 +3636,7 @@
       "source_file": "apps/web/src/app/components/ui/drawer.tsx",
       "source_location": "L108",
       "id": "ui_drawer_drawerdescription",
-      "community": 77,
+      "community": 4,
       "norm_label": "drawerdescription()"
     },
     {
@@ -4329,7 +4338,7 @@
       "source_file": "apps/web/src/app/components/ui/popover.tsx",
       "source_location": "L1",
       "id": "apps_web_src_app_components_ui_popover_tsx",
-      "community": 161,
+      "community": 41,
       "norm_label": "popover.tsx"
     },
     {
@@ -4338,7 +4347,7 @@
       "source_file": "apps/web/src/app/components/ui/popover.tsx",
       "source_location": "L8",
       "id": "ui_popover_popover",
-      "community": 161,
+      "community": 41,
       "norm_label": "popover()"
     },
     {
@@ -4347,7 +4356,7 @@
       "source_file": "apps/web/src/app/components/ui/popover.tsx",
       "source_location": "L14",
       "id": "ui_popover_popovertrigger",
-      "community": 161,
+      "community": 41,
       "norm_label": "popovertrigger()"
     },
     {
@@ -4356,7 +4365,7 @@
       "source_file": "apps/web/src/app/components/ui/popover.tsx",
       "source_location": "L20",
       "id": "ui_popover_popovercontent",
-      "community": 161,
+      "community": 41,
       "norm_label": "popovercontent()"
     },
     {
@@ -4365,7 +4374,7 @@
       "source_file": "apps/web/src/app/components/ui/popover.tsx",
       "source_location": "L42",
       "id": "ui_popover_popoveranchor",
-      "community": 161,
+      "community": 41,
       "norm_label": "popoveranchor()"
     },
     {
@@ -10530,7 +10539,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1",
       "id": "requirements_intelligence_implementation_v2_codeband_ai",
-      "community": 52,
+      "community": 164,
       "norm_label": "codeband ai"
     },
     {
@@ -10539,7 +10548,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L3",
       "id": "requirements_intelligence_implementation_v2_final_architecture_implementation_blueprint",
-      "community": 52,
+      "community": 164,
       "norm_label": "final architecture & implementation blueprint"
     },
     {
@@ -10548,7 +10557,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L5",
       "id": "requirements_intelligence_implementation_v2_band_hackathon_submission_architecture_final_version",
-      "community": 52,
+      "community": 164,
       "norm_label": "band hackathon submission architecture (final version)"
     },
     {
@@ -11637,7 +11646,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L980",
       "id": "requirements_intelligence_implementation_v2_pydanticai_integration_pattern",
-      "community": 52,
+      "community": 165,
       "norm_label": "pydanticai integration pattern"
     },
     {
@@ -11646,7 +11655,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L984",
       "id": "requirements_intelligence_implementation_v2_codeblock_68",
-      "community": 52,
+      "community": 165,
       "norm_label": "code:python (agent)"
     },
     {
@@ -11655,7 +11664,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1000",
       "id": "requirements_intelligence_implementation_v2_codeblock_69",
-      "community": 52,
+      "community": 165,
       "norm_label": "code:python (result = architect_agent.run_sync()"
     },
     {
@@ -12438,7 +12447,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1848",
       "id": "requirements_intelligence_implementation_v2_packages",
-      "community": 85,
+      "community": 161,
       "norm_label": "packages"
     },
     {
@@ -12447,7 +12456,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1858",
       "id": "requirements_intelligence_implementation_v2_codeblock_115",
-      "community": 85,
+      "community": 161,
       "norm_label": "code:text"
     },
     {
@@ -12456,7 +12465,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1874",
       "id": "requirements_intelligence_implementation_v2_band_adapter",
-      "community": 85,
+      "community": 161,
       "norm_label": "band_adapter/"
     },
     {
@@ -12465,7 +12474,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1880",
       "id": "requirements_intelligence_implementation_v2_codeblock_116",
-      "community": 85,
+      "community": 161,
       "norm_label": "code:python"
     },
     {
@@ -12474,7 +12483,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1890",
       "id": "requirements_intelligence_implementation_v2_codeblock_117",
-      "community": 85,
+      "community": 161,
       "norm_label": "code:text"
     },
     {
@@ -12483,7 +12492,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1899",
       "id": "requirements_intelligence_implementation_v2_directus_client",
-      "community": 85,
+      "community": 161,
       "norm_label": "directus_client/"
     },
     {
@@ -12492,7 +12501,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1903",
       "id": "requirements_intelligence_implementation_v2_codeblock_118",
-      "community": 85,
+      "community": 161,
       "norm_label": "code:python"
     },
     {
@@ -12501,7 +12510,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1915",
       "id": "requirements_intelligence_implementation_v2_shared_types",
-      "community": 85,
+      "community": 161,
       "norm_label": "shared_types/"
     },
     {
@@ -12510,7 +12519,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1921",
       "id": "requirements_intelligence_implementation_v2_codeblock_119",
-      "community": 85,
+      "community": 161,
       "norm_label": "code:text"
     },
     {
@@ -12519,7 +12528,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1931",
       "id": "requirements_intelligence_implementation_v2_workflow_sdk",
-      "community": 85,
+      "community": 161,
       "norm_label": "workflow_sdk/"
     },
     {
@@ -12528,7 +12537,7 @@
       "source_file": "docs/requirements/intelligence_implementation_V2.md",
       "source_location": "L1937",
       "id": "requirements_intelligence_implementation_v2_codeblock_120",
-      "community": 85,
+      "community": 161,
       "norm_label": "code:python"
     },
     {
@@ -13050,7 +13059,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L179",
       "id": "requirements_ui_backend_integration_recent_projects_table",
-      "community": 162,
+      "community": 36,
       "norm_label": "recent projects table"
     },
     {
@@ -13059,7 +13068,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L183",
       "id": "requirements_ui_backend_integration_codeblock_13",
-      "community": 162,
+      "community": 36,
       "norm_label": "code:text (projects)"
     },
     {
@@ -13068,7 +13077,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L189",
       "id": "requirements_ui_backend_integration_codeblock_14",
-      "community": 162,
+      "community": 36,
       "norm_label": "code:ts (getprojects();)"
     },
     {
@@ -13077,7 +13086,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L195",
       "id": "requirements_ui_backend_integration_codeblock_15",
-      "community": 162,
+      "community": 36,
       "norm_label": "code:ts (readitems(\"projects\");)"
     },
     {
@@ -13086,7 +13095,7 @@
       "source_file": "docs/requirements/ui_backend_integration.md",
       "source_location": "L201",
       "id": "requirements_ui_backend_integration_codeblock_16",
-      "community": 162,
+      "community": 36,
       "norm_label": "code:text (name)"
     },
     {
@@ -15730,7 +15739,7 @@
       "label": "Open Questions",
       "file_type": "document",
       "source_file": "docs/tasks/TASK-012.md",
-      "source_location": "L93",
+      "source_location": "L104",
       "id": "tasks_task_012_open_questions",
       "community": 86,
       "norm_label": "open questions"
@@ -15739,9 +15748,171 @@
       "label": "Next Steps",
       "file_type": "document",
       "source_file": "docs/tasks/TASK-012.md",
-      "source_location": "L99",
+      "source_location": "L110",
       "id": "tasks_task_012_next_steps",
       "community": 86,
+      "norm_label": "next steps"
+    },
+    {
+      "label": "TASK-013.md",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L1",
+      "id": "docs_tasks_task_013_md",
+      "community": 77,
+      "norm_label": "task-013.md"
+    },
+    {
+      "label": "TASK-013: Fix Directus package.json Syntax Error",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L1",
+      "id": "tasks_task_013_task_013_fix_directus_package_json_syntax_error",
+      "community": 77,
+      "norm_label": "task-013: fix directus package.json syntax error"
+    },
+    {
+      "label": "Metadata",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L3",
+      "id": "tasks_task_013_metadata",
+      "community": 77,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "Problem Statement",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L17",
+      "id": "tasks_task_013_problem_statement",
+      "community": 77,
+      "norm_label": "problem statement"
+    },
+    {
+      "label": "code:block1 (npm error code EJSONPARSE)",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L20",
+      "id": "tasks_task_013_codeblock_1",
+      "community": 77,
+      "norm_label": "code:block1 (npm error code ejsonparse)"
+    },
+    {
+      "label": "Objective",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L27",
+      "id": "tasks_task_013_objective",
+      "community": 77,
+      "norm_label": "objective"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L33",
+      "id": "tasks_task_013_context",
+      "community": 77,
+      "norm_label": "context"
+    },
+    {
+      "label": "AI Session Summary",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L39",
+      "id": "tasks_task_013_ai_session_summary",
+      "community": 77,
+      "norm_label": "ai session summary"
+    },
+    {
+      "label": "Tools Used",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L41",
+      "id": "tasks_task_013_tools_used",
+      "community": 77,
+      "norm_label": "tools used"
+    },
+    {
+      "label": "Prompts Summary",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L47",
+      "id": "tasks_task_013_prompts_summary",
+      "community": 77,
+      "norm_label": "prompts summary"
+    },
+    {
+      "label": "AI Recommendations",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L53",
+      "id": "tasks_task_013_ai_recommendations",
+      "community": 77,
+      "norm_label": "ai recommendations"
+    },
+    {
+      "label": "Recommendation 1",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L55",
+      "id": "tasks_task_013_recommendation_1",
+      "community": 77,
+      "norm_label": "recommendation 1"
+    },
+    {
+      "label": "Decisions Made",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L61",
+      "id": "tasks_task_013_decisions_made",
+      "community": 77,
+      "norm_label": "decisions made"
+    },
+    {
+      "label": "Technical Design",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L67",
+      "id": "tasks_task_013_technical_design",
+      "community": 77,
+      "norm_label": "technical design"
+    },
+    {
+      "label": "code:json (\"scripts\": {)",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L70",
+      "id": "tasks_task_013_codeblock_2",
+      "community": 77,
+      "norm_label": "code:json (\"scripts\": {)"
+    },
+    {
+      "label": "Files Changed",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L81",
+      "id": "tasks_task_013_files_changed",
+      "community": 77,
+      "norm_label": "files changed"
+    },
+    {
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L89",
+      "id": "tasks_task_013_open_questions",
+      "community": 77,
+      "norm_label": "open questions"
+    },
+    {
+      "label": "Next Steps",
+      "file_type": "document",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L95",
+      "id": "tasks_task_013_next_steps",
+      "community": 77,
       "norm_label": "next steps"
     },
     {
@@ -15923,9 +16094,9 @@
       "source_file": "start-all.sh",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "start_all_sh",
-      "target": "band_masd_start_all_cleanup",
-      "confidence_score": 1.0
+      "target": "band_masd_start_all_cleanup"
     },
     {
       "relation": "defines",
@@ -15933,9 +16104,9 @@
       "source_file": "start-all.sh",
       "source_location": "L124",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "start_all_sh",
-      "target": "band_masd_start_all_check_port",
-      "confidence_score": 1.0
+      "target": "band_masd_start_all_check_port"
     },
     {
       "relation": "defines",
@@ -15943,9 +16114,9 @@
       "source_file": "start-all.sh",
       "source_location": "L151",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "start_all_sh",
-      "target": "band_masd_start_all_prefect_api_database_connection_url",
-      "confidence_score": 1.0
+      "target": "band_masd_start_all_prefect_api_database_connection_url"
     },
     {
       "relation": "contains",
@@ -17145,6 +17316,16 @@
       "confidence_score": 1.0,
       "source": "apps_directus_package_json",
       "target": "directus_package_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/directus/package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "directus_package_scripts",
+      "target": "directus_package_scripts_test",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28929,9 +29110,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "band_masd_readme_codeband_ai",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeband_ai"
     },
     {
       "relation": "contains",
@@ -28939,9 +29120,9 @@
       "source_file": "README.md",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_codeband_ai",
-      "target": "band_masd_readme_a_virtual_multi_agent_software_development_team_orchestrated_via_band",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_a_virtual_multi_agent_software_development_team_orchestrated_via_band"
     },
     {
       "relation": "contains",
@@ -28949,9 +29130,9 @@
       "source_file": "README.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_codeband_ai",
-      "target": "band_masd_readme_architecture_overview",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_architecture_overview"
     },
     {
       "relation": "contains",
@@ -28959,9 +29140,9 @@
       "source_file": "README.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_codeband_ai",
-      "target": "band_masd_readme_ubuntu_linux_system_prerequisites",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_ubuntu_linux_system_prerequisites"
     },
     {
       "relation": "contains",
@@ -28969,9 +29150,9 @@
       "source_file": "README.md",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_codeband_ai",
-      "target": "band_masd_readme_quick_start_on_ubuntu_automated",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_quick_start_on_ubuntu_automated"
     },
     {
       "relation": "contains",
@@ -28979,9 +29160,9 @@
       "source_file": "README.md",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_codeband_ai",
-      "target": "band_masd_readme_manual_execution_on_ubuntu",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_manual_execution_on_ubuntu"
     },
     {
       "relation": "contains",
@@ -28989,9 +29170,9 @@
       "source_file": "README.md",
       "source_location": "L169",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_codeband_ai",
-      "target": "band_masd_readme_configuration_reference",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_configuration_reference"
     },
     {
       "relation": "contains",
@@ -28999,9 +29180,9 @@
       "source_file": "README.md",
       "source_location": "L182",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_codeband_ai",
-      "target": "band_masd_readme_troubleshooting_on_ubuntu",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_troubleshooting_on_ubuntu"
     },
     {
       "relation": "contains",
@@ -29009,9 +29190,9 @@
       "source_file": "README.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_architecture_overview",
-      "target": "band_masd_readme_codeblock_1",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_1"
     },
     {
       "relation": "contains",
@@ -29019,9 +29200,9 @@
       "source_file": "README.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_ubuntu_linux_system_prerequisites",
-      "target": "band_masd_readme_codeblock_2",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_2"
     },
     {
       "relation": "contains",
@@ -29029,9 +29210,9 @@
       "source_file": "README.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_ubuntu_linux_system_prerequisites",
-      "target": "band_masd_readme_codeblock_3",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_3"
     },
     {
       "relation": "contains",
@@ -29039,9 +29220,9 @@
       "source_file": "README.md",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_ubuntu_linux_system_prerequisites",
-      "target": "band_masd_readme_codeblock_4",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_4"
     },
     {
       "relation": "contains",
@@ -29049,9 +29230,9 @@
       "source_file": "README.md",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_ubuntu_linux_system_prerequisites",
-      "target": "band_masd_readme_codeblock_5",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_5"
     },
     {
       "relation": "contains",
@@ -29059,9 +29240,9 @@
       "source_file": "README.md",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_ubuntu_linux_system_prerequisites",
-      "target": "band_masd_readme_codeblock_6",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_6"
     },
     {
       "relation": "contains",
@@ -29069,9 +29250,9 @@
       "source_file": "README.md",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_quick_start_on_ubuntu_automated",
-      "target": "band_masd_readme_1_make_the_script_executable",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_1_make_the_script_executable"
     },
     {
       "relation": "contains",
@@ -29079,9 +29260,9 @@
       "source_file": "README.md",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_quick_start_on_ubuntu_automated",
-      "target": "band_masd_readme_2_run_the_startup_script",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_2_run_the_startup_script"
     },
     {
       "relation": "contains",
@@ -29089,9 +29270,9 @@
       "source_file": "README.md",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_quick_start_on_ubuntu_automated",
-      "target": "band_masd_readme_what_start_all_sh_does",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_what_start_all_sh_does"
     },
     {
       "relation": "contains",
@@ -29099,9 +29280,9 @@
       "source_file": "README.md",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_1_make_the_script_executable",
-      "target": "band_masd_readme_codeblock_7",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_7"
     },
     {
       "relation": "contains",
@@ -29109,9 +29290,9 @@
       "source_file": "README.md",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_2_run_the_startup_script",
-      "target": "band_masd_readme_codeblock_8",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_8"
     },
     {
       "relation": "contains",
@@ -29119,9 +29300,9 @@
       "source_file": "README.md",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_2_run_the_startup_script",
-      "target": "band_masd_readme_codeblock_9",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_9"
     },
     {
       "relation": "contains",
@@ -29129,9 +29310,9 @@
       "source_file": "README.md",
       "source_location": "L107",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_manual_execution_on_ubuntu",
-      "target": "band_masd_readme_1_virtual_environment_requirements",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_1_virtual_environment_requirements"
     },
     {
       "relation": "contains",
@@ -29139,9 +29320,9 @@
       "source_file": "README.md",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_manual_execution_on_ubuntu",
-      "target": "band_masd_readme_2_configure_environment_variables",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_2_configure_environment_variables"
     },
     {
       "relation": "contains",
@@ -29149,9 +29330,9 @@
       "source_file": "README.md",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_manual_execution_on_ubuntu",
-      "target": "band_masd_readme_3_start_prefect_server",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_3_start_prefect_server"
     },
     {
       "relation": "contains",
@@ -29159,9 +29340,9 @@
       "source_file": "README.md",
       "source_location": "L137",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_manual_execution_on_ubuntu",
-      "target": "band_masd_readme_4_optional_run_directus",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_4_optional_run_directus"
     },
     {
       "relation": "contains",
@@ -29169,9 +29350,9 @@
       "source_file": "README.md",
       "source_location": "L145",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_manual_execution_on_ubuntu",
-      "target": "band_masd_readme_5_run_platform_bootstrapper",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_5_run_platform_bootstrapper"
     },
     {
       "relation": "contains",
@@ -29179,9 +29360,9 @@
       "source_file": "README.md",
       "source_location": "L154",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_manual_execution_on_ubuntu",
-      "target": "band_masd_readme_6_start_fastapi_backend",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_6_start_fastapi_backend"
     },
     {
       "relation": "contains",
@@ -29189,9 +29370,9 @@
       "source_file": "README.md",
       "source_location": "L160",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_manual_execution_on_ubuntu",
-      "target": "band_masd_readme_7_start_react_frontend",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_7_start_react_frontend"
     },
     {
       "relation": "contains",
@@ -29199,9 +29380,9 @@
       "source_file": "README.md",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_1_virtual_environment_requirements",
-      "target": "band_masd_readme_codeblock_10",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_10"
     },
     {
       "relation": "contains",
@@ -29209,9 +29390,9 @@
       "source_file": "README.md",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_2_configure_environment_variables",
-      "target": "band_masd_readme_codeblock_11",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_11"
     },
     {
       "relation": "contains",
@@ -29219,9 +29400,9 @@
       "source_file": "README.md",
       "source_location": "L131",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_3_start_prefect_server",
-      "target": "band_masd_readme_codeblock_12",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_12"
     },
     {
       "relation": "contains",
@@ -29229,9 +29410,9 @@
       "source_file": "README.md",
       "source_location": "L139",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_4_optional_run_directus",
-      "target": "band_masd_readme_codeblock_13",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_13"
     },
     {
       "relation": "contains",
@@ -29239,9 +29420,9 @@
       "source_file": "README.md",
       "source_location": "L147",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_5_run_platform_bootstrapper",
-      "target": "band_masd_readme_codeblock_14",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_14"
     },
     {
       "relation": "contains",
@@ -29249,9 +29430,9 @@
       "source_file": "README.md",
       "source_location": "L155",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_6_start_fastapi_backend",
-      "target": "band_masd_readme_codeblock_15",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_15"
     },
     {
       "relation": "contains",
@@ -29259,9 +29440,9 @@
       "source_file": "README.md",
       "source_location": "L161",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_7_start_react_frontend",
-      "target": "band_masd_readme_codeblock_16",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_16"
     },
     {
       "relation": "contains",
@@ -29269,9 +29450,9 @@
       "source_file": "README.md",
       "source_location": "L186",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_troubleshooting_on_ubuntu",
-      "target": "band_masd_readme_1_prefect_router_attributeerror",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_1_prefect_router_attributeerror"
     },
     {
       "relation": "contains",
@@ -29279,9 +29460,9 @@
       "source_file": "README.md",
       "source_location": "L193",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_troubleshooting_on_ubuntu",
-      "target": "band_masd_readme_2_sqlite_concurrency_locks_database_is_locked",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_2_sqlite_concurrency_locks_database_is_locked"
     },
     {
       "relation": "contains",
@@ -29289,9 +29470,9 @@
       "source_file": "README.md",
       "source_location": "L197",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_troubleshooting_on_ubuntu",
-      "target": "band_masd_readme_3_directus_401_unauthorized_error",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_3_directus_401_unauthorized_error"
     },
     {
       "relation": "contains",
@@ -29299,9 +29480,9 @@
       "source_file": "README.md",
       "source_location": "L189",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "band_masd_readme_1_prefect_router_attributeerror",
-      "target": "band_masd_readme_codeblock_17",
-      "confidence_score": 1.0
+      "target": "band_masd_readme_codeblock_17"
     },
     {
       "relation": "contains",
@@ -37989,9 +38170,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_010_md",
-      "target": "tasks_task_010_task_010_task_title",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_task_010_task_title"
     },
     {
       "relation": "contains",
@@ -37999,9 +38180,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_010_md",
-      "target": "tasks_task_010_problem_statement",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_problem_statement"
     },
     {
       "relation": "contains",
@@ -38009,9 +38190,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_010_md",
-      "target": "tasks_task_010_objective",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_objective"
     },
     {
       "relation": "contains",
@@ -38019,9 +38200,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_010_md",
-      "target": "tasks_task_010_context",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_context"
     },
     {
       "relation": "contains",
@@ -38029,9 +38210,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_010_md",
-      "target": "tasks_task_010_ai_session_summary",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_ai_session_summary"
     },
     {
       "relation": "contains",
@@ -38039,9 +38220,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_010_md",
-      "target": "tasks_task_010_decisions_made",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_decisions_made"
     },
     {
       "relation": "contains",
@@ -38049,9 +38230,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_010_md",
-      "target": "tasks_task_010_technical_design",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_technical_design"
     },
     {
       "relation": "contains",
@@ -38059,9 +38240,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_010_md",
-      "target": "tasks_task_010_files_changed",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_files_changed"
     },
     {
       "relation": "contains",
@@ -38069,9 +38250,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L124",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_010_md",
-      "target": "tasks_task_010_open_questions",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_open_questions"
     },
     {
       "relation": "contains",
@@ -38079,9 +38260,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L130",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_010_md",
-      "target": "tasks_task_010_next_steps",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_next_steps"
     },
     {
       "relation": "contains",
@@ -38089,9 +38270,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_010_task_010_task_title",
-      "target": "tasks_task_010_metadata",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_metadata"
     },
     {
       "relation": "contains",
@@ -38099,9 +38280,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_010_ai_session_summary",
-      "target": "tasks_task_010_tools_used",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_tools_used"
     },
     {
       "relation": "contains",
@@ -38109,9 +38290,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_010_ai_session_summary",
-      "target": "tasks_task_010_prompts_summary",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_prompts_summary"
     },
     {
       "relation": "contains",
@@ -38119,9 +38300,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_010_ai_session_summary",
-      "target": "tasks_task_010_ai_recommendations",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_ai_recommendations"
     },
     {
       "relation": "contains",
@@ -38129,9 +38310,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L70",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_010_ai_recommendations",
-      "target": "tasks_task_010_recommendation_1",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_recommendation_1"
     },
     {
       "relation": "contains",
@@ -38139,9 +38320,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_010_ai_recommendations",
-      "target": "tasks_task_010_recommendation_2",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_recommendation_2"
     },
     {
       "relation": "contains",
@@ -38149,9 +38330,9 @@
       "source_file": "docs/tasks/TASK-010.md",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_010_technical_design",
-      "target": "tasks_task_010_codeblock_1",
-      "confidence_score": 1.0
+      "target": "tasks_task_010_codeblock_1"
     },
     {
       "relation": "contains",
@@ -38159,9 +38340,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_011_md",
-      "target": "tasks_task_011_task_011_task_title",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_task_011_task_title"
     },
     {
       "relation": "contains",
@@ -38169,9 +38350,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_011_md",
-      "target": "tasks_task_011_problem_statement",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_problem_statement"
     },
     {
       "relation": "contains",
@@ -38179,9 +38360,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_011_md",
-      "target": "tasks_task_011_objective",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_objective"
     },
     {
       "relation": "contains",
@@ -38189,9 +38370,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_011_md",
-      "target": "tasks_task_011_context",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_context"
     },
     {
       "relation": "contains",
@@ -38199,9 +38380,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_011_md",
-      "target": "tasks_task_011_ai_session_summary",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_ai_session_summary"
     },
     {
       "relation": "contains",
@@ -38209,9 +38390,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_011_md",
-      "target": "tasks_task_011_decisions_made",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_decisions_made"
     },
     {
       "relation": "contains",
@@ -38219,9 +38400,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_011_md",
-      "target": "tasks_task_011_technical_design",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_technical_design"
     },
     {
       "relation": "contains",
@@ -38229,9 +38410,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_011_md",
-      "target": "tasks_task_011_files_changed",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_files_changed"
     },
     {
       "relation": "contains",
@@ -38239,9 +38420,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_011_md",
-      "target": "tasks_task_011_open_questions",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_open_questions"
     },
     {
       "relation": "contains",
@@ -38249,9 +38430,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L122",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_011_md",
-      "target": "tasks_task_011_next_steps",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_next_steps"
     },
     {
       "relation": "contains",
@@ -38259,9 +38440,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_011_task_011_task_title",
-      "target": "tasks_task_011_metadata",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_metadata"
     },
     {
       "relation": "contains",
@@ -38269,9 +38450,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_011_ai_session_summary",
-      "target": "tasks_task_011_tools_used",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_tools_used"
     },
     {
       "relation": "contains",
@@ -38279,9 +38460,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_011_ai_session_summary",
-      "target": "tasks_task_011_prompts_summary",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_prompts_summary"
     },
     {
       "relation": "contains",
@@ -38289,9 +38470,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_011_ai_session_summary",
-      "target": "tasks_task_011_ai_recommendations",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_ai_recommendations"
     },
     {
       "relation": "contains",
@@ -38299,9 +38480,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L70",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_011_ai_recommendations",
-      "target": "tasks_task_011_recommendation_1",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_recommendation_1"
     },
     {
       "relation": "contains",
@@ -38309,9 +38490,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_011_ai_recommendations",
-      "target": "tasks_task_011_recommendation_2",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_recommendation_2"
     },
     {
       "relation": "contains",
@@ -38319,9 +38500,9 @@
       "source_file": "docs/tasks/TASK-011.md",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_011_technical_design",
-      "target": "tasks_task_011_codeblock_1",
-      "confidence_score": 1.0
+      "target": "tasks_task_011_codeblock_1"
     },
     {
       "relation": "contains",
@@ -38329,9 +38510,9 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_012_md",
-      "target": "tasks_task_012_task_012_add_ubuntu_setup_and_startup_scripts",
-      "confidence_score": 1.0
+      "target": "tasks_task_012_task_012_add_ubuntu_setup_and_startup_scripts"
     },
     {
       "relation": "contains",
@@ -38339,9 +38520,9 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_012_md",
-      "target": "tasks_task_012_problem_statement",
-      "confidence_score": 1.0
+      "target": "tasks_task_012_problem_statement"
     },
     {
       "relation": "contains",
@@ -38349,9 +38530,9 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_012_md",
-      "target": "tasks_task_012_objective",
-      "confidence_score": 1.0
+      "target": "tasks_task_012_objective"
     },
     {
       "relation": "contains",
@@ -38359,9 +38540,9 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_012_md",
-      "target": "tasks_task_012_context",
-      "confidence_score": 1.0
+      "target": "tasks_task_012_context"
     },
     {
       "relation": "contains",
@@ -38369,9 +38550,9 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_012_md",
-      "target": "tasks_task_012_ai_session_summary",
-      "confidence_score": 1.0
+      "target": "tasks_task_012_ai_session_summary"
     },
     {
       "relation": "contains",
@@ -38379,9 +38560,9 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_012_md",
-      "target": "tasks_task_012_decisions_made",
-      "confidence_score": 1.0
+      "target": "tasks_task_012_decisions_made"
     },
     {
       "relation": "contains",
@@ -38389,9 +38570,9 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_012_md",
-      "target": "tasks_task_012_technical_design",
-      "confidence_score": 1.0
+      "target": "tasks_task_012_technical_design"
     },
     {
       "relation": "contains",
@@ -38399,9 +38580,9 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L83",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_012_md",
-      "target": "tasks_task_012_files_changed",
-      "confidence_score": 1.0
+      "target": "tasks_task_012_files_changed"
     },
     {
       "relation": "contains",
@@ -38409,9 +38590,9 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L93",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_012_md",
-      "target": "tasks_task_012_open_questions",
-      "confidence_score": 1.0
+      "target": "tasks_task_012_open_questions"
     },
     {
       "relation": "contains",
@@ -38419,9 +38600,9 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tasks_task_012_md",
-      "target": "tasks_task_012_next_steps",
-      "confidence_score": 1.0
+      "target": "tasks_task_012_next_steps"
     },
     {
       "relation": "contains",
@@ -38429,9 +38610,9 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_012_task_012_add_ubuntu_setup_and_startup_scripts",
-      "target": "tasks_task_012_metadata",
-      "confidence_score": 1.0
+      "target": "tasks_task_012_metadata"
     },
     {
       "relation": "contains",
@@ -38439,9 +38620,9 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_012_ai_session_summary",
-      "target": "tasks_task_012_tools_used",
-      "confidence_score": 1.0
+      "target": "tasks_task_012_tools_used"
     },
     {
       "relation": "contains",
@@ -38449,9 +38630,9 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_012_ai_session_summary",
-      "target": "tasks_task_012_prompts_summary",
-      "confidence_score": 1.0
+      "target": "tasks_task_012_prompts_summary"
     },
     {
       "relation": "contains",
@@ -38459,9 +38640,9 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_012_ai_session_summary",
-      "target": "tasks_task_012_ai_recommendations",
-      "confidence_score": 1.0
+      "target": "tasks_task_012_ai_recommendations"
     },
     {
       "relation": "contains",
@@ -38469,9 +38650,9 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_012_ai_recommendations",
-      "target": "tasks_task_012_recommendation_1",
-      "confidence_score": 1.0
+      "target": "tasks_task_012_recommendation_1"
     },
     {
       "relation": "contains",
@@ -38479,9 +38660,9 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_012_ai_recommendations",
-      "target": "tasks_task_012_recommendation_2",
-      "confidence_score": 1.0
+      "target": "tasks_task_012_recommendation_2"
     },
     {
       "relation": "contains",
@@ -38489,8 +38670,178 @@
       "source_file": "docs/tasks/TASK-012.md",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tasks_task_012_technical_design",
-      "target": "tasks_task_012_codeblock_1",
+      "target": "tasks_task_012_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_tasks_task_013_md",
+      "target": "tasks_task_013_task_013_fix_directus_package_json_syntax_error",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_tasks_task_013_md",
+      "target": "tasks_task_013_problem_statement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "docs_tasks_task_013_md",
+      "target": "tasks_task_013_objective",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "docs_tasks_task_013_md",
+      "target": "tasks_task_013_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "docs_tasks_task_013_md",
+      "target": "tasks_task_013_ai_session_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "docs_tasks_task_013_md",
+      "target": "tasks_task_013_decisions_made",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "docs_tasks_task_013_md",
+      "target": "tasks_task_013_technical_design",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "docs_tasks_task_013_md",
+      "target": "tasks_task_013_files_changed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "docs_tasks_task_013_md",
+      "target": "tasks_task_013_open_questions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "docs_tasks_task_013_md",
+      "target": "tasks_task_013_next_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "tasks_task_013_task_013_fix_directus_package_json_syntax_error",
+      "target": "tasks_task_013_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "tasks_task_013_problem_statement",
+      "target": "tasks_task_013_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "tasks_task_013_ai_session_summary",
+      "target": "tasks_task_013_tools_used",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "tasks_task_013_ai_session_summary",
+      "target": "tasks_task_013_prompts_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "tasks_task_013_ai_session_summary",
+      "target": "tasks_task_013_ai_recommendations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "tasks_task_013_ai_recommendations",
+      "target": "tasks_task_013_recommendation_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tasks/TASK-013.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "tasks_task_013_technical_design",
+      "target": "tasks_task_013_codeblock_2",
       "confidence_score": 1.0
     },
     {
@@ -38665,5 +39016,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6c27f9a0f32e03437a5175a323e7d7fce6bb71f0"
+  "built_at_commit": "0037e92302e616767e3edb96a1246f921ed955b5"
 }
